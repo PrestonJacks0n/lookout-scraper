@@ -279,6 +279,13 @@ async def browse(browser, c):
             j["url"] = dom_url.get(j["title"].lower(), "")
     json_titles = {j["title"].lower() for j in from_json}
     found = dedupe(from_json + [d for d in from_dom if d["title"].lower() not in json_titles])
+    # Workday JSON gives paths like /job/...; the working link needs the board's site name in front.
+    pu = urlparse(c["url"])
+    if "myworkdayjobs.com" in pu.netloc:
+        site = [x for x in pu.path.split("/") if x and not re.fullmatch(r"[a-z]{2}-[A-Z]{2}", x)][0]
+        for f in found:
+            if f["url"].startswith(f"https://{pu.netloc}/job/"):
+                f["url"] = f["url"].replace(f"https://{pu.netloc}/job/", f"https://{pu.netloc}/{site}/job/", 1)
     text = dom["text"]
     blocked = (status and status >= 400) or (BLOCK_RE.search(text[:1500] + dom["title"]) and not found)
     empty = dom["nLinks"] < 5 and not jsons and not found
