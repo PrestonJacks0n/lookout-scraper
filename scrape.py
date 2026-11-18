@@ -263,13 +263,22 @@ async def browse(browser, c):
     finally:
         await ctx.close()
 
-    found = []
+    from_json = []
     for u, data in jsons:
-        walk_json(data, u, found)
+        walk_json(data, u, from_json)
+    from_dom = []
     for l in dom["links"]:
         ctxt = l["context"].replace(l["title"], "").strip()
-        found.append(posting(l["title"], ctxt[:150], l["url"]))
-    found = dedupe(found)
+        from_dom.append(posting(l["title"], ctxt[:150], l["url"]))
+    # Merge: JSON gives clean fields, the page gives the link. Same title = same job.
+    dom_url = {}
+    for d in from_dom:
+        dom_url.setdefault(d["title"].lower(), d["url"])
+    for j in from_json:
+        if not j["url"]:
+            j["url"] = dom_url.get(j["title"].lower(), "")
+    json_titles = {j["title"].lower() for j in from_json}
+    found = dedupe(from_json + [d for d in from_dom if d["title"].lower() not in json_titles])
     text = dom["text"]
     blocked = (status and status >= 400) or (BLOCK_RE.search(text[:1500] + dom["title"]) and not found)
     empty = dom["nLinks"] < 5 and not jsons and not found

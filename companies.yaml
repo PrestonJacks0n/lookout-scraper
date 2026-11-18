@@ -26,7 +26,7 @@ companies:
 
   - name: Qualcomm
     type: eightfold
-    url: https://careers.qualcomm.com/careers?query=intern
+    url: https://careers.qualcomm.com/careers?query=intern&location=United%20States
     domain: qualcomm.com
 
   - name: ResMed
@@ -91,7 +91,7 @@ companies:
 
   - name: Dexcom
     type: eightfold
-    url: https://careers.dexcom.com/careers?query=intern
+    url: https://careers.dexcom.com/careers?query=intern&location=United%20States
     domain: dexcom.com
 
   - name: LPL Financial
