@@ -276,6 +276,9 @@ async def browse(browser, c):
         walk_json(data, u, from_json)
     from_dom = []
     for l in dom["links"]:
+        # Skip share buttons and dead "#" links (Brassring and others repeat each job as a "Share ..." link).
+        if l["url"].rstrip("/").endswith(("#0", "#")) or l["title"].lower().startswith("share "):
+            continue
         ctxt = l["context"].replace(l["title"], "").strip()
         from_dom.append(posting(l["title"], ctxt[:150], l["url"]))
     # Merge: JSON gives clean fields, the page gives the link. Same title = same job.
