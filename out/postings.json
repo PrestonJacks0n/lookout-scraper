@@ -1,12 +1,12 @@
 {
- "generated_at_utc": "2026-11-18T06:41:38+00:00",
- "generated_at_pacific_approx": "2026-11-17 22:41",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44252685504",
+ "generated_at_utc": "2026-11-18T06:53:00+00:00",
+ "generated_at_pacific_approx": "2026-11-17 22:53",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44254073708",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
-  "ok": 29,
-  "failed": 3,
+  "ok": 30,
+  "failed": 2,
   "postings": 125
  },
  "companies": [
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 9.2
   },
   {
    "name": "Intuit",
@@ -210,7 +210,7 @@
      "posted": ""
     }
    ],
-   "seconds": 24.3
+   "seconds": 23.5
   },
   {
    "name": "Qualcomm",
@@ -269,7 +269,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 9.1
   },
   {
    "name": "ResMed",
@@ -316,7 +316,7 @@
      "posted": "Posted 19 Days Ago"
     }
    ],
-   "seconds": 46.0
+   "seconds": 47.2
   },
   {
    "name": "Shield AI",
@@ -469,7 +469,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.1
+   "seconds": 1.0
   },
   {
    "name": "Teradata",
@@ -477,7 +477,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 175 links, 8 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -486,7 +486,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 8.9
   },
   {
    "name": "General Atomics",
@@ -494,7 +494,7 @@
    "source": "https://ga.com/careers/early-career",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 171 links, 4 json responses, title 'Early Careers | General Atomics'",
+   "detail": "browser: http 200, 171 links, 2 json responses, title 'Early Careers | General Atomics'",
    "postings": [
     {
      "title": "Search Summer Internships",
@@ -527,7 +527,7 @@
      "posted": ""
     }
    ],
-   "seconds": 7.2
+   "seconds": 7.0
   },
   {
    "name": "Viasat",
@@ -574,7 +574,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.1
+   "seconds": 9.7
   },
   {
    "name": "Drata",
@@ -594,7 +594,7 @@
    "error": "",
    "detail": "api: 7 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "ClickUp",
@@ -610,11 +610,11 @@
    "name": "Scripps Health",
    "method": "browser",
    "source": "https://careers.scripps.org/job-search/?keyword=intern",
-   "status": "failed",
-   "error": "browser: blocked or error page (http 403, 1 links, 0 json responses, title '403 Forbidden')",
-   "detail": "",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 6.0
+   "seconds": 7.4
   },
   {
    "name": "Illumina",
@@ -624,7 +624,7 @@
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
    "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 44.3
+   "seconds": 44.1
   },
   {
    "name": "Turquoise Health",
@@ -634,7 +634,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 176 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 8.6
+   "seconds": 9.5
   },
   {
    "name": "Cortica",
@@ -644,7 +644,7 @@
    "error": "",
    "detail": "api: 54 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Aya Healthcare",
@@ -654,7 +654,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.2
+   "seconds": 6.9
   },
   {
    "name": "Dexcom",
@@ -671,7 +671,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 8.3
   },
   {
    "name": "LPL Financial",
@@ -742,7 +742,7 @@
      "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 50.0
+   "seconds": 46.3
   },
   {
    "name": "Experian",
@@ -771,7 +771,7 @@
      "posted": "2026-10-19"
     }
    ],
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "name": "Petco",
@@ -794,7 +794,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.4
+   "seconds": 11.7
   },
   {
    "name": "SDCCU",
@@ -804,7 +804,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 10.6
+   "seconds": 10.8
   },
   {
    "name": "Navy Federal",
@@ -899,7 +899,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 9.2
   },
   {
    "name": "Axos",
@@ -988,7 +988,7 @@
      "posted": "Posted 22 Days Ago"
     }
    ],
-   "seconds": 44.2
+   "seconds": 44.8
   },
   {
    "name": "Trust+Will",
@@ -998,7 +998,7 @@
    "error": "",
    "detail": "api: 2 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Clear Street",
@@ -1015,7 +1015,7 @@
      "posted": "2026-11-13"
     }
    ],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Schwab",
@@ -1044,7 +1044,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 9.4
   },
   {
    "name": "In-N-Out",
@@ -1054,7 +1054,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 6.9
+   "seconds": 6.7
   },
   {
    "name": "Reef",
@@ -1064,7 +1064,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 9.1
+   "seconds": 8.6
   },
   {
    "name": "WD-40",
@@ -1074,7 +1074,7 @@
    "error": "",
    "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 8.2
+   "seconds": 8.0
   },
   {
    "name": "Karl Strauss",
@@ -1084,7 +1084,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 9.1
+   "seconds": 8.0
   },
   {
    "name": "AleSmith",
@@ -1094,7 +1094,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.2
+   "seconds": 31.4
   }
  ]
 }

@@ -1,5 +1,5 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-17 22:41 Pacific (2026-11-18T06:41:38+00:00)
-29 boards read, 3 failed, 125 internship postings.
+LOOKOUT SCRAPER FEED · generated 2026-11-17 22:53 Pacific (2026-11-18T06:53:00+00:00)
+30 boards read, 2 failed, 125 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
 STATUS | Kaiser Permanente | ok | browser | 
@@ -14,7 +14,7 @@ STATUS | Viasat | ok | browser |
 STATUS | Drata | ok | ashby | 
 STATUS | Cordial | ok | greenhouse | 
 STATUS | ClickUp | ok | ashby | 
-STATUS | Scripps Health | failed | browser | browser: blocked or error page (http 403, 1 links, 0 json responses, title '403 Forbidden')
+STATUS | Scripps Health | ok | browser | 
 STATUS | Illumina | ok | browser (api fallback) | 
 STATUS | Turquoise Health | ok | browser (api fallback) | 
 STATUS | Cortica | ok | greenhouse | 
@@ -72,13 +72,6 @@ POSTING | Qualcomm | Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering In
 POSTING | Qualcomm | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | San Diego, California, United States of America; Tempe, Arizona, United States o |  | https://careers.qualcomm.com/careers/job/446720740912
 POSTING | Qualcomm | Mechanical Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720741704
 POSTING | Qualcomm | Automotive Engineering Internship – Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740553
-POSTING | Qualcomm | 2026 Intern-Machine Learning/AI Engineer | Beijing, China |  | https://careers.qualcomm.com/careers/job/446717251723
-POSTING | ResMed | Regulatory Affairs Intern | Brooklin, Sao Paulo, BR | Posted 30+ Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245
-POSTING | ResMed | Intern, Manufacturing Engineering | Singapore, Singapore | Posted 13 Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1
-POSTING | ResMed | Intern, Manufacturing Digital Transformation | Singapore, Singapore | Posted 13 Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269
-POSTING | ResMed | Intern, Manufacturing Project Lead | Singapore, Singapore | Posted 13 Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2
-POSTING | ResMed | Technical Service & Support Intern LATAM | Brooklin, Sao Paulo, BR | Posted 30+ Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1
-POSTING | ResMed | People Shared Service Intern (November Intake - Preferably 6-Month Duration) | Kuala Lumpur, Malaysia | Posted 19 Days Ago | https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502
 POSTING | ServiceNow | Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936128
 POSTING | ServiceNow | Forward Deployed Solution Engineer Intern (Masters Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936020
 POSTING | ServiceNow | Inbound Product Manager (Masters Summer 2027) | San Diego, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161885234
@@ -89,7 +82,6 @@ POSTING | ServiceNow | Strategic Operations Intern (Summer 2027 - Masters Degree
 POSTING | ServiceNow | Sr Inbound Product Manager Intern (MBA Summer 2027) | San Diego, CALIFORNIA, United States | 2026-11-13 | https://jobs.smartrecruiters.com/ServiceNow/744000161584449
 POSTING | ServiceNow | Information Security Analyst Intern | San Diego, CALIFORNIA, United States | 2026-11-13 | https://jobs.smartrecruiters.com/ServiceNow/744000161550869
 POSTING | ServiceNow | AI Security Engineer Intern | San Diego, California, United States | 2026-11-13 | https://jobs.smartrecruiters.com/ServiceNow/744000161548289
-POSTING | ServiceNow | Intern – Business Development Representative (Native/Fluent Dutch, Finnish, Danish, Norwegian, Swedish, Spanish, Italian, Swedish, Arabic OR French Speaking) | Dublin, , Ireland | 2026-11-13 | https://jobs.smartrecruiters.com/ServiceNow/744000161449069
 POSTING | ServiceNow | Product Security Intern | San Diego, CALIFORNIA, United States | 2026-11-12 | https://jobs.smartrecruiters.com/ServiceNow/744000161385779
 POSTING | ServiceNow | Assoc Detection Engineering Intern | Kirkland, Washington, United States | 2026-11-12 | https://jobs.smartrecruiters.com/ServiceNow/744000161210069
 POSTING | ServiceNow | Assoc Security Engineering & Automation Intern | Santa Clara, CALIFORNIA, United States | 2026-11-12 | https://jobs.smartrecruiters.com/ServiceNow/744000161209810
@@ -124,9 +116,7 @@ POSTING | LPL Financial | Intern 2027 - Strategy and Growth Analyst | Fort Mill/
 POSTING | LPL Financial | Intern 2027 - Wealth Advisory Group | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
 POSTING | LPL Financial | Internship 2027 - Digital Marketing | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
 POSTING | LPL Financial | Intern 2027 - Product Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
-POSTING | Experian | Software Engineering Intern | Cyberjaya, Selangor, Malaysia | 2026-11-17 | https://jobs.smartrecruiters.com/Experian/744000161988609
 POSTING | Experian | Operations Assistant Internship | Mid Valley City, Lingkaran Syed Putra,, KUALA LUMPUR, Malaysia (remote) | 2026-10-20 | https://jobs.smartrecruiters.com/Experian/744000156460209
-POSTING | Experian | AI Developer Intern | Cyberjaya, Selangor, Malaysia | 2026-10-19 | https://jobs.smartrecruiters.com/Experian/744000156347739
 POSTING | Petco | Intern, Accounting – Inventory Accounting |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-inventory-accounting/47428/101142235168
 POSTING | Petco | Intern, Accounting – Accounts Payable |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-accounts-payable/47428/101142234992
 POSTING | Navy Federal | Year-Round Interns |  |  | https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/pages/early-careers#interns
@@ -156,7 +146,8 @@ POSTING | Axos | Business Analyst Intern | HQ - San Diego, CA | Posted 26 Days A
 POSTING | Axos | Program Management Intern | HQ - San Diego, CA | Posted 26 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587
 POSTING | Axos | Commercial Banking Intern | HQ - San Diego, CA | Posted 26 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594
 POSTING | Axos | Risk & Compliance Intern | Omaha, NE | Posted 22 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631
-POSTING | Clear Street | Co-Op Program (Computer Science) | Umeå, Sweden | 2026-11-13 | https://job-boards.greenhouse.io/clearstreet/jobs/8256262
 POSTING | Schwab | Interns |  |  | https://www.schwabjobs.com/internship-academy
 POSTING | Schwab | 2027 Corporate Development & Products Intern | Westlake, TX; Austin, TX Requisition ID: 2026-126264 Application deadline: 2026- |  | https://www.schwabjobs.com/job/westlake/2027-corporate-development-and-products-intern/33727/103221565648
 POSTING | Schwab | Students | We’re all-in when it comes to developing talent – from internships and academies |  | https://www.schwabjobs.com/internship-academy
+
+(11 postings located only outside the US are left out of this file; they are in postings.json.)

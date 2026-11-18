@@ -1,41 +1,41 @@
 # Lookout scraper report
 
-Run: 2026-11-17 22:41 PT (approx) · 29 ok · 3 failed · 125 postings
+Run: 2026-11-17 22:53 PT (approx) · 30 ok · 2 failed · 125 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 9.7 |
-| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 24.3 |
-| Qualcomm | browser (api fallback) | ok | 8 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 8.8 |
-| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 46.0 |
+| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 9.2 |
+| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 23.5 |
+| Qualcomm | browser (api fallback) | ok | 8 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 9.1 |
+| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 47.2 |
 | Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.2 |
-| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 1.1 |
-| Teradata | browser | ok | 1 | browser: http 200, 175 links, 8 json responses, title 'Search Careers at Teradata' | 8.8 |
-| General Atomics | browser | ok | 5 | browser: http 200, 171 links, 4 json responses, title 'Early Careers / General Atomics' | 7.2 |
-| Viasat | browser | ok | 6 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 10.1 |
+| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 1.0 |
+| Teradata | browser | ok | 1 | browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata' | 8.9 |
+| General Atomics | browser | ok | 5 | browser: http 200, 171 links, 2 json responses, title 'Early Careers / General Atomics' | 7.0 |
+| Viasat | browser | ok | 6 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 9.7 |
 | Drata | ashby | ok | 0 | api: 23 jobs checked | 0.1 |
-| Cordial | greenhouse | ok | 0 | api: 7 jobs checked | 0.1 |
+| Cordial | greenhouse | ok | 0 | api: 7 jobs checked | 0.2 |
 | ClickUp | ashby | ok | 0 | api: 47 jobs checked | 0.1 |
-| Scripps Health | browser | failed | 0 | browser: blocked or error page (http 403, 1 links, 0 json responses, title '403 Forbidden') | 6.0 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 44.3 |
-| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 8.6 |
-| Cortica | greenhouse | ok | 0 | api: 54 jobs checked | 0.1 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 7.2 |
-| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 9.7 |
-| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 50.0 |
-| Experian | smartrecruiters | ok | 3 | api: 58 jobs checked | 0.6 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco' | 11.4 |
-| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.6 |
-| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.7 |
-| Axos | browser (api fallback) | ok | 13 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 44.2 |
-| Trust+Will | greenhouse | ok | 0 | api: 2 jobs checked | 0.1 |
-| Clear Street | greenhouse | ok | 1 | api: 39 jobs checked | 0.1 |
-| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.7 |
-| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.9 |
-| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 9.1 |
-| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 8.2 |
-| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 9.1 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.2 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 7.4 |
+| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 44.1 |
+| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 9.5 |
+| Cortica | greenhouse | ok | 0 | api: 54 jobs checked | 0.2 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 6.9 |
+| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 8.3 |
+| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 46.3 |
+| Experian | smartrecruiters | ok | 3 | api: 58 jobs checked | 0.5 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco' | 11.7 |
+| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.8 |
+| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.2 |
+| Axos | browser (api fallback) | ok | 13 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 44.8 |
+| Trust+Will | greenhouse | ok | 0 | api: 2 jobs checked | 0.2 |
+| Clear Street | greenhouse | ok | 1 | api: 39 jobs checked | 0.2 |
+| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.4 |
+| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.7 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 8.6 |
+| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 8.0 |
+| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.0 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.4 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
