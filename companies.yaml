@@ -1,4 +1,4 @@
-# Lookout scraper: which job boards to read.
+# Lookout scraper: which job boards to read (Lookout reads the feed this produces).
 #
 # To add a company (works from the GitHub app or website, no terminal needed):
 #   1. Open this file on GitHub and tap the pencil (Edit).
