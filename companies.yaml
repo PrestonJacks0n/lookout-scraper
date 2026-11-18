@@ -1,0 +1,151 @@
+# Lookout scraper: which job boards to read.
+#
+# To add a company (works from the GitHub app or website, no terminal needed):
+#   1. Open this file on GitHub and tap the pencil (Edit).
+#   2. Copy one block below and change the name and url. If you don't know the board type, use "browser".
+#   3. Commit. The next scheduled run picks it up.
+#
+# Board types (fastest and most reliable first):
+#   greenhouse  - board: the slug in job-boards.greenhouse.io/<slug>
+#   lever       - board: the slug in jobs.lever.co/<slug>
+#   ashby       - board: the slug in jobs.ashbyhq.com/<slug>
+#   smartrecruiters - board: the company id in jobs.smartrecruiters.com/<id>
+#   workday     - url: https://<tenant>.wdN.myworkdayjobs.com/<site>
+#   eightfold   - url: the careers site; domain: the company's domain
+#   browser     - url: any careers or search page; opened in a real Chrome
+# Any API type can also have a "url" — if the API fails, that page is opened in the browser instead.
+
+companies:
+  - name: Kaiser Permanente
+    type: browser
+    url: https://www.kaiserpermanentejobs.org/search-jobs/intern
+
+  - name: Intuit
+    type: browser
+    url: https://jobs.intuit.com/search-jobs/Summer%202027
+
+  - name: Qualcomm
+    type: eightfold
+    url: https://careers.qualcomm.com/careers?query=intern
+    domain: qualcomm.com
+
+  - name: ResMed
+    type: workday
+    url: https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers
+
+  - name: Shield AI
+    type: lever
+    board: shieldai
+    url: https://jobs.lever.co/shieldai
+
+  - name: ServiceNow
+    type: smartrecruiters
+    board: ServiceNow
+    url: https://careers.servicenow.com/jobs/?search=intern
+
+  - name: Teradata
+    type: browser
+    url: https://careers.teradata.com/jobs?search=intern
+
+  - name: General Atomics
+    type: browser
+    url: https://ga.com/careers/early-career
+
+  - name: Viasat
+    type: browser
+    url: https://careers.viasat.com/jobs?keywords=intern
+
+  - name: Drata
+    type: ashby
+    board: drata
+
+  - name: Cordial
+    type: greenhouse
+    board: cordial81
+
+  - name: ClickUp
+    type: ashby
+    board: clickup
+    url: https://clickup.com/careers
+
+  - name: Scripps Health
+    type: browser
+    url: https://careers.scripps.org/search-jobs/intern
+
+  - name: Illumina
+    type: workday
+    url: https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting
+
+  - name: Turquoise Health
+    type: greenhouse
+    board: turquoisehealth
+
+  - name: Cortica
+    type: greenhouse
+    board: cortica
+
+  - name: Aya Healthcare
+    type: browser
+    url: https://www.ayahealthcare.com/corporate-careers/jobs/
+
+  - name: Dexcom
+    type: eightfold
+    url: https://careers.dexcom.com/careers?query=intern
+    domain: dexcom.com
+
+  - name: LPL Financial
+    type: workday
+    url: https://lplfinancial.wd1.myworkdayjobs.com/University
+
+  - name: Experian
+    type: smartrecruiters
+    board: Experian
+    url: https://jobs.experian.com/jobs?search=intern
+
+  - name: Petco
+    type: browser
+    url: https://careers.petco.com/search-jobs/intern
+
+  - name: SDCCU
+    type: browser
+    url: https://www.sdccu.com/careers
+
+  - name: Navy Federal
+    type: browser
+    url: https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/requisitions?keyword=intern
+
+  - name: Axos
+    type: workday
+    url: https://axos.wd5.myworkdayjobs.com/Axos
+
+  - name: Trust+Will
+    type: greenhouse
+    board: trustwill
+
+  - name: Clear Street
+    type: greenhouse
+    board: clearstreet
+
+  - name: Schwab
+    type: browser
+    url: https://www.schwabjobs.com/search-jobs/intern
+
+  - name: In-N-Out
+    type: browser
+    url: https://talent.innout.com/en_US/careers
+
+  - name: Reef
+    type: browser
+    url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab5ef639-e97c-4043-88e7-d44ace9cacc8&ccId=19000101_000001&lang=en_US
+
+  - name: WD-40
+    type: browser
+    url: https://www.wd40company.com/careers/current-opportunities/
+
+  - name: Karl Strauss
+    type: browser
+    url: https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8904B12B1D6FBF9C0BC53C9442B3BBDD
+
+  - name: AleSmith
+    type: browser
+    url: https://alesmith.com/career-opportunities/
