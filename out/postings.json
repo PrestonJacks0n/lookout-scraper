@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-18T06:21:24+00:00",
- "generated_at_pacific_approx": "2026-11-17 22:21",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44250498345",
+ "generated_at_utc": "2026-11-18T06:28:46+00:00",
+ "generated_at_pacific_approx": "2026-11-17 22:28",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44251230620",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
-  "ok": 29,
-  "failed": 3,
-  "postings": 152
+  "ok": 30,
+  "failed": 2,
+  "postings": 180
  },
  "companies": [
   {
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.2
+   "seconds": 9.1
   },
   {
    "name": "Intuit",
@@ -190,27 +190,9 @@
      "location": "San Diego, California Save",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544",
      "posted": ""
-    },
-    {
-     "title": "Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF)",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Sales Intern, Core SMB/EMM",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824",
-     "posted": ""
     }
    ],
-   "seconds": 24.3
+   "seconds": 23.4
   },
   {
    "name": "Qualcomm",
@@ -449,7 +431,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.3
+   "seconds": 9.1
   },
   {
    "name": "ResMed",
@@ -458,8 +440,81 @@
    "status": "ok",
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs",
    "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
-   "postings": [],
-   "seconds": 8.2
+   "postings": [
+    {
+     "title": "Regulatory Affairs Intern",
+     "location": "Brooklin, Sao Paulo, BR",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Engineering",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1",
+     "posted": "Posted 13 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Digital Transformation",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269",
+     "posted": "Posted 13 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Project Lead",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2",
+     "posted": "Posted 13 Days Ago"
+    },
+    {
+     "title": "Technical Service & Support Intern LATAM",
+     "location": "Brooklin, Sao Paulo, BR",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "People Shared Service Intern (November Intake - Preferably 6-Month Duration)",
+     "location": "Kuala Lumpur, Malaysia",
+     "url": "https://resmed.wd3.myworkdayjobs.com/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502",
+     "posted": "Posted 19 Days Ago"
+    },
+    {
+     "title": "Regulatory Affairs Intern",
+     "location": "locations Brooklin, Sao Paulo, BR posted on Posted 30+ Days Ago JR_054245",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245?q=intern",
+     "posted": ""
+    },
+    {
+     "title": "Intern, Manufacturing Engineering",
+     "location": "locations Singapore, Singapore posted on Posted 13 Days Ago JR_053879",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1?q=intern",
+     "posted": ""
+    },
+    {
+     "title": "Intern, Manufacturing Digital Transformation",
+     "location": "locations Singapore, Singapore posted on Posted 13 Days Ago JR_054269",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269?q=intern",
+     "posted": ""
+    },
+    {
+     "title": "Intern, Manufacturing Project Lead",
+     "location": "locations Singapore, Singapore posted on Posted 13 Days Ago JR_053375",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2?q=intern",
+     "posted": ""
+    },
+    {
+     "title": "Technical Service & Support Intern LATAM",
+     "location": "locations Brooklin, Sao Paulo, BR posted on Posted 30+ Days Ago JR_047268",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1?q=intern",
+     "posted": ""
+    },
+    {
+     "title": "People Shared Service Intern (November Intake - Preferably 6-Month Duration)",
+     "location": "locations Kuala Lumpur, Malaysia posted on Posted 19 Days Ago JR_053502",
+     "url": "https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502?q=intern",
+     "posted": ""
+    }
+   ],
+   "seconds": 54.7
   },
   {
    "name": "Shield AI",
@@ -612,7 +667,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.1
+   "seconds": 1.0
   },
   {
    "name": "Teradata",
@@ -629,7 +684,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.0
+   "seconds": 8.0
   },
   {
    "name": "General Atomics",
@@ -670,7 +725,7 @@
      "posted": ""
     }
    ],
-   "seconds": 7.3
+   "seconds": 7.0
   },
   {
    "name": "Viasat",
@@ -723,7 +778,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.5
+   "seconds": 8.4
   },
   {
    "name": "Drata",
@@ -743,7 +798,7 @@
    "error": "",
    "detail": "api: 7 jobs checked",
    "postings": [],
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "ClickUp",
@@ -758,12 +813,12 @@
   {
    "name": "Scripps Health",
    "method": "browser",
-   "source": "https://careers.scripps.org/search-jobs/intern",
-   "status": "failed",
-   "error": "browser: blocked or error page (http 404, 50 links, 4 json responses, title 'Page not found -')",
-   "detail": "",
+   "source": "https://careers.scripps.org/job-search/?keyword=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 8.0
+   "seconds": 9.9
   },
   {
    "name": "Illumina",
@@ -773,17 +828,17 @@
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
    "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 8.4
+   "seconds": 46.0
   },
   {
    "name": "Turquoise Health",
-   "method": "greenhouse",
-   "source": "turquoisehealth",
-   "status": "failed",
-   "error": "greenhouse api failed: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/turquoisehealth/jobs",
-   "detail": "",
+   "method": "browser (api fallback)",
+   "source": "https://turquoise.health/careers",
+   "status": "ok",
+   "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
+   "detail": "browser: http 200, 176 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 9.6
   },
   {
    "name": "Cortica",
@@ -793,7 +848,7 @@
    "error": "",
    "detail": "api: 54 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Aya Healthcare",
@@ -803,7 +858,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.0
+   "seconds": 7.2
   },
   {
    "name": "Dexcom",
@@ -826,138 +881,114 @@
      "posted": ""
     }
    ],
-   "seconds": 9.2
+   "seconds": 8.7
   },
   {
    "name": "LPL Financial",
-   "method": "browser (api fallback)",
+   "method": "workday",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
    "status": "ok",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
-   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
+   "error": "",
+   "detail": "api: 56 jobs checked",
    "postings": [
     {
      "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
      "posted": "Posted Yesterday"
     },
     {
      "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
      "posted": "Posted Yesterday"
     },
     {
      "title": "Intern 2027 - Business Development",
      "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
      "posted": "Posted 5 Days Ago"
     },
     {
      "title": "Intern 2027 - Government Relations",
      "location": "Washington, DC",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
      "posted": "Posted 27 Days Ago"
     },
     {
      "title": "Intern 2027 - Paralegal",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
      "posted": "Posted 27 Days Ago"
     },
     {
      "title": "Intern 2027 - Transition Support Partner",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
      "posted": "Posted 30+ Days Ago"
     },
     {
      "title": "Intern 2027 - Strategy and Growth Analyst",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
      "posted": "Posted 30+ Days Ago"
     },
     {
      "title": "Intern 2027 - Wealth Advisory Group",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
      "posted": "Posted 30+ Days Ago"
     },
     {
      "title": "Internship 2027 - Digital Marketing",
      "location": "Fort Mill/Charlotte",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
      "posted": "Posted 30+ Days Ago"
     },
     {
      "title": "Intern 2027 - Product Analyst",
      "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
      "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-053219",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
-     "posted": ""
+     "title": "Intern 2027 - Cybersecurity Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
+     "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-052598",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
-     "posted": ""
+     "title": "Intern 2027 - Data Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
+     "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern 2027 - Business Development",
-     "location": "locations 2 Locations time type Full time posted on Posted 5 Days Ago R-052926",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
-     "posted": ""
+     "title": "Intern 2027 - Project Management and Business Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922",
+     "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern 2027 - Government Relations",
-     "location": "locations Washington, DC time type Full time posted on Posted 27 Days Ago R-054560",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
-     "posted": ""
+     "title": "Intern 2027- Platform Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
+     "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern 2027 - Paralegal",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 27 Days Ago R-054561",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
-     "posted": ""
+     "title": "Intern 2027- Software Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
+     "posted": "Posted 30+ Days Ago"
     },
     {
-     "title": "Intern 2027 - Transition Support Partner",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053345",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
-     "posted": ""
-    },
-    {
-     "title": "Intern 2027 - Strategy and Growth Analyst",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052938",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
-     "posted": ""
-    },
-    {
-     "title": "Intern 2027 - Wealth Advisory Group",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052554",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
-     "posted": ""
-    },
-    {
-     "title": "Internship 2027 - Digital Marketing",
-     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053012",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
-     "posted": ""
-    },
-    {
-     "title": "Intern 2027 - Product Analyst",
-     "location": "locations 2 Locations time type Part time posted on Posted 30+ Days Ago R-052918",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
-     "posted": ""
+     "title": "New Grad Summer 2027 - Financial Service Professional (Tempe)",
+     "location": "Tempe",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611",
+     "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 6.6
+   "seconds": 7.5
   },
   {
    "name": "Experian",
@@ -986,7 +1017,7 @@
      "posted": "2026-10-19"
     }
    ],
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "name": "Petco",
@@ -994,7 +1025,7 @@
    "source": "https://careers.petco.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 49 links, 31 json responses, title 'Search our Job Opportunities at Petco'",
+   "detail": "browser: http 200, 49 links, 34 json responses, title 'Search our Job Opportunities at Petco'",
    "postings": [
     {
      "title": "Intern, Accounting – Inventory Accounting",
@@ -1009,7 +1040,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.3
+   "seconds": 11.8
   },
   {
    "name": "SDCCU",
@@ -1019,7 +1050,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 10.9
+   "seconds": 9.3
   },
   {
    "name": "Navy Federal",
@@ -1114,42 +1145,180 @@
      "posted": ""
     }
    ],
-   "seconds": 9.5
+   "seconds": 9.6
   },
   {
    "name": "Axos",
-   "method": "browser (api fallback)",
+   "method": "workday",
    "source": "https://axos.wd5.myworkdayjobs.com/Axos",
    "status": "ok",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
-   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
+   "error": "",
+   "detail": "api: 494 jobs checked",
    "postings": [
     {
+     "title": "Accounting Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Finance Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "4 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Edison-NJ/Product-Intern_JR5663",
+     "posted": "Posted 27 Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Product-Intern_JR5664",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Accounting Intern",
+     "location": "Omaha, NE",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Accounting-Intern_JR5618",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Enablement Intern",
+     "location": "Centennial, CO",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Enablement-Intern_JR5669",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "2 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Los-Angeles-CA/Product-Intern_JR5661",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Automation Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Audit Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Audit-Analyst-Intern_JR5569",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Business Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Program Management Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Risk & Compliance Intern",
+     "location": "Omaha, NE",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern",
+     "location": "San Francisco, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Francisco-CA/Commercial-Banking-Intern_JR5588",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Data Analyst Intern",
+     "location": "Omaha, NE",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "UX Design Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/UX-Design-Intern_JR5667",
+     "posted": "Posted 27 Days Ago"
+    },
+    {
+     "title": "Software Development Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Commercial Lending Intern",
+     "location": "2 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
      "title": "Commercial Lending Intern",
      "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696",
-     "posted": "Posted 7 Days Ago"
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697",
+     "posted": "Posted 22 Days Ago"
     },
     {
-     "title": "Treasury Management Sales Intern",
+     "title": "AI Engineer Intern",
      "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604",
-     "posted": "Posted 7 Days Ago"
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Risk & Compliance Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Digital Marketing Intern",
+     "location": "San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Financial Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645",
+     "posted": "Posted 22 Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern",
+     "location": "Centennial, CO",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Commercial-Banking-Intern_JR5605",
+     "posted": "Posted 21 Days Ago"
     },
     {
      "title": "Commercial Lending Intern",
-     "location": "remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5696",
-     "url": "https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696",
-     "posted": ""
+     "location": "New York, NY",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/New-York-NY/Commercial-Lending-Intern_JR5699",
+     "posted": "Posted 22 Days Ago"
     },
     {
-     "title": "Treasury Management Sales Intern",
-     "location": "remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5604",
-     "url": "https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604",
-     "posted": ""
+     "title": "Client Service & Operations Intern",
+     "location": "Centennial, CO",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709",
+     "posted": "Posted 19 Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern - Digital Product",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646",
+     "posted": "Posted 19 Days Ago"
     }
    ],
-   "seconds": 8.0
+   "seconds": 2.9
   },
   {
    "name": "Trust+Will",
@@ -1159,7 +1328,7 @@
    "error": "",
    "detail": "api: 2 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Clear Street",
@@ -1176,7 +1345,7 @@
      "posted": "2026-11-13"
     }
    ],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Schwab",
@@ -1205,15 +1374,15 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 9.2
   },
   {
    "name": "In-N-Out",
    "method": "browser",
    "source": "https://talent.innout.com/en_US/careers",
-   "status": "ok",
-   "error": "",
-   "detail": "browser: http 200, 13 links, 0 json responses, title 'Login | In-N-Out'",
+   "status": "failed",
+   "error": "browser: page asks for a login (title: Login | In-N-Out)",
+   "detail": "",
    "postings": [],
    "seconds": 6.7
   },
@@ -1225,7 +1394,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.6
+   "seconds": 9.2
   },
   {
    "name": "WD-40",
@@ -1235,7 +1404,7 @@
    "error": "",
    "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.9
+   "seconds": 7.3
   },
   {
    "name": "Karl Strauss",
@@ -1255,7 +1424,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.5
+   "seconds": 32.1
   }
  ]
 }

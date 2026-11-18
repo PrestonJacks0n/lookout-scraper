@@ -1,41 +1,41 @@
 # Lookout scraper report
 
-Run: 2026-11-17 22:21 PT (approx) · 29 ok · 3 failed · 152 postings
+Run: 2026-11-17 22:28 PT (approx) · 30 ok · 2 failed · 180 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 10.2 |
-| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 24.3 |
-| Qualcomm | browser (api fallback) | ok | 38 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 9.3 |
-| ResMed | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 8.2 |
+| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 9.1 |
+| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 23.4 |
+| Qualcomm | browser (api fallback) | ok | 38 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 9.1 |
+| ResMed | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 54.7 |
 | Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.3 |
-| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 1.1 |
-| Teradata | browser | ok | 1 | browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata' | 9.0 |
-| General Atomics | browser | ok | 5 | browser: http 200, 171 links, 2 json responses, title 'Early Careers / General Atomics' | 7.3 |
-| Viasat | browser | ok | 7 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 9.5 |
+| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 1.0 |
+| Teradata | browser | ok | 1 | browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata' | 8.0 |
+| General Atomics | browser | ok | 5 | browser: http 200, 171 links, 2 json responses, title 'Early Careers / General Atomics' | 7.0 |
+| Viasat | browser | ok | 7 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 8.4 |
 | Drata | ashby | ok | 0 | api: 23 jobs checked | 0.1 |
-| Cordial | greenhouse | ok | 0 | api: 7 jobs checked | 0.3 |
+| Cordial | greenhouse | ok | 0 | api: 7 jobs checked | 0.1 |
 | ClickUp | ashby | ok | 0 | api: 47 jobs checked | 0.1 |
-| Scripps Health | browser | failed | 0 | browser: blocked or error page (http 404, 50 links, 4 json responses, title 'Page not found -') | 8.0 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 8.4 |
-| Turquoise Health | greenhouse | failed | 0 | greenhouse api failed: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/turquoisehealth/jobs | 0.2 |
-| Cortica | greenhouse | ok | 0 | api: 54 jobs checked | 0.2 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 7.0 |
-| Dexcom | browser (api fallback) | ok | 2 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 9.2 |
-| LPL Financial | browser (api fallback) | ok | 20 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 6.6 |
-| Experian | smartrecruiters | ok | 3 | api: 58 jobs checked | 0.5 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 31 json responses, title 'Search our Job Opportunities at Petco' | 11.3 |
-| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.9 |
-| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.5 |
-| Axos | browser (api fallback) | ok | 4 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 8.0 |
-| Trust+Will | greenhouse | ok | 0 | api: 2 jobs checked | 0.2 |
-| Clear Street | greenhouse | ok | 1 | api: 39 jobs checked | 0.2 |
-| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.7 |
-| In-N-Out | browser | ok | 0 | browser: http 200, 13 links, 0 json responses, title 'Login / In-N-Out' | 6.7 |
-| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 8.6 |
-| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.9 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 9.9 |
+| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 46.0 |
+| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 9.6 |
+| Cortica | greenhouse | ok | 0 | api: 54 jobs checked | 0.1 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 7.2 |
+| Dexcom | browser (api fallback) | ok | 2 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 8.7 |
+| LPL Financial | workday | ok | 16 | api: 56 jobs checked | 7.5 |
+| Experian | smartrecruiters | ok | 3 | api: 58 jobs checked | 0.4 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 34 json responses, title 'Search our Job Opportunities at Petco' | 11.8 |
+| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 9.3 |
+| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.6 |
+| Axos | workday | ok | 27 | api: 494 jobs checked | 2.9 |
+| Trust+Will | greenhouse | ok | 0 | api: 2 jobs checked | 0.1 |
+| Clear Street | greenhouse | ok | 1 | api: 39 jobs checked | 0.1 |
+| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.2 |
+| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.7 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 9.2 |
+| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.3 |
 | Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.0 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.5 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 32.1 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
@@ -67,9 +67,6 @@ Run: 2026-11-17 22:21 PT (approx) · 29 ok · 3 failed · 152 postings
 - Summer 2027: Technical Program Manager (TPM) Intern · Multiple Locations Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
 - Summer 2027: MBA Strategic Finance Intern, Consumer Group · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
 - Summer 2027: Strategic MBA Finance Intern, Consumer Group · San Diego, California Save ·  · https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
-- Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF) · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376
-- Summer 2027: Cybersecurity Compliance Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-- Summer 2027: Sales Intern, Core SMB/EMM · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 
 ## Qualcomm
 - FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months) · Markham, Ontario, Canada ·  · 
@@ -110,6 +107,20 @@ Run: 2026-11-17 22:21 PT (approx) · 29 ok · 3 failed · 152 postings
 - FY27 Intern - Digital Design Engineering Intern - Canada (16 months) · Toronto, Ontario, Canada Interim Engineering Intern - Systems Posted 12 days ago ·  · https://careers.qualcomm.com/careers/job/446722005254
 - FY27 Intern - Low Power AI Software Development Internship - Canada (16 months) · Markham, Ontario, Canada Interim Engineering Intern - SW Posted 2 months ago ·  · https://careers.qualcomm.com/careers/job/446721143440
 - FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months) · Markham, Ontario, Canada Interim Engineering Intern - Systems Posted 13 days ago ·  · https://careers.qualcomm.com/careers/job/446721989047
+
+## ResMed
+- Regulatory Affairs Intern · Brooklin, Sao Paulo, BR · Posted 30+ Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245
+- Intern, Manufacturing Engineering · Singapore, Singapore · Posted 13 Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1
+- Intern, Manufacturing Digital Transformation · Singapore, Singapore · Posted 13 Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269
+- Intern, Manufacturing Project Lead · Singapore, Singapore · Posted 13 Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2
+- Technical Service & Support Intern LATAM · Brooklin, Sao Paulo, BR · Posted 30+ Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1
+- People Shared Service Intern (November Intake - Preferably 6-Month Duration) · Kuala Lumpur, Malaysia · Posted 19 Days Ago · https://resmed.wd3.myworkdayjobs.com/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502
+- Regulatory Affairs Intern · locations Brooklin, Sao Paulo, BR posted on Posted 30+ Days Ago JR_054245 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245?q=intern
+- Intern, Manufacturing Engineering · locations Singapore, Singapore posted on Posted 13 Days Ago JR_053879 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1?q=intern
+- Intern, Manufacturing Digital Transformation · locations Singapore, Singapore posted on Posted 13 Days Ago JR_054269 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269?q=intern
+- Intern, Manufacturing Project Lead · locations Singapore, Singapore posted on Posted 13 Days Ago JR_053375 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2?q=intern
+- Technical Service & Support Intern LATAM · locations Brooklin, Sao Paulo, BR posted on Posted 30+ Days Ago JR_047268 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1?q=intern
+- People Shared Service Intern (November Intake - Preferably 6-Month Duration) · locations Kuala Lumpur, Malaysia posted on Posted 19 Days Ago JR_053502 ·  · https://resmed.wd3.myworkdayjobs.com/en-US/ResMed_External_Careers/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502?q=intern
 
 ## ServiceNow
 - Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027) · Santa Clara, CALIFORNIA, United States · 2026-11-16 · https://jobs.smartrecruiters.com/ServiceNow/744000161936128
@@ -159,26 +170,22 @@ Run: 2026-11-17 22:21 PT (approx) · 29 ok · 3 failed · 152 postings
 - 2027 US Summer Internship - Early Interest · San Diego, California Posted 3 months ago ·  · https://careers.dexcom.com/careers/job/40100410
 
 ## LPL Financial
-- Intern 2027 - FAR Program - Business Management & Service Transformation · Fort Mill/Charlotte · Posted Yesterday · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219
-- New Grad Summer 2027 - Financial Service Professional (Fort Mill) · Fort Mill/Charlotte · Posted Yesterday · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598
-- Intern 2027 - Business Development · 2 Locations · Posted 5 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926
-- Intern 2027 - Government Relations · Washington, DC · Posted 27 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Washington-DC/Intern-2027---Government-Relations_R-054560
-- Intern 2027 - Paralegal · Fort Mill/Charlotte · Posted 27 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561
-- Intern 2027 - Transition Support Partner · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345
-- Intern 2027 - Strategy and Growth Analyst · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938
-- Intern 2027 - Wealth Advisory Group · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
-- Internship 2027 - Digital Marketing · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
-- Intern 2027 - Product Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
-- Intern 2027 - FAR Program - Business Management & Service Transformation · locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-053219 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219
-- New Grad Summer 2027 - Financial Service Professional (Fort Mill) · locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-052598 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598
-- Intern 2027 - Business Development · locations 2 Locations time type Full time posted on Posted 5 Days Ago R-052926 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926
-- Intern 2027 - Government Relations · locations Washington, DC time type Full time posted on Posted 27 Days Ago R-054560 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560
-- Intern 2027 - Paralegal · locations Fort Mill/Charlotte time type Full time posted on Posted 27 Days Ago R-054561 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561
-- Intern 2027 - Transition Support Partner · locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053345 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345
-- Intern 2027 - Strategy and Growth Analyst · locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052938 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938
-- Intern 2027 - Wealth Advisory Group · locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052554 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
-- Internship 2027 - Digital Marketing · locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053012 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
-- Intern 2027 - Product Analyst · locations 2 Locations time type Part time posted on Posted 30+ Days Ago R-052918 ·  · https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
+- Intern 2027 - FAR Program - Business Management & Service Transformation · Fort Mill/Charlotte · Posted Yesterday · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219
+- New Grad Summer 2027 - Financial Service Professional (Fort Mill) · Fort Mill/Charlotte · Posted Yesterday · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598
+- Intern 2027 - Business Development · 2 Locations · Posted 5 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926
+- Intern 2027 - Government Relations · Washington, DC · Posted 27 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560
+- Intern 2027 - Paralegal · Fort Mill/Charlotte · Posted 27 Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561
+- Intern 2027 - Transition Support Partner · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345
+- Intern 2027 - Strategy and Growth Analyst · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938
+- Intern 2027 - Wealth Advisory Group · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
+- Internship 2027 - Digital Marketing · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
+- Intern 2027 - Product Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
+- Intern 2027 - Cybersecurity Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919
+- Intern 2027 - Data Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
+- Intern 2027 - Project Management and Business Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922
+- Intern 2027- Platform Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1
+- Intern 2027- Software Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921
+- New Grad Summer 2027 - Financial Service Professional (Tempe) · Tempe · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611
 
 ## Experian
 - Software Engineering Intern · Cyberjaya, Selangor, Malaysia · 2026-11-17 · https://jobs.smartrecruiters.com/Experian/744000161988609
@@ -206,10 +213,33 @@ Run: 2026-11-17 22:21 PT (approx) · 29 ok · 3 failed · 152 postings
 - Interns ·  ·  · 
 
 ## Axos
-- Commercial Lending Intern · HQ - San Diego, CA · Posted 7 Days Ago · https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696
-- Treasury Management Sales Intern · HQ - San Diego, CA · Posted 7 Days Ago · https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604
-- Commercial Lending Intern · remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5696 ·  · https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696
-- Treasury Management Sales Intern · remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5604 ·  · https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604
+- Accounting Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607
+- Finance Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614
+- Product Intern · 4 Locations · Posted 27 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Edison-NJ/Product-Intern_JR5663
+- Product Intern · HQ - San Diego, CA · Posted 30+ Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Product-Intern_JR5664
+- Accounting Intern · Omaha, NE · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Accounting-Intern_JR5618
+- Enablement Intern · Centennial, CO · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Enablement-Intern_JR5669
+- Product Intern · 2 Locations · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Los-Angeles-CA/Product-Intern_JR5661
+- Automation Analyst Intern · HQ - San Diego, CA · Posted 30+ Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507
+- Audit Analyst Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Audit-Analyst-Intern_JR5569
+- Business Analyst Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593
+- Program Management Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587
+- Commercial Banking Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594
+- Risk & Compliance Intern · Omaha, NE · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631
+- Commercial Banking Intern · San Francisco, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/San-Francisco-CA/Commercial-Banking-Intern_JR5588
+- Data Analyst Intern · Omaha, NE · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642
+- UX Design Intern · HQ - San Diego, CA · Posted 27 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/UX-Design-Intern_JR5667
+- Software Development Intern · HQ - San Diego, CA · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647
+- Commercial Lending Intern · 2 Locations · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695
+- Commercial Lending Intern · HQ - San Diego, CA · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697
+- AI Engineer Intern · HQ - San Diego, CA · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658
+- Risk & Compliance Intern · HQ - San Diego, CA · Posted 30+ Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636
+- Digital Marketing Intern · San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670
+- Financial Analyst Intern · HQ - San Diego, CA · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645
+- Commercial Banking Intern · Centennial, CO · Posted 21 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Commercial-Banking-Intern_JR5605
+- Commercial Lending Intern · New York, NY · Posted 22 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/New-York-NY/Commercial-Lending-Intern_JR5699
+- Client Service & Operations Intern · Centennial, CO · Posted 19 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709
+- Commercial Banking Intern - Digital Product · HQ - San Diego, CA · Posted 19 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646
 
 ## Clear Street
 - Co-Op Program (Computer Science) · Umeå, Sweden · 2026-11-13 · https://job-boards.greenhouse.io/clearstreet/jobs/8256262
