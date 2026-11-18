@@ -1,0 +1,1261 @@
+{
+ "generated_at_utc": "2026-11-18T06:21:24+00:00",
+ "generated_at_pacific_approx": "2026-11-17 22:21",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44250498345",
+ "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
+ "summary": {
+  "companies": 32,
+  "ok": 29,
+  "failed": 3,
+  "postings": 152
+ },
+ "companies": [
+  {
+   "name": "Kaiser Permanente",
+   "method": "browser",
+   "source": "https://www.kaiserpermanentejobs.org/search-jobs/intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
+   "postings": [
+    {
+     "title": "Internships",
+     "location": "",
+     "url": "https://www.kaiserpermanentejobs.org/internships",
+     "posted": ""
+    },
+    {
+     "title": "Consulting Master's Intern",
+     "location": "Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008",
+     "posted": ""
+    },
+    {
+     "title": "Consulting Bachelor's Intern",
+     "location": "Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/pasadena/consulting-bachelor-s-intern/641/103232041456",
+     "posted": ""
+    },
+    {
+     "title": "Consulting Master's Intern",
+     "location": "Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/pasadena/consulting-master-s-intern/641/103232041440",
+     "posted": ""
+    },
+    {
+     "title": "Cybersecurity Master's Intern",
+     "location": "Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/pasadena/cybersecurity-master-s-intern/641/103276809584",
+     "posted": ""
+    },
+    {
+     "title": "Intern Pharmacist",
+     "location": "Los Angeles, CA, Onsite, Regular, Part-time, Variable shift, 24 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/los-angeles/intern-pharmacist/641/98719524864",
+     "posted": ""
+    },
+    {
+     "title": "Intern Pharmacist",
+     "location": "Panorama City, CA, Onsite, Regular, Part-time, Variable shift, 24 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/panorama-city/intern-pharmacist/641/102658456928",
+     "posted": ""
+    },
+    {
+     "title": "Intern Pharmacist",
+     "location": "Ontario, CA, Onsite, Regular, Part-time, Variable shift, 16 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/ontario/intern-pharmacist/641/102168622080",
+     "posted": ""
+    },
+    {
+     "title": "Intern Pharmacist PT24",
+     "location": "Los Angeles, CA, Onsite, Regular, Part-time, Variable shift, 24 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/los-angeles/intern-pharmacist-pt24/641/99721284064",
+     "posted": ""
+    },
+    {
+     "title": "Inpatient Pharmacy Intern - Capitol Hill/Seattle",
+     "location": "Seattle, WA, Onsite, Regular, Part-time, Variable shift, 8 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/seattle/inpatient-pharmacy-intern-capitol-hill-seattle/641/103441713264",
+     "posted": ""
+    },
+    {
+     "title": "Speech Clinical Fellows Year Intern, Pediatrics",
+     "location": "San Rafael, Marin, CA, Onsite, Regular, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/san-rafael/speech-clinical-fellows-year-intern-pediatrics/641/102818032512",
+     "posted": ""
+    }
+   ],
+   "seconds": 10.2
+  },
+  {
+   "name": "Intuit",
+   "method": "browser",
+   "source": "https://jobs.intuit.com/search-jobs/Summer%202027",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit | Open Positions Available'",
+   "postings": [
+    {
+     "title": "Internships",
+     "location": "",
+     "url": "https://www.intuit.com/careers/programs/internships/",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027 Product Manager Intern",
+     "location": "Multiple Locations Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Corporate Strategy & Development Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Product Design Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: AI Science Intern",
+     "location": "Multiple Locations Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Cybersecurity Compliance Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Strategic Finance Intern, GBSG",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Finance Transformation & Analytics Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-finance-transformation-and-analytics-intern/27595/101444103184",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Technical Compliance Manager Intern",
+     "location": "San Diego, California Save",
+     "url": "https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: PhD AI Research Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Finance Strategy Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Pricing & Monetization Strategy Intern",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MS Fraud & Risk Intern",
+     "location": "Multiple Locations Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Technical Program Manager (TPM) Intern",
+     "location": "Multiple Locations Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Strategic Finance Intern, Consumer Group",
+     "location": "Mountain View, California Save",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Strategic MBA Finance Intern, Consumer Group",
+     "location": "San Diego, California Save",
+     "url": "https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF)",
+     "location": "Mountain View, California",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Cybersecurity Compliance Intern",
+     "location": "Mountain View, California",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
+     "posted": ""
+    },
+    {
+     "title": "Summer 2027: Sales Intern, Core SMB/EMM",
+     "location": "Mountain View, California",
+     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824",
+     "posted": ""
+    }
+   ],
+   "seconds": 24.3
+  },
+  {
+   "name": "Qualcomm",
+   "method": "browser (api fallback)",
+   "source": "https://careers.qualcomm.com/careers?query=intern",
+   "status": "ok",
+   "error": "eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100",
+   "detail": "browser: http 200, 43 links, 17 json responses, title 'Careers at Qualcomm | Qualcomm'",
+   "postings": [
+    {
+     "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Multimedia R&D Intern – Video & AI - 6 months, Stockholm (Bromma) - Sweden",
+     "location": "Stockholm, Sweden",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Camera Design Implementation Intern - Canada (16 months)",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - ML Compiler Research Intern - 6 months, Strasbourg",
+     "location": "Strasbourg, France",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+     "location": "Vancouver, British Columbia, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Radio Interface Design Engineer Intern – 5G/6G Systems - 6 months, Italy",
+     "location": "Italy - Remote, Italy; Nuremberg, Bavaria, Germany",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Software Intern (Data Center, Cloud-AI Engineering) - Cork",
+     "location": "Cork, Ireland",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+     "location": "Colombia - Remote, Colombia; Remote",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+     "location": "Toronto, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+     "location": "Toronto, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - Systems Posted 2 months ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721064018",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Multimedia R&D Intern – Video & AI - 6 months, Stockholm (Bromma) - Sweden",
+     "location": "Stockholm, Sweden Interim Intern Posted 5 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446722110729",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Camera Design Implementation Intern - Canada (16 months)",
+     "location": "Vancouver, British Columbia, Canada Interim Engineering Intern - Systems Posted a month ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721678727",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - ML Compiler Research Intern - 6 months, Strasbourg",
+     "location": "Strasbourg, France Interim Intern Posted 13 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721901932",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+     "location": "Vancouver, British Columbia, Canada Interim Engineering Intern - HW Posted 19 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721829462",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+     "location": "Vancouver, British Columbia, Canada Interim Engineering Intern - Systems Posted a month ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721678733",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Radio Interface Design Engineer Intern – 5G/6G Systems - 6 months, Italy",
+     "location": "Italy - Remote, Italy + 1 more Interim Intern Posted 5 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446722069611",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Software Intern (Data Center, Cloud-AI Engineering) - Cork",
+     "location": "Cork, Ireland Interim Intern Posted 5 months ago",
+     "url": "https://careers.qualcomm.com/careers/job/446718947455",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Business Development/Sales intern - Colombia Remote",
+     "location": "Colombia - Remote, Colombia + 1 more Interim Intern Remote Posted 5 months ago",
+     "url": "https://careers.qualcomm.com/careers/job/446719378698",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - HW Posted 14 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721972361",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - SW Posted a day ago",
+     "url": "https://careers.qualcomm.com/careers/job/446722176432",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - Systems Posted a month ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721661677",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - HW Posted 12 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446722001120",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - HW Posted 14 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721969461",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - SW Posted a month ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721615591",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+     "location": "Toronto, Ontario, Canada Interim Engineering Intern - HW Posted 16 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721913769",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+     "location": "Toronto, Ontario, Canada Interim Engineering Intern - Systems Posted 12 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446722005254",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - SW Posted 2 months ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721143440",
+     "posted": ""
+    },
+    {
+     "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+     "location": "Markham, Ontario, Canada Interim Engineering Intern - Systems Posted 13 days ago",
+     "url": "https://careers.qualcomm.com/careers/job/446721989047",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.3
+  },
+  {
+   "name": "ResMed",
+   "method": "browser (api fallback)",
+   "source": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [],
+   "seconds": 8.2
+  },
+  {
+   "name": "Shield AI",
+   "method": "lever",
+   "source": "https://jobs.lever.co/shieldai",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 0 jobs checked",
+   "postings": [],
+   "seconds": 0.3
+  },
+  {
+   "name": "ServiceNow",
+   "method": "smartrecruiters",
+   "source": "https://careers.servicenow.com/jobs/?search=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 198 jobs checked",
+   "postings": [
+    {
+     "title": "Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027)",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161936128",
+     "posted": "2026-11-16"
+    },
+    {
+     "title": "Forward Deployed Solution Engineer Intern (Masters Summer 2027)",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161936020",
+     "posted": "2026-11-16"
+    },
+    {
+     "title": "Inbound Product Manager (Masters Summer 2027)",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161885234",
+     "posted": "2026-11-16"
+    },
+    {
+     "title": "AI Identity Intern",
+     "location": "Kirkland, Washington, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161594249",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Security Engineer Intern",
+     "location": "Kirkland, Washington, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161592679",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Sr Outbound Product Manager Intern (MBA Summer 2027)",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161590090",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Strategic Operations Intern (Summer 2027 - Masters Degree)",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161583461",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Sr Inbound Product Manager Intern (MBA Summer 2027)",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161584449",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Information Security Analyst Intern",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161550869",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "AI Security Engineer Intern",
+     "location": "San Diego, California, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161548289",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Intern – Business Development Representative (Native/Fluent Dutch, Finnish, Danish, Norwegian, Swedish, Spanish, Italian, Swedish, Arabic OR French Speaking)",
+     "location": "Dublin, , Ireland",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161449069",
+     "posted": "2026-11-13"
+    },
+    {
+     "title": "Product Security Intern",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161385779",
+     "posted": "2026-11-12"
+    },
+    {
+     "title": "Assoc Detection Engineering Intern",
+     "location": "Kirkland, Washington, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161210069",
+     "posted": "2026-11-12"
+    },
+    {
+     "title": "Assoc Security Engineering & Automation Intern",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161209810",
+     "posted": "2026-11-12"
+    },
+    {
+     "title": "Assoc AI Engineering (Cloud Security Automation) Intern",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161209600",
+     "posted": "2026-11-12"
+    },
+    {
+     "title": "Assoc Information Security Engineer Intern",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161204235",
+     "posted": "2026-11-12"
+    },
+    {
+     "title": "Finance Intern - Undergrad Summer 2027",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000159255618",
+     "posted": "2026-11-02"
+    },
+    {
+     "title": "Experience Team – Associate Product Design Internships – Summer 2027",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000158130527",
+     "posted": "2026-10-27"
+    },
+    {
+     "title": "Experience Team – Associate Technical Writing Internships – Summer 2027",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157921759",
+     "posted": "2026-10-26"
+    },
+    {
+     "title": "Experience Team – UX Research Internships – Summer 2027",
+     "location": "San Diego, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000157919529",
+     "posted": "2026-10-26"
+    },
+    {
+     "title": "AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors)",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345889",
+     "posted": "2026-10-13"
+    },
+    {
+     "title": "AI Engineering - Software Engineer Internships - Summer 2027 (Masters)",
+     "location": "Santa Clara, CALIFORNIA, United States",
+     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000155345689",
+     "posted": "2026-10-13"
+    }
+   ],
+   "seconds": 1.1
+  },
+  {
+   "name": "Teradata",
+   "method": "browser",
+   "source": "https://careers.teradata.com/jobs?search=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata'",
+   "postings": [
+    {
+     "title": "College & Interns",
+     "location": "",
+     "url": "",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.0
+  },
+  {
+   "name": "General Atomics",
+   "method": "browser",
+   "source": "https://ga.com/careers/early-career",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 171 links, 2 json responses, title 'Early Careers | General Atomics'",
+   "postings": [
+    {
+     "title": "Search Summer Internships",
+     "location": "",
+     "url": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=25539&siteid=5310#home",
+     "posted": ""
+    },
+    {
+     "title": "Are General Atomics Internships Paid?",
+     "location": "",
+     "url": "https://ga.com/careers/early-career#collapseOne",
+     "posted": ""
+    },
+    {
+     "title": "How Do I Apply For Internship Opportunities?",
+     "location": "",
+     "url": "https://ga.com/careers/early-career#collapseThree",
+     "posted": ""
+    },
+    {
+     "title": "How Long Is The Internship?",
+     "location": "",
+     "url": "https://ga.com/careers/early-career#collapse8",
+     "posted": ""
+    },
+    {
+     "title": "Energy Group Internships",
+     "location": "",
+     "url": "https://ga.com/about/energy-group-internships",
+     "posted": ""
+    }
+   ],
+   "seconds": 7.3
+  },
+  {
+   "name": "Viasat",
+   "method": "browser",
+   "source": "https://careers.viasat.com/jobs?keywords=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 53 links, 22 json responses, title 'Viasat Careers'",
+   "postings": [
+    {
+     "title": "Industrial Engineer Intern",
+     "location": "Duluth",
+     "url": "",
+     "posted": "2026-11-06T21:22:00+0000"
+    },
+    {
+     "title": "Industrial Engineer Intern",
+     "location": "Tempe",
+     "url": "",
+     "posted": "2026-11-06T21:22:00+0000"
+    },
+    {
+     "title": "Early career internships",
+     "location": "",
+     "url": "https://careers.viasat.com/internships",
+     "posted": ""
+    },
+    {
+     "title": "Industrial Engineer Intern",
+     "location": "",
+     "url": "https://careers.viasat.com/jobs/6691?lang=en-us",
+     "posted": ""
+    },
+    {
+     "title": "Read More about Industrial Engineer Intern 6691",
+     "location": "",
+     "url": "https://careers.viasat.com/jobs/6691?lang=en-us",
+     "posted": ""
+    },
+    {
+     "title": "Read More about Industrial Engineer Intern 6692",
+     "location": "",
+     "url": "https://careers.viasat.com/jobs/6692?lang=en-us",
+     "posted": ""
+    },
+    {
+     "title": "Early careers internship",
+     "location": "",
+     "url": "https://careers.viasat.com/internships",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.5
+  },
+  {
+   "name": "Drata",
+   "method": "ashby",
+   "source": "drata",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 23 jobs checked",
+   "postings": [],
+   "seconds": 0.1
+  },
+  {
+   "name": "Cordial",
+   "method": "greenhouse",
+   "source": "cordial81",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 7 jobs checked",
+   "postings": [],
+   "seconds": 0.3
+  },
+  {
+   "name": "ClickUp",
+   "method": "ashby",
+   "source": "https://clickup.com/careers",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 47 jobs checked",
+   "postings": [],
+   "seconds": 0.1
+  },
+  {
+   "name": "Scripps Health",
+   "method": "browser",
+   "source": "https://careers.scripps.org/search-jobs/intern",
+   "status": "failed",
+   "error": "browser: blocked or error page (http 404, 50 links, 4 json responses, title 'Page not found -')",
+   "detail": "",
+   "postings": [],
+   "seconds": 8.0
+  },
+  {
+   "name": "Illumina",
+   "method": "browser (api fallback)",
+   "source": "https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
+   "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [],
+   "seconds": 8.4
+  },
+  {
+   "name": "Turquoise Health",
+   "method": "greenhouse",
+   "source": "turquoisehealth",
+   "status": "failed",
+   "error": "greenhouse api failed: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/turquoisehealth/jobs",
+   "detail": "",
+   "postings": [],
+   "seconds": 0.2
+  },
+  {
+   "name": "Cortica",
+   "method": "greenhouse",
+   "source": "cortica",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 54 jobs checked",
+   "postings": [],
+   "seconds": 0.2
+  },
+  {
+   "name": "Aya Healthcare",
+   "method": "browser",
+   "source": "https://www.ayahealthcare.com/corporate-careers/jobs/",
+   "status": "failed",
+   "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
+   "detail": "",
+   "postings": [],
+   "seconds": 7.0
+  },
+  {
+   "name": "Dexcom",
+   "method": "browser (api fallback)",
+   "source": "https://careers.dexcom.com/careers?query=intern",
+   "status": "ok",
+   "error": "eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100",
+   "detail": "browser: http 200, 23 links, 11 json responses, title 'Careers at Dexcom | Dexcom'",
+   "postings": [
+    {
+     "title": "2027 US Summer Internship - Early Interest",
+     "location": "San Diego, California",
+     "url": "",
+     "posted": ""
+    },
+    {
+     "title": "2027 US Summer Internship - Early Interest",
+     "location": "San Diego, California Posted 3 months ago",
+     "url": "https://careers.dexcom.com/careers/job/40100410",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.2
+  },
+  {
+   "name": "LPL Financial",
+   "method": "browser (api fallback)",
+   "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
+     "posted": "Posted Yesterday"
+    },
+    {
+     "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
+     "posted": "Posted Yesterday"
+    },
+    {
+     "title": "Intern 2027 - Business Development",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
+     "posted": "Posted 5 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Government Relations",
+     "location": "Washington, DC",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
+     "posted": "Posted 27 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Paralegal",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
+     "posted": "Posted 27 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Transition Support Partner",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Strategy and Growth Analyst",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Wealth Advisory Group",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Internship 2027 - Digital Marketing",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Product Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-053219",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
+     "posted": ""
+    },
+    {
+     "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted Yesterday R-052598",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Business Development",
+     "location": "locations 2 Locations time type Full time posted on Posted 5 Days Ago R-052926",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Government Relations",
+     "location": "locations Washington, DC time type Full time posted on Posted 27 Days Ago R-054560",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Paralegal",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 27 Days Ago R-054561",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Transition Support Partner",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053345",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Strategy and Growth Analyst",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052938",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Wealth Advisory Group",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-052554",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
+     "posted": ""
+    },
+    {
+     "title": "Internship 2027 - Digital Marketing",
+     "location": "locations Fort Mill/Charlotte time type Full time posted on Posted 30+ Days Ago R-053012",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
+     "posted": ""
+    },
+    {
+     "title": "Intern 2027 - Product Analyst",
+     "location": "locations 2 Locations time type Part time posted on Posted 30+ Days Ago R-052918",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/en-US/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
+     "posted": ""
+    }
+   ],
+   "seconds": 6.6
+  },
+  {
+   "name": "Experian",
+   "method": "smartrecruiters",
+   "source": "https://jobs.experian.com/jobs?search=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 58 jobs checked",
+   "postings": [
+    {
+     "title": "Software Engineering Intern",
+     "location": "Cyberjaya, Selangor, Malaysia",
+     "url": "https://jobs.smartrecruiters.com/Experian/744000161988609",
+     "posted": "2026-11-17"
+    },
+    {
+     "title": "Operations Assistant Internship",
+     "location": "Mid Valley City, Lingkaran Syed Putra,, KUALA LUMPUR, Malaysia (remote)",
+     "url": "https://jobs.smartrecruiters.com/Experian/744000156460209",
+     "posted": "2026-10-20"
+    },
+    {
+     "title": "AI Developer Intern",
+     "location": "Cyberjaya, Selangor, Malaysia",
+     "url": "https://jobs.smartrecruiters.com/Experian/744000156347739",
+     "posted": "2026-10-19"
+    }
+   ],
+   "seconds": 0.5
+  },
+  {
+   "name": "Petco",
+   "method": "browser",
+   "source": "https://careers.petco.com/search-jobs/intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 49 links, 31 json responses, title 'Search our Job Opportunities at Petco'",
+   "postings": [
+    {
+     "title": "Intern, Accounting – Inventory Accounting",
+     "location": "",
+     "url": "https://careers.petco.com/job/san-antonio/intern-accounting-inventory-accounting/47428/101142235168",
+     "posted": ""
+    },
+    {
+     "title": "Intern, Accounting – Accounts Payable",
+     "location": "",
+     "url": "https://careers.petco.com/job/san-antonio/intern-accounting-accounts-payable/47428/101142234992",
+     "posted": ""
+    }
+   ],
+   "seconds": 11.3
+  },
+  {
+   "name": "SDCCU",
+   "method": "browser",
+   "source": "https://www.sdccu.com/careers",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
+   "postings": [],
+   "seconds": 10.9
+  },
+  {
+   "name": "Navy Federal",
+   "method": "browser",
+   "source": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/requisitions?keyword=intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers'",
+   "postings": [
+    {
+     "title": "Year-Round Interns",
+     "location": "",
+     "url": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/pages/early-careers#interns",
+     "posted": ""
+    },
+    {
+     "title": "Summer Associate Internships",
+     "location": "",
+     "url": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/pages/early-careers#associates",
+     "posted": ""
+    },
+    {
+     "title": "MADE Interns",
+     "location": "",
+     "url": "https://jobs.navyfederal.org/hcmUI/CandidateExperience/en/sites/nfcu/pages/early-careers#partner_programs",
+     "posted": ""
+    },
+    {
+     "title": "Summer Associate Internship (Internal Audit - IT Audit)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Internal Audit - Operational Audit)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Internal Communications Specialist)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Technical Risk Analyst - Security Regulatory Compliance)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Technical Risk Analyst)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Technical Risk Analyst - Security)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Legal)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Intern - Year Round (Strategy & Innovation)",
+     "location": "Pensacola, FL, United States",
+     "url": "",
+     "posted": "2026-11-16"
+    },
+    {
+     "title": "Summer Associate Internship (Consumer Lending Experience Management)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Summer Associate Internship (Product Security Engineer)",
+     "location": "Vienna, VA, United States",
+     "url": "",
+     "posted": "2026-09-09"
+    },
+    {
+     "title": "Interns",
+     "location": "",
+     "url": "",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.5
+  },
+  {
+   "name": "Axos",
+   "method": "browser (api fallback)",
+   "source": "https://axos.wd5.myworkdayjobs.com/Axos",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Commercial Lending Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696",
+     "posted": "Posted 7 Days Ago"
+    },
+    {
+     "title": "Treasury Management Sales Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604",
+     "posted": "Posted 7 Days Ago"
+    },
+    {
+     "title": "Commercial Lending Intern",
+     "location": "remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5696",
+     "url": "https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5696",
+     "posted": ""
+    },
+    {
+     "title": "Treasury Management Sales Intern",
+     "location": "remote type Onsite locations HQ - San Diego, CA posted on Posted 7 Days Ago JR5604",
+     "url": "https://axos.wd5.myworkdayjobs.com/en-US/Axos/job/HQ---San-Diego-CA/Treasury-Management-Sales-Intern_JR5604",
+     "posted": ""
+    }
+   ],
+   "seconds": 8.0
+  },
+  {
+   "name": "Trust+Will",
+   "method": "greenhouse",
+   "source": "trustwill",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 2 jobs checked",
+   "postings": [],
+   "seconds": 0.2
+  },
+  {
+   "name": "Clear Street",
+   "method": "greenhouse",
+   "source": "clearstreet",
+   "status": "ok",
+   "error": "",
+   "detail": "api: 39 jobs checked",
+   "postings": [
+    {
+     "title": "Co-Op Program (Computer Science)",
+     "location": "Umeå, Sweden",
+     "url": "https://job-boards.greenhouse.io/clearstreet/jobs/8256262",
+     "posted": "2026-11-13"
+    }
+   ],
+   "seconds": 0.2
+  },
+  {
+   "name": "Schwab",
+   "method": "browser",
+   "source": "https://www.schwabjobs.com/search-jobs/intern",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab'",
+   "postings": [
+    {
+     "title": "Interns",
+     "location": "",
+     "url": "https://www.schwabjobs.com/internship-academy",
+     "posted": ""
+    },
+    {
+     "title": "2027 Corporate Development & Products Intern",
+     "location": "Westlake, TX; Austin, TX Requisition ID: 2026-126264 Application deadline: 2026-11-19 Save for Later",
+     "url": "https://www.schwabjobs.com/job/westlake/2027-corporate-development-and-products-intern/33727/103221565648",
+     "posted": ""
+    },
+    {
+     "title": "Students",
+     "location": "We’re all-in when it comes to developing talent – from internships and academies to our tech leader program. Learn more",
+     "url": "https://www.schwabjobs.com/internship-academy",
+     "posted": ""
+    }
+   ],
+   "seconds": 9.7
+  },
+  {
+   "name": "In-N-Out",
+   "method": "browser",
+   "source": "https://talent.innout.com/en_US/careers",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 13 links, 0 json responses, title 'Login | In-N-Out'",
+   "postings": [],
+   "seconds": 6.7
+  },
+  {
+   "name": "Reef",
+   "method": "browser",
+   "source": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=ab5ef639-e97c-4043-88e7-d44ace9cacc8&ccId=19000101_000001&lang=en_US",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
+   "postings": [],
+   "seconds": 8.6
+  },
+  {
+   "name": "WD-40",
+   "method": "browser",
+   "source": "https://www.wd40company.com/careers/current-opportunities/",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
+   "postings": [],
+   "seconds": 7.9
+  },
+  {
+   "name": "Karl Strauss",
+   "method": "browser",
+   "source": "https://www.paycomonline.net/v4/ats/web.php/jobs?clientkey=8904B12B1D6FBF9C0BC53C9442B3BBDD",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
+   "postings": [],
+   "seconds": 8.0
+  },
+  {
+   "name": "AleSmith",
+   "method": "browser",
+   "source": "https://alesmith.com/career-opportunities/",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
+   "postings": [],
+   "seconds": 31.5
+  }
+ ]
+}
