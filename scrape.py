@@ -4,6 +4,7 @@ internship postings as one JSON feed that the Lookout scheduled tasks read.
 Run: python scrape.py            (writes out/postings.json and out/report.md)
 Env: GIST_TOKEN (optional)       publishes the feed to a secret gist (id kept in gist_id.txt)
      ONLY="Dexcom,Illumina"      limits a run to some companies (for testing)
+Schedule and setup: see README.md.
 """
 from __future__ import annotations
 
