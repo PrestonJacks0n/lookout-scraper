@@ -1,41 +1,41 @@
 # Lookout scraper report
 
-Run: 2026-11-17 22:57 PT (approx) · 30 ok · 2 failed · 139 postings
+Run: 2026-11-17 23:03 PT (approx) · 30 ok · 2 failed · 123 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 9.3 |
-| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 23.4 |
-| Qualcomm | browser (api fallback) | ok | 8 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 9.6 |
-| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 46.3 |
+| Kaiser Permanente | browser | ok | 11 | browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 11.5 |
+| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 23.9 |
+| Qualcomm | browser (api fallback) | ok | 8 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 21.2 |
+| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 46.7 |
 | Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.4 |
-| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 1.1 |
-| Teradata | browser | ok | 1 | browser: http 200, 207 links, 8 json responses, title 'Search Careers at Teradata' | 9.2 |
-| General Atomics | browser | ok | 16 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.3 |
-| Viasat | browser | ok | 6 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 10.7 |
+| ServiceNow | smartrecruiters | ok | 22 | api: 198 jobs checked | 0.9 |
+| Teradata | browser | ok | 1 | browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata' | 7.2 |
+| General Atomics | browser | ok | 6 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 7.6 |
+| Viasat | browser | ok | 6 | browser: http 200, 53 links, 22 json responses, title 'Viasat Careers' | 10.8 |
 | Drata | ashby | ok | 0 | api: 23 jobs checked | 0.1 |
 | Cordial | greenhouse | ok | 0 | api: 7 jobs checked | 0.1 |
 | ClickUp | ashby | ok | 0 | api: 47 jobs checked | 0.1 |
-| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 10.0 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 44.1 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 9.6 |
+| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 45.7 |
 | Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 20.9 |
 | Cortica | greenhouse | ok | 0 | api: 54 jobs checked | 0.1 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 12.3 |
-| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 7.7 |
-| LPL Financial | workday | ok | 16 | api: 56 jobs checked | 19.6 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 6.8 |
+| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 8.3 |
+| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 43.6 |
 | Experian | smartrecruiters | ok | 3 | api: 58 jobs checked | 0.5 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco' | 12.8 |
-| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 9.2 |
-| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.6 |
-| Axos | browser (api fallback) | ok | 13 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 44.2 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco' | 10.6 |
+| SDCCU | browser | ok | 0 | browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 13.4 |
+| Navy Federal | browser | ok | 14 | browser: http 200, 109 links, 8 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.2 |
+| Axos | browser (api fallback) | ok | 13 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 43.8 |
 | Trust+Will | greenhouse | ok | 0 | api: 2 jobs checked | 0.1 |
 | Clear Street | greenhouse | ok | 1 | api: 39 jobs checked | 0.1 |
-| Schwab | browser | ok | 3 | browser: http 200, 61 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.4 |
-| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.9 |
-| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 7.0 |
-| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.4 |
-| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.8 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 12 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.7 |
+| Schwab | browser | ok | 3 | browser: http 200, 61 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab' | 8.5 |
+| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.5 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 15 json responses, title 'Career Center / Recruitment' | 10.8 |
+| WD-40 | browser | ok | 0 | browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.8 |
+| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 9.6 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 32.1 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
@@ -115,21 +115,11 @@ Run: 2026-11-17 22:57 PT (approx) · 30 ok · 2 failed · 139 postings
 
 ## General Atomics
 - Intern - Guidance, Navigation & Controls ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054
-- Share Intern - Guidance, Navigation &amp; Controls · 58528BR Intern - Guidance, Navigation & Controls General Atomics Huntsville Alabama ·  · https://sjobs.brassring.com/#0
 - Intern - Mechanical Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
-- Share Intern - Mechanical Engineer · 58525BR Intern - Mechanical Engineer General Atomics Huntsville Alabama ·  · https://sjobs.brassring.com/#0
-- Share Intern - Mechanical Engineer · 58526BR Intern - Mechanical Engineer General Atomics Oxford Mississippi ·  · https://sjobs.brassring.com/#0
 - Intern - Finance/Business Management ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
-- Share Intern - Finance/Business Management · 58593BR Intern - Finance/Business Management General Atomics San Diego California ·  · https://sjobs.brassring.com/#0
 - Intern - Software Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
-- Share Intern - Software Engineer · 58420BR Intern - Software Engineer GA Intelligence Charlottesville Virginia ·  · https://sjobs.brassring.com/#0
-- Share Intern - Software Engineer · 58522BR Intern - Software Engineer General Atomics Tyngsborough Massachusetts ·  · https://sjobs.brassring.com/#0
 - Intern - Research & Development ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238165
-- Share Intern - Research &amp; Development · 58578BR Intern - Research & Development Diazyme Poway California ·  · https://sjobs.brassring.com/#0
 - Intern - Systems Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238036
-- Share Intern - Systems Engineer · 58510BR Intern - Systems Engineer General Atomics Englewood Colorado ·  · https://sjobs.brassring.com/#0
-- Share Intern - Mechanical Engineer · 58520BR Intern - Mechanical Engineer General Atomics Herndon Virginia ·  · https://sjobs.brassring.com/#0
-- Share Intern - Software Engineer · 58518BR Intern - Software Engineer General Atomics Herndon Virginia ·  · https://sjobs.brassring.com/#0
 
 ## Viasat
 - Industrial Engineer Intern · Duluth · 2026-11-06T21:22:00+0000 · https://careers.viasat.com/jobs/6691?lang=en-us
@@ -153,12 +143,6 @@ Run: 2026-11-17 22:57 PT (approx) · 30 ok · 2 failed · 139 postings
 - Intern 2027 - Wealth Advisory Group · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
 - Internship 2027 - Digital Marketing · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
 - Intern 2027 - Product Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
-- Intern 2027 - Cybersecurity Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919
-- Intern 2027 - Data Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
-- Intern 2027 - Project Management and Business Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922
-- Intern 2027- Platform Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1
-- Intern 2027- Software Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921
-- New Grad Summer 2027 - Financial Service Professional (Tempe) · Tempe · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611
 
 ## Experian
 - Software Engineering Intern · Cyberjaya, Selangor, Malaysia · 2026-11-17 · https://jobs.smartrecruiters.com/Experian/744000161988609

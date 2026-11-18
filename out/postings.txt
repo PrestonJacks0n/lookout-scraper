@@ -1,5 +1,5 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-17 22:57 Pacific (2026-11-18T06:57:37+00:00)
-30 boards read, 2 failed, 139 internship postings.
+LOOKOUT SCRAPER FEED · generated 2026-11-17 23:03 Pacific (2026-11-18T07:03:09+00:00)
+30 boards read, 2 failed, 123 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
 STATUS | Kaiser Permanente | ok | browser | 
@@ -20,7 +20,7 @@ STATUS | Turquoise Health | ok | browser (api fallback) |
 STATUS | Cortica | ok | greenhouse | 
 STATUS | Aya Healthcare | failed | browser | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')
 STATUS | Dexcom | ok | browser (api fallback) | 
-STATUS | LPL Financial | ok | workday | 
+STATUS | LPL Financial | ok | browser (api fallback) | 
 STATUS | Experian | ok | smartrecruiters | 
 STATUS | Petco | ok | browser | 
 STATUS | SDCCU | ok | browser | 
@@ -92,21 +92,11 @@ POSTING | ServiceNow | AI Engineering - Assoc Software Engineer Internships - Su
 POSTING | ServiceNow | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) | Santa Clara, CALIFORNIA, United States | 2026-10-13 | https://jobs.smartrecruiters.com/ServiceNow/744000155345689
 POSTING | Teradata | College & Interns |  |  | 
 POSTING | General Atomics | Intern - Guidance, Navigation & Controls |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054
-POSTING | General Atomics | Share Intern - Guidance, Navigation &amp; Controls | 58528BR Intern - Guidance, Navigation & Controls General Atomics Huntsville Alab |  | https://sjobs.brassring.com/#0
 POSTING | General Atomics | Intern - Mechanical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
-POSTING | General Atomics | Share Intern - Mechanical Engineer | 58525BR Intern - Mechanical Engineer General Atomics Huntsville Alabama |  | https://sjobs.brassring.com/#0
-POSTING | General Atomics | Share Intern - Mechanical Engineer | 58526BR Intern - Mechanical Engineer General Atomics Oxford Mississippi |  | https://sjobs.brassring.com/#0
 POSTING | General Atomics | Intern - Finance/Business Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
-POSTING | General Atomics | Share Intern - Finance/Business Management | 58593BR Intern - Finance/Business Management General Atomics San Diego Californi |  | https://sjobs.brassring.com/#0
 POSTING | General Atomics | Intern - Software Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
-POSTING | General Atomics | Share Intern - Software Engineer | 58420BR Intern - Software Engineer GA Intelligence Charlottesville Virginia |  | https://sjobs.brassring.com/#0
-POSTING | General Atomics | Share Intern - Software Engineer | 58522BR Intern - Software Engineer General Atomics Tyngsborough Massachusetts |  | https://sjobs.brassring.com/#0
 POSTING | General Atomics | Intern - Research & Development |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238165
-POSTING | General Atomics | Share Intern - Research &amp; Development | 58578BR Intern - Research & Development Diazyme Poway California |  | https://sjobs.brassring.com/#0
 POSTING | General Atomics | Intern - Systems Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238036
-POSTING | General Atomics | Share Intern - Systems Engineer | 58510BR Intern - Systems Engineer General Atomics Englewood Colorado |  | https://sjobs.brassring.com/#0
-POSTING | General Atomics | Share Intern - Mechanical Engineer | 58520BR Intern - Mechanical Engineer General Atomics Herndon Virginia |  | https://sjobs.brassring.com/#0
-POSTING | General Atomics | Share Intern - Software Engineer | 58518BR Intern - Software Engineer General Atomics Herndon Virginia |  | https://sjobs.brassring.com/#0
 POSTING | Viasat | Industrial Engineer Intern | Duluth | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
 POSTING | Viasat | Industrial Engineer Intern | Tempe | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
 POSTING | Viasat | Early career internships |  |  | https://careers.viasat.com/internships
@@ -124,12 +114,6 @@ POSTING | LPL Financial | Intern 2027 - Strategy and Growth Analyst | Fort Mill/
 POSTING | LPL Financial | Intern 2027 - Wealth Advisory Group | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
 POSTING | LPL Financial | Internship 2027 - Digital Marketing | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
 POSTING | LPL Financial | Intern 2027 - Product Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
-POSTING | LPL Financial | Intern 2027 - Cybersecurity Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919
-POSTING | LPL Financial | Intern 2027 - Data Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
-POSTING | LPL Financial | Intern 2027 - Project Management and Business Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922
-POSTING | LPL Financial | Intern 2027- Platform Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1
-POSTING | LPL Financial | Intern 2027- Software Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921
-POSTING | LPL Financial | New Grad Summer 2027 - Financial Service Professional (Tempe) | Tempe | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611
 POSTING | Experian | Operations Assistant Internship | Mid Valley City, Lingkaran Syed Putra,, KUALA LUMPUR, Malaysia (remote) | 2026-10-20 | https://jobs.smartrecruiters.com/Experian/744000156460209
 POSTING | Petco | Intern, Accounting – Inventory Accounting |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-inventory-accounting/47428/101142235168
 POSTING | Petco | Intern, Accounting – Accounts Payable |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-accounts-payable/47428/101142234992

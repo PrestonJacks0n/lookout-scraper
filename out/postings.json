@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-18T06:57:37+00:00",
- "generated_at_pacific_approx": "2026-11-17 22:57",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44254700606",
+ "generated_at_utc": "2026-11-18T07:03:09+00:00",
+ "generated_at_pacific_approx": "2026-11-17 23:03",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44255326035",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
   "ok": 30,
   "failed": 2,
-  "postings": 139
+  "postings": 123
  },
  "companies": [
   {
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.3
+   "seconds": 11.5
   },
   {
    "name": "Intuit",
@@ -192,7 +192,7 @@
      "posted": ""
     }
    ],
-   "seconds": 23.4
+   "seconds": 23.9
   },
   {
    "name": "Qualcomm",
@@ -251,7 +251,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.6
+   "seconds": 21.2
   },
   {
    "name": "ResMed",
@@ -298,7 +298,7 @@
      "posted": "Posted 19 Days Ago"
     }
    ],
-   "seconds": 46.3
+   "seconds": 46.7
   },
   {
    "name": "Shield AI",
@@ -451,7 +451,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.1
+   "seconds": 0.9
   },
   {
    "name": "Teradata",
@@ -459,7 +459,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 207 links, 8 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -468,7 +468,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.2
+   "seconds": 7.2
   },
   {
    "name": "General Atomics",
@@ -485,27 +485,9 @@
      "posted": ""
     },
     {
-     "title": "Share Intern - Guidance, Navigation &amp; Controls",
-     "location": "58528BR Intern - Guidance, Navigation & Controls General Atomics Huntsville Alabama",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
      "title": "Intern - Mechanical Engineer",
      "location": "",
      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Mechanical Engineer",
-     "location": "58525BR Intern - Mechanical Engineer General Atomics Huntsville Alabama",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Mechanical Engineer",
-     "location": "58526BR Intern - Mechanical Engineer General Atomics Oxford Mississippi",
-     "url": "https://sjobs.brassring.com/#0",
      "posted": ""
     },
     {
@@ -515,27 +497,9 @@
      "posted": ""
     },
     {
-     "title": "Share Intern - Finance/Business Management",
-     "location": "58593BR Intern - Finance/Business Management General Atomics San Diego California",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
      "title": "Intern - Software Engineer",
      "location": "",
      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Software Engineer",
-     "location": "58420BR Intern - Software Engineer GA Intelligence Charlottesville Virginia",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Software Engineer",
-     "location": "58522BR Intern - Software Engineer General Atomics Tyngsborough Massachusetts",
-     "url": "https://sjobs.brassring.com/#0",
      "posted": ""
     },
     {
@@ -545,37 +509,13 @@
      "posted": ""
     },
     {
-     "title": "Share Intern - Research &amp; Development",
-     "location": "58578BR Intern - Research & Development Diazyme Poway California",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
      "title": "Intern - Systems Engineer",
      "location": "",
      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238036",
      "posted": ""
-    },
-    {
-     "title": "Share Intern - Systems Engineer",
-     "location": "58510BR Intern - Systems Engineer General Atomics Englewood Colorado",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Mechanical Engineer",
-     "location": "58520BR Intern - Mechanical Engineer General Atomics Herndon Virginia",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
-    },
-    {
-     "title": "Share Intern - Software Engineer",
-     "location": "58518BR Intern - Software Engineer General Atomics Herndon Virginia",
-     "url": "https://sjobs.brassring.com/#0",
-     "posted": ""
     }
    ],
-   "seconds": 8.3
+   "seconds": 7.6
   },
   {
    "name": "Viasat",
@@ -622,7 +562,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.7
+   "seconds": 10.8
   },
   {
    "name": "Drata",
@@ -662,7 +602,7 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 10.0
+   "seconds": 9.6
   },
   {
    "name": "Illumina",
@@ -672,7 +612,7 @@
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
    "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 44.1
+   "seconds": 45.7
   },
   {
    "name": "Turquoise Health",
@@ -702,7 +642,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 12.3
+   "seconds": 6.8
   },
   {
    "name": "Dexcom",
@@ -719,15 +659,15 @@
      "posted": ""
     }
    ],
-   "seconds": 7.7
+   "seconds": 8.3
   },
   {
    "name": "LPL Financial",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
    "status": "ok",
-   "error": "",
-   "detail": "api: 56 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
    "postings": [
     {
      "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
@@ -788,45 +728,9 @@
      "location": "2 Locations",
      "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
      "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Cybersecurity Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Data Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Project Management and Business Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Platform Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Software Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "New Grad Summer 2027 - Financial Service Professional (Tempe)",
-     "location": "Tempe",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611",
-     "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 19.6
+   "seconds": 43.6
   },
   {
    "name": "Experian",
@@ -863,7 +767,7 @@
    "source": "https://careers.petco.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco'",
+   "detail": "browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco'",
    "postings": [
     {
      "title": "Intern, Accounting – Inventory Accounting",
@@ -878,7 +782,7 @@
      "posted": ""
     }
    ],
-   "seconds": 12.8
+   "seconds": 10.6
   },
   {
    "name": "SDCCU",
@@ -888,7 +792,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 9.2
+   "seconds": 13.4
   },
   {
    "name": "Navy Federal",
@@ -983,7 +887,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.6
+   "seconds": 9.2
   },
   {
    "name": "Axos",
@@ -1072,7 +976,7 @@
      "posted": "Posted 22 Days Ago"
     }
    ],
-   "seconds": 44.2
+   "seconds": 43.8
   },
   {
    "name": "Trust+Will",
@@ -1128,7 +1032,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.4
+   "seconds": 8.5
   },
   {
    "name": "In-N-Out",
@@ -1138,7 +1042,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 6.9
+   "seconds": 6.5
   },
   {
    "name": "Reef",
@@ -1148,7 +1052,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 7.0
+   "seconds": 10.8
   },
   {
    "name": "WD-40",
@@ -1158,7 +1062,7 @@
    "error": "",
    "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.4
+   "seconds": 7.8
   },
   {
    "name": "Karl Strauss",
@@ -1168,7 +1072,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.8
+   "seconds": 9.6
   },
   {
    "name": "AleSmith",
@@ -1176,9 +1080,9 @@
    "source": "https://alesmith.com/career-opportunities/",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 78 links, 12 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
+   "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.7
+   "seconds": 32.1
   }
  ]
 }
