@@ -34,6 +34,13 @@ HEADERS = {"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Acc
 INTERN_RE = re.compile(r"\bintern(?!al|ation|et)\w*|\bco-?op\b|early[ -]?(interest|talent)|summer\s*'?(20)?27", re.I)
 BLOCK_RE = re.compile(r"access denied|request blocked|are you a robot|captcha|just a moment|verify you are human|403 forbidden", re.I)
 MAX_POSTINGS = 150
+# postings.txt (what Lookout reads) leaves out roles located only outside the US; postings.json keeps everything.
+FOREIGN_RE = re.compile(r"canada|ontario|british columbia|quebec|sweden|france|italy|germany|bavaria|ireland|colombia|china|beijing|shanghai|india|bangalore|hyderabad|singapore|malaysia|penang|kuala lumpur|brazil|sao paulo|\bBR\b|japan|korea|taiwan|united kingdom|\bUK\b|england|london|australia|mexico|philippines|poland|spain|netherlands|israel|costa rica|bulgaria|romania|vietnam|hong kong|switzerland|denmark|belgium|austria|czech|hungary|portugal|argentina|chile|peru|egypt|dubai|saudi|thailand|indonesia|new zealand", re.I)
+US_RE = re.compile(r"united states|\bUSA?\b|california|\b(CA|CO|TX|NY|WA|AZ|IL|MA|VA|GA|NC|FL|UT|OR|NV)\b|remote", re.I)
+
+
+def us_relevant(loc: str) -> bool:
+    return not loc or not FOREIGN_RE.search(loc) or bool(US_RE.search(loc))
 BROWSER_CONCURRENCY = 4
 
 
@@ -387,9 +394,15 @@ def write_outputs(results):
     for r in results:
         txt.append(f"STATUS | {r['name']} | {r['status']} | {r['method']} | {r['error'][:120] if r['status'] == 'failed' else ''}")
     txt.append("")
+    dropped = 0
     for r in results:
         for p in r["postings"]:
+            if not us_relevant(p["location"]):
+                dropped += 1
+                continue
             txt.append(f"POSTING | {r['name']} | {p['title']} | {p['location'][:80]} | {p['posted']} | {p['url']}")
+    txt.append("")
+    txt.append(f"({dropped} postings located only outside the US are left out of this file; they are in postings.json.)")
     (OUT / "postings.txt").write_text("\n".join(txt) + "\n")
     return feed
 
