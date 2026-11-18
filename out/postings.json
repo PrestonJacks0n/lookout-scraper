@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-18T19:55:12+00:00",
- "generated_at_pacific_approx": "2026-11-18 11:55",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44384600992",
+ "generated_at_utc": "2026-11-18T21:41:25+00:00",
+ "generated_at_pacific_approx": "2026-11-18 13:41",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44403314907",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
   "ok": 30,
   "failed": 2,
-  "postings": 125
+  "postings": 126
  },
  "companies": [
   {
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.1
+   "seconds": 10.0
   },
   {
    "name": "Intuit",
@@ -210,7 +210,7 @@
      "posted": ""
     }
    ],
-   "seconds": 24.3
+   "seconds": 24.6
   },
   {
    "name": "Qualcomm",
@@ -218,7 +218,7 @@
    "source": "https://careers.qualcomm.com/careers?query=intern&location=United%20States",
    "status": "ok",
    "error": "eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100",
-   "detail": "browser: http 200, 44 links, 17 json responses, title 'intern at United States | Qualcomm'",
+   "detail": "browser: http 200, 44 links, 20 json responses, title 'intern at United States | Qualcomm'",
    "postings": [
     {
      "title": "Finance & Accounting Internship - Summer 2027",
@@ -239,12 +239,6 @@
      "posted": ""
     },
     {
-     "title": "Embedded Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720737089",
-     "posted": ""
-    },
-    {
      "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
      "location": "San Diego, California, United States of America",
      "url": "https://careers.qualcomm.com/careers/job/446720740636",
@@ -261,9 +255,21 @@
      "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; Tempe, Arizona, United States of America; Santa Clara, Ca",
      "url": "https://careers.qualcomm.com/careers/job/446720740649",
      "posted": ""
+    },
+    {
+     "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740912",
+     "posted": ""
+    },
+    {
+     "title": "2026 Intern-Machine Learning/AI Engineer",
+     "location": "Beijing, China",
+     "url": "https://careers.qualcomm.com/careers/job/446717251723",
+     "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 9.8
   },
   {
    "name": "ResMed",
@@ -310,7 +316,7 @@
      "posted": "Posted 20 Days Ago"
     }
    ],
-   "seconds": 47.7
+   "seconds": 45.1
   },
   {
    "name": "Shield AI",
@@ -320,7 +326,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "ServiceNow",
@@ -463,7 +469,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.0
+   "seconds": 0.9
   },
   {
    "name": "Teradata",
@@ -471,7 +477,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 176 links, 9 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -480,7 +486,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.6
+   "seconds": 8.4
   },
   {
    "name": "General Atomics",
@@ -533,7 +539,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.6
+   "seconds": 8.9
   },
   {
    "name": "Viasat",
@@ -580,7 +586,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.6
+   "seconds": 10.0
   },
   {
    "name": "Drata",
@@ -600,7 +606,7 @@
    "error": "",
    "detail": "api: 7 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "ClickUp",
@@ -620,7 +626,7 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 10.8
+   "seconds": 10.5
   },
   {
    "name": "Illumina",
@@ -630,7 +636,7 @@
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
    "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 44.2
+   "seconds": 44.5
   },
   {
    "name": "Turquoise Health",
@@ -640,7 +646,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 176 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 21.1
+   "seconds": 20.7
   },
   {
    "name": "Cortica",
@@ -677,7 +683,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.2
+   "seconds": 9.6
   },
   {
    "name": "LPL Financial",
@@ -748,7 +754,7 @@
      "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 47.1
+   "seconds": 42.9
   },
   {
    "name": "Experian",
@@ -756,7 +762,7 @@
    "source": "https://jobs.experian.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "api: 58 jobs checked",
+   "detail": "api: 59 jobs checked",
    "postings": [
     {
      "title": "Software Engineering Intern",
@@ -777,7 +783,7 @@
      "posted": "2026-10-19"
     }
    ],
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "name": "Petco",
@@ -800,7 +806,7 @@
      "posted": ""
     }
    ],
-   "seconds": 13.0
+   "seconds": 11.9
   },
   {
    "name": "SDCCU",
@@ -810,7 +816,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 11.8
+   "seconds": 10.4
   },
   {
    "name": "Navy Federal",
@@ -899,7 +905,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.3
+   "seconds": 9.4
   },
   {
    "name": "Axos",
@@ -988,7 +994,7 @@
      "posted": "Posted 23 Days Ago"
     }
    ],
-   "seconds": 43.7
+   "seconds": 43.9
   },
   {
    "name": "Trust+Will",
@@ -998,7 +1004,7 @@
    "error": "",
    "detail": "api: 2 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Clear Street",
@@ -1044,7 +1050,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.4
+   "seconds": 9.6
   },
   {
    "name": "In-N-Out",
@@ -1054,7 +1060,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 8.0
+   "seconds": 6.5
   },
   {
    "name": "Reef",
@@ -1064,7 +1070,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 9.3
+   "seconds": 8.8
   },
   {
    "name": "WD-40",
@@ -1074,7 +1080,7 @@
    "error": "",
    "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.8
+   "seconds": 7.7
   },
   {
    "name": "Karl Strauss",
@@ -1084,7 +1090,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 9.0
+   "seconds": 8.3
   },
   {
    "name": "AleSmith",
@@ -1094,7 +1100,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.1
+   "seconds": 31.4
   }
  ]
 }
