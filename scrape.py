@@ -136,11 +136,17 @@ def fetch_workday(c):
     site = [p for p in u.path.split("/") if p and not re.fullmatch(r"[a-z]{2}-[A-Z]{2}", p)][0]
     api = f"https://{host}/wday/cxs/{tenant}/{site}/jobs"
     hdr = {**HEADERS, "Content-Type": "application/json", "Origin": f"https://{host}", "Referer": c["url"]}
+    sess = requests.Session()
+    sess.get(c["url"], headers={"User-Agent": UA, "Accept": "text/html"}, timeout=30)
     out, total = [], 0
     for q in ("intern", "co-op"):
         offset = 0
         while offset < 400:
-            r = requests.post(api, headers=hdr, json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}, timeout=30)
+            for attempt in range(3):
+                r = sess.post(api, headers=hdr, json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}, timeout=30)
+                if r.status_code != 429:
+                    break
+                time.sleep(6 * (attempt + 1))
             r.raise_for_status()
             data = r.json()
             posts = data.get("jobPostings", [])
@@ -267,6 +273,8 @@ async def browse(browser, c):
     text = dom["text"]
     blocked = (status and status >= 400) or (BLOCK_RE.search(text[:1500] + dom["title"]) and not found)
     empty = dom["nLinks"] < 5 and not jsons and not found
+    if re.search(r"\b(log ?in|sign ?in)\b", dom["title"], re.I) and not found:
+        raise RuntimeError(f"page asks for a login (title: {dom['title'][:60]})")
     debug = f"http {status}, {dom['nLinks']} links, {len(jsons)} json responses, title '{dom['title'][:60]}'"
     if blocked:
         raise RuntimeError(f"blocked or error page ({debug})")
@@ -295,6 +303,8 @@ async def run(companies):
                 r["error"] = f"{c['type']} api failed: {e.__class__.__name__}: {str(e)[:150]}"
                 if c.get("url"):
                     r["method"] = "browser (api fallback)"
+                    if c["type"] == "workday" and "?" not in c["url"]:
+                        c = {**c, "url": c["url"].rstrip("/") + "?q=intern"}
                     browser_jobs.append((c, r))
                 else:
                     r["status"] = "failed"
@@ -355,6 +365,16 @@ def write_outputs(results):
             lines += [f"- {p['title']} · {p['location']} · {p['posted']} · {p['url']}" for p in r["postings"][:40]]
             lines.append("")
     (OUT / "report.md").write_text("\n".join(lines))
+    txt = [f"LOOKOUT SCRAPER FEED · generated {feed['generated_at_pacific_approx']} Pacific ({feed['generated_at_utc']})",
+           f"{feed['summary']['ok']} boards read, {feed['summary']['failed']} failed, {feed['summary']['postings']} internship postings.",
+           "STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.", ""]
+    for r in results:
+        txt.append(f"STATUS | {r['name']} | {r['status']} | {r['method']} | {r['error'][:120] if r['status'] == 'failed' else ''}")
+    txt.append("")
+    for r in results:
+        for p in r["postings"]:
+            txt.append(f"POSTING | {r['name']} | {p['title']} | {p['location'][:80]} | {p['posted']} | {p['url']}")
+    (OUT / "postings.txt").write_text("\n".join(txt) + "\n")
     return feed
 
 
@@ -364,7 +384,8 @@ def publish_gist(feed):
         print("No GIST_TOKEN set: skipping gist publish (results are still committed to the repo).")
         return
     hdr = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
-    files = {"postings.json": {"content": (OUT / "postings.json").read_text()},
+    files = {"postings.txt": {"content": (OUT / "postings.txt").read_text()},
+             "postings.json": {"content": (OUT / "postings.json").read_text()},
              "report.md": {"content": (OUT / "report.md").read_text()}}
     gid = GIST_ID_FILE.read_text().strip() if GIST_ID_FILE.exists() else ""
     if gid:

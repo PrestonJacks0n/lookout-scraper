@@ -70,15 +70,16 @@ companies:
 
   - name: Scripps Health
     type: browser
-    url: https://careers.scripps.org/search-jobs/intern
+    url: https://careers.scripps.org/job-search/?keyword=intern
 
   - name: Illumina
     type: workday
     url: https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting
 
   - name: Turquoise Health
-    type: greenhouse
+    type: ashby
     board: turquoisehealth
+    url: https://turquoise.health/careers
 
   - name: Cortica
     type: greenhouse
