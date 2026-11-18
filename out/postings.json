@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-18T06:53:00+00:00",
- "generated_at_pacific_approx": "2026-11-17 22:53",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44254073708",
+ "generated_at_utc": "2026-11-18T06:57:37+00:00",
+ "generated_at_pacific_approx": "2026-11-17 22:57",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44254700606",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
   "ok": 30,
   "failed": 2,
-  "postings": 125
+  "postings": 139
  },
  "companies": [
   {
@@ -16,7 +16,7 @@
    "source": "https://www.kaiserpermanentejobs.org/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
+   "detail": "browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
    "postings": [
     {
      "title": "Internships",
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.2
+   "seconds": 9.3
   },
   {
    "name": "Intuit",
@@ -103,114 +103,96 @@
     },
     {
      "title": "Summer 2027 Product Manager Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Corporate Strategy & Development Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080",
      "posted": ""
     },
     {
      "title": "Summer 2027: Product Design Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648",
      "posted": ""
     },
     {
      "title": "Summer 2027: AI Science Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
      "posted": ""
     },
     {
      "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, GBSG",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576",
      "posted": ""
     },
     {
      "title": "Summer 2027: Finance Transformation & Analytics Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-finance-transformation-and-analytics-intern/27595/101444103184",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Compliance Manager Intern",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496",
      "posted": ""
     },
     {
      "title": "Summer 2027: PhD AI Research Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Finance Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Pricing & Monetization Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048",
      "posted": ""
     },
     {
      "title": "Summer 2027: MS Fraud & Risk Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Program Manager (TPM) Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, Consumer Group",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560",
      "posted": ""
     },
     {
      "title": "Summer 2027: Strategic MBA Finance Intern, Consumer Group",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF)",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Sales Intern, Core SMB/EMM",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824",
      "posted": ""
     }
    ],
-   "seconds": 23.5
+   "seconds": 23.4
   },
   {
    "name": "Qualcomm",
@@ -269,7 +251,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.1
+   "seconds": 9.6
   },
   {
    "name": "ResMed",
@@ -316,7 +298,7 @@
      "posted": "Posted 19 Days Ago"
     }
    ],
-   "seconds": 47.2
+   "seconds": 46.3
   },
   {
    "name": "Shield AI",
@@ -326,7 +308,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.4
   },
   {
    "name": "ServiceNow",
@@ -469,7 +451,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.0
+   "seconds": 1.1
   },
   {
    "name": "Teradata",
@@ -477,7 +459,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 207 links, 8 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -486,48 +468,114 @@
      "posted": ""
     }
    ],
-   "seconds": 8.9
+   "seconds": 9.2
   },
   {
    "name": "General Atomics",
    "method": "browser",
-   "source": "https://ga.com/careers/early-career",
+   "source": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=25539&siteid=5310#keyWordSearch=intern&locationSearch=",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 171 links, 2 json responses, title 'Early Careers | General Atomics'",
+   "detail": "browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies'",
    "postings": [
     {
-     "title": "Search Summer Internships",
+     "title": "Intern - Guidance, Navigation & Controls",
      "location": "",
-     "url": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=25539&siteid=5310#home",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054",
      "posted": ""
     },
     {
-     "title": "Are General Atomics Internships Paid?",
-     "location": "",
-     "url": "https://ga.com/careers/early-career#collapseOne",
+     "title": "Share Intern - Guidance, Navigation &amp; Controls",
+     "location": "58528BR Intern - Guidance, Navigation & Controls General Atomics Huntsville Alabama",
+     "url": "https://sjobs.brassring.com/#0",
      "posted": ""
     },
     {
-     "title": "How Do I Apply For Internship Opportunities?",
+     "title": "Intern - Mechanical Engineer",
      "location": "",
-     "url": "https://ga.com/careers/early-career#collapseThree",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051",
      "posted": ""
     },
     {
-     "title": "How Long Is The Internship?",
-     "location": "",
-     "url": "https://ga.com/careers/early-career#collapse8",
+     "title": "Share Intern - Mechanical Engineer",
+     "location": "58525BR Intern - Mechanical Engineer General Atomics Huntsville Alabama",
+     "url": "https://sjobs.brassring.com/#0",
      "posted": ""
     },
     {
-     "title": "Energy Group Internships",
+     "title": "Share Intern - Mechanical Engineer",
+     "location": "58526BR Intern - Mechanical Engineer General Atomics Oxford Mississippi",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Intern - Finance/Business Management",
      "location": "",
-     "url": "https://ga.com/about/energy-group-internships",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Finance/Business Management",
+     "location": "58593BR Intern - Finance/Business Management General Atomics San Diego California",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Intern - Software Engineer",
+     "location": "",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Software Engineer",
+     "location": "58420BR Intern - Software Engineer GA Intelligence Charlottesville Virginia",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Software Engineer",
+     "location": "58522BR Intern - Software Engineer General Atomics Tyngsborough Massachusetts",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Intern - Research & Development",
+     "location": "",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238165",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Research &amp; Development",
+     "location": "58578BR Intern - Research & Development Diazyme Poway California",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Intern - Systems Engineer",
+     "location": "",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238036",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Systems Engineer",
+     "location": "58510BR Intern - Systems Engineer General Atomics Englewood Colorado",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Mechanical Engineer",
+     "location": "58520BR Intern - Mechanical Engineer General Atomics Herndon Virginia",
+     "url": "https://sjobs.brassring.com/#0",
+     "posted": ""
+    },
+    {
+     "title": "Share Intern - Software Engineer",
+     "location": "58518BR Intern - Software Engineer General Atomics Herndon Virginia",
+     "url": "https://sjobs.brassring.com/#0",
      "posted": ""
     }
    ],
-   "seconds": 7.0
+   "seconds": 8.3
   },
   {
    "name": "Viasat",
@@ -574,7 +622,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 10.7
   },
   {
    "name": "Drata",
@@ -594,7 +642,7 @@
    "error": "",
    "detail": "api: 7 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "ClickUp",
@@ -614,7 +662,7 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 7.4
+   "seconds": 10.0
   },
   {
    "name": "Illumina",
@@ -634,7 +682,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 176 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 9.5
+   "seconds": 20.9
   },
   {
    "name": "Cortica",
@@ -644,7 +692,7 @@
    "error": "",
    "detail": "api: 54 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Aya Healthcare",
@@ -654,7 +702,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 6.9
+   "seconds": 12.3
   },
   {
    "name": "Dexcom",
@@ -671,15 +719,15 @@
      "posted": ""
     }
    ],
-   "seconds": 8.3
+   "seconds": 7.7
   },
   {
    "name": "LPL Financial",
-   "method": "browser (api fallback)",
+   "method": "workday",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
    "status": "ok",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
-   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
+   "error": "",
+   "detail": "api: 56 jobs checked",
    "postings": [
     {
      "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
@@ -740,9 +788,45 @@
      "location": "2 Locations",
      "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
      "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Cybersecurity Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Data Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Project Management and Business Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027- Platform Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027- Software Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "New Grad Summer 2027 - Financial Service Professional (Tempe)",
+     "location": "Tempe",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611",
+     "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 46.3
+   "seconds": 19.6
   },
   {
    "name": "Experian",
@@ -794,7 +878,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.7
+   "seconds": 12.8
   },
   {
    "name": "SDCCU",
@@ -804,7 +888,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 10.8
+   "seconds": 9.2
   },
   {
    "name": "Navy Federal",
@@ -899,7 +983,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.2
+   "seconds": 9.6
   },
   {
    "name": "Axos",
@@ -988,7 +1072,7 @@
      "posted": "Posted 22 Days Ago"
     }
    ],
-   "seconds": 44.8
+   "seconds": 44.2
   },
   {
    "name": "Trust+Will",
@@ -998,7 +1082,7 @@
    "error": "",
    "detail": "api: 2 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Clear Street",
@@ -1015,7 +1099,7 @@
      "posted": "2026-11-13"
     }
    ],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "Schwab",
@@ -1023,7 +1107,7 @@
    "source": "https://www.schwabjobs.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab'",
+   "detail": "browser: http 200, 61 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab'",
    "postings": [
     {
      "title": "Interns",
@@ -1033,7 +1117,7 @@
     },
     {
      "title": "2027 Corporate Development & Products Intern",
-     "location": "Westlake, TX; Austin, TX Requisition ID: 2026-126264 Application deadline: 2026-11-19 Save for Later",
+     "location": "Westlake, TX; Austin, TX Requisition ID: 2026-126264 Application deadline: 2026-11-19",
      "url": "https://www.schwabjobs.com/job/westlake/2027-corporate-development-and-products-intern/33727/103221565648",
      "posted": ""
     },
@@ -1054,7 +1138,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 6.7
+   "seconds": 6.9
   },
   {
    "name": "Reef",
@@ -1064,7 +1148,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 15 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.6
+   "seconds": 7.0
   },
   {
    "name": "WD-40",
@@ -1074,7 +1158,7 @@
    "error": "",
    "detail": "browser: http 200, 110 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 8.0
+   "seconds": 7.4
   },
   {
    "name": "Karl Strauss",
@@ -1084,7 +1168,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.0
+   "seconds": 8.8
   },
   {
    "name": "AleSmith",
@@ -1092,9 +1176,9 @@
    "source": "https://alesmith.com/career-opportunities/",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
+   "detail": "browser: http 200, 78 links, 12 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.4
+   "seconds": 31.7
   }
  ]
 }
