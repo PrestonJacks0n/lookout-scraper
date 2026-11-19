@@ -1,4 +1,4 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-18 15:38 Pacific (2026-11-18T23:38:12+00:00)
+LOOKOUT SCRAPER FEED · generated 2026-11-18 19:56 Pacific (2026-11-19T03:56:12+00:00)
 30 boards read, 2 failed, 125 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
@@ -66,12 +66,12 @@ POSTING | Intuit | Summer 2027: MBA Marketing Intern, Out-Market Investment Diag
 POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
 POSTING | Intuit | Summer 2027: Sales Intern, Core SMB/EMM | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 POSTING | Qualcomm | Finance & Accounting Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721159170
-POSTING | Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740525
-POSTING | Qualcomm | Wireless Systems Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720740637
-POSTING | Qualcomm | Automotive Engineering Internship – Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740553
+POSTING | Qualcomm | Security (Product, Systems, Cyber) Engineering Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740636
+POSTING | Qualcomm | Multimedia Engineering Internship – Summer 2027 | San Diego, California, United States of America; Santa Clara, California, United |  | https://careers.qualcomm.com/careers/job/446720740640
+POSTING | Qualcomm | Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740649
+POSTING | Qualcomm | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | San Diego, California, United States of America; Tempe, Arizona, United States o |  | https://careers.qualcomm.com/careers/job/446720740912
+POSTING | Qualcomm | Mechanical Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720741704
 POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
-POSTING | Qualcomm | Software Engineering Internship - Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740529
-POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
 POSTING | ServiceNow | Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936128
 POSTING | ServiceNow | Forward Deployed Solution Engineer Intern (Masters Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936020
 POSTING | ServiceNow | Inbound Product Manager (Masters Summer 2027) | San Diego, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161885234
@@ -96,10 +96,10 @@ POSTING | ServiceNow | AI Engineering - Software Engineer Internships - Summer 2
 POSTING | Teradata | College & Interns |  |  | 
 POSTING | General Atomics | Intern - Spacecraft Test Engineering |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238040
 POSTING | General Atomics | Intern - Research & Development |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238167
-POSTING | General Atomics | Intern - Mechanical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
 POSTING | General Atomics | Intern - Guidance, Navigation & Controls |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054
 POSTING | General Atomics | Intern - Finance/Business Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
 POSTING | General Atomics | Intern - Software Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
+POSTING | General Atomics | Intern - Mechanical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
 POSTING | General Atomics | Intern - Systems Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238036
 POSTING | Viasat | Industrial Engineer Intern | Duluth | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
 POSTING | Viasat | Industrial Engineer Intern | Tempe | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
@@ -130,8 +130,8 @@ POSTING | Navy Federal | Summer Associate Internship (Internal Communications Sp
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security Regulatory Compliance) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security) | Vienna, VA, United States | 2026-09-09 | 
-POSTING | Navy Federal | Summer Associate Internship (Legal) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Intern - Year Round (Strategy & Innovation) | Pensacola, FL, United States | 2026-11-16 | 
+POSTING | Navy Federal | Summer Associate Internship (Legal) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Consumer Lending Experience Management) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Interns |  |  | 
 POSTING | Axos | Accounting Intern | HQ - San Diego, CA | Posted 27 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607
