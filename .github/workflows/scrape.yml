@@ -2,10 +2,10 @@ name: Lookout scrape
 
 on:
   schedule:
-    # UTC times. Each runs ~45-115 min before a Lookout run (Pacific), with room for GitHub's start delays.
-    - cron: "45 13 * * *"     # before the 7:39 AM morning report (5:45 AM PST / 6:45 AM PDT)
-    - cron: "45 17 * * 1-5"   # before the 11:41 AM scan (9:45 AM PST / 10:45 AM PDT)
-    - cron: "45 22 * * 1-5"   # before the 4:41 PM scan (2:45 PM PST / 3:45 PM PDT)
+    # Every 3 hours. GitHub has been starting scheduled runs 5 to 8 hours late, so timing runs
+    # just before each Lookout report doesn't work; a steady cadence keeps the feed a few hours
+    # old at most. ~8 runs/day x ~3 min is roughly 750 of the 2,000 free private-repo minutes a month.
+    - cron: "17 */3 * * *"
   workflow_dispatch:
     inputs:
       only:
