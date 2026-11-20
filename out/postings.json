@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-20T16:40:46+00:00",
- "generated_at_pacific_approx": "2026-11-20 08:40",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44775257256",
+ "generated_at_utc": "2026-11-20T16:44:04+00:00",
+ "generated_at_pacific_approx": "2026-11-20 08:44",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44775964726",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
   "ok": 30,
   "failed": 2,
-  "postings": 154
+  "postings": 133
  },
  "companies": [
   {
@@ -85,7 +85,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.6
+   "seconds": 9.7
   },
   {
    "name": "Intuit",
@@ -210,7 +210,7 @@
      "posted": ""
     }
    ],
-   "seconds": 23.5
+   "seconds": 24.4
   },
   {
    "name": "Qualcomm",
@@ -263,7 +263,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.7
+   "seconds": 8.3
   },
   {
    "name": "ResMed",
@@ -310,7 +310,7 @@
      "posted": "Posted 22 Days Ago"
     }
    ],
-   "seconds": 47.3
+   "seconds": 11.6
   },
   {
    "name": "Shield AI",
@@ -320,7 +320,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "name": "ServiceNow",
@@ -328,7 +328,7 @@
    "source": "https://careers.servicenow.com/jobs/?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "api: 197 jobs checked",
+   "detail": "api: 196 jobs checked",
    "postings": [
     {
      "title": "Outbound Product Manager Intern",
@@ -481,7 +481,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.0
+   "seconds": 1.3
   },
   {
    "name": "Teradata",
@@ -510,7 +510,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.1
+   "seconds": 8.4
   },
   {
    "name": "General Atomics",
@@ -575,7 +575,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 7.4
   },
   {
    "name": "Viasat",
@@ -634,7 +634,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 11.7
   },
   {
    "name": "Drata",
@@ -674,17 +674,17 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 10.2
+   "seconds": 9.3
   },
   {
    "name": "Illumina",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting",
    "status": "ok",
-   "error": "",
-   "detail": "api: 0 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
+   "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 1.8
+   "seconds": 12.8
   },
   {
    "name": "Turquoise Health",
@@ -694,7 +694,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 171 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 20.6
+   "seconds": 9.3
   },
   {
    "name": "Cortica",
@@ -714,7 +714,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.4
+   "seconds": 7.6
   },
   {
    "name": "Dexcom",
@@ -731,15 +731,15 @@
      "posted": ""
     }
    ],
-   "seconds": 7.6
+   "seconds": 9.5
   },
   {
    "name": "LPL Financial",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
    "status": "ok",
-   "error": "",
-   "detail": "api: 56 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
    "postings": [
     {
      "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
@@ -800,45 +800,9 @@
      "location": "2 Locations",
      "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
      "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Cybersecurity Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Data Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Project Management and Business Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Platform Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Software Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "New Grad Summer 2027 - Financial Service Professional (Tempe)",
-     "location": "Tempe",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611",
-     "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 7.6
+   "seconds": 11.2
   },
   {
    "name": "Experian",
@@ -890,7 +854,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.5
+   "seconds": 14.4
   },
   {
    "name": "SDCCU",
@@ -900,7 +864,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 10.6
+   "seconds": 11.8
   },
   {
    "name": "Navy Federal",
@@ -971,13 +935,13 @@
      "posted": "2026-09-09"
     },
     {
-     "title": "Summer Associate Internship (Consumer Lending Experience Management)",
-     "location": "Vienna, VA, United States",
+     "title": "Intern - Year Round (Data Analytics)",
+     "location": "Pensacola, FL, United States",
      "url": "",
-     "posted": "2026-09-09"
+     "posted": "2026-11-19"
     },
     {
-     "title": "Summer Associate Internship (Public Policy Assistant)",
+     "title": "Summer Associate Internship (Consumer Lending Experience Management)",
      "location": "Vienna, VA, United States",
      "url": "",
      "posted": "2026-09-09"
@@ -989,15 +953,15 @@
      "posted": ""
     }
    ],
-   "seconds": 10.5
+   "seconds": 8.9
   },
   {
    "name": "Axos",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://axos.wd5.myworkdayjobs.com/Axos",
    "status": "ok",
-   "error": "",
-   "detail": "api: 508 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
    "postings": [
     {
      "title": "Accounting Intern",
@@ -1070,99 +1034,9 @@
      "location": "HQ - San Diego, CA",
      "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594",
      "posted": "Posted 29 Days Ago"
-    },
-    {
-     "title": "Risk & Compliance Intern",
-     "location": "Omaha, NE",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern",
-     "location": "San Francisco, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Francisco-CA/Commercial-Banking-Intern_JR5588",
-     "posted": "Posted 29 Days Ago"
-    },
-    {
-     "title": "Data Analyst Intern",
-     "location": "Omaha, NE",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "UX Design Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/UX-Design-Intern_JR5667",
-     "posted": "Posted 30 Days Ago"
-    },
-    {
-     "title": "Software Development Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "2 Locations",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "AI Engineer Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Risk & Compliance Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Digital Marketing Intern",
-     "location": "San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670",
-     "posted": "Posted 29 Days Ago"
-    },
-    {
-     "title": "Financial Analyst Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern",
-     "location": "Centennial, CO",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Commercial-Banking-Intern_JR5605",
-     "posted": "Posted 24 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "New York, NY",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/New-York-NY/Commercial-Lending-Intern_JR5699",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Client Service & Operations Intern",
-     "location": "Centennial, CO",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709",
-     "posted": "Posted 22 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern - Digital Product",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646",
-     "posted": "Posted 22 Days Ago"
     }
    ],
-   "seconds": 2.8
+   "seconds": 9.9
   },
   {
    "name": "Trust+Will",
@@ -1218,7 +1092,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.5
+   "seconds": 10.5
   },
   {
    "name": "In-N-Out",
@@ -1228,7 +1102,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 7.7
+   "seconds": 6.2
   },
   {
    "name": "Reef",
@@ -1238,7 +1112,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 16 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.6
+   "seconds": 7.3
   },
   {
    "name": "WD-40",
@@ -1248,7 +1122,7 @@
    "error": "",
    "detail": "browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.2
+   "seconds": 7.8
   },
   {
    "name": "Karl Strauss",
@@ -1258,7 +1132,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.1
+   "seconds": 8.9
   },
   {
    "name": "AleSmith",
@@ -1268,7 +1142,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 32.6
+   "seconds": 31.7
   }
  ]
 }
