@@ -150,11 +150,13 @@ def fetch_workday(c):
     for q in ("intern", "co-op"):
         offset = 0
         while offset < 400:
-            for attempt in range(3):
+            # Workday answers 429 to GitHub's runners almost every time, and the browser fallback
+            # reads the board fine, so retry once briefly instead of waiting ~36s per board.
+            for attempt in range(2):
                 r = sess.post(api, headers=hdr, json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}, timeout=30)
-                if r.status_code != 429:
+                if r.status_code != 429 or attempt == 1:
                     break
-                time.sleep(6 * (attempt + 1))
+                time.sleep(3)
             r.raise_for_status()
             data = r.json()
             posts = data.get("jobPostings", [])
