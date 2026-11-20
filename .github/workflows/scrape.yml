@@ -2,10 +2,10 @@ name: Lookout scrape
 
 on:
   schedule:
-    # Every 3 hours. GitHub has been starting scheduled runs 5 to 8 hours late, so timing runs
+    # Every 2 hours. GitHub has been starting scheduled runs 5 to 8 hours late, so timing runs
     # just before each Lookout report doesn't work; a steady cadence keeps the feed a few hours
-    # old at most. ~8 runs/day x ~3 min is roughly 750 of the 2,000 free private-repo minutes a month.
-    - cron: "17 */3 * * *"
+    # old at most. Actions minutes are free on public repos.
+    - cron: "17 */2 * * *"
   workflow_dispatch:
     inputs:
       only:
