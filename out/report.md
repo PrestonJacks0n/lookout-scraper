@@ -1,41 +1,41 @@
 # Lookout scraper report
 
-Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
+Run: 2026-11-21 13:40 PT (approx) · 30 ok · 2 failed · 176 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 12 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 10.3 |
-| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 24.3 |
-| Qualcomm | browser (api fallback) | ok | 6 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 9.2 |
-| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 11.9 |
-| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.3 |
-| ServiceNow | smartrecruiters | ok | 27 | api: 201 jobs checked | 1.2 |
-| Teradata | browser | ok | 27 | browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata' | 8.0 |
-| General Atomics | browser | ok | 8 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.3 |
-| Viasat | browser | ok | 8 | browser: http 200, 57 links, 20 json responses, title 'Viasat Careers' | 9.3 |
-| Drata | ashby | ok | 0 | api: 24 jobs checked | 0.0 |
+| Kaiser Permanente | browser | ok | 12 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 10.5 |
+| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 24.5 |
+| Qualcomm | browser (api fallback) | ok | 6 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 8.3 |
+| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 12.3 |
+| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.2 |
+| ServiceNow | smartrecruiters | ok | 27 | api: 201 jobs checked | 1.3 |
+| Teradata | browser | ok | 27 | browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata' | 8.4 |
+| General Atomics | browser | ok | 8 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.0 |
+| Viasat | browser | ok | 8 | browser: http 200, 57 links, 20 json responses, title 'Viasat Careers' | 8.9 |
+| Drata | ashby | ok | 0 | api: 24 jobs checked | 0.1 |
 | Cordial | greenhouse | ok | 0 | api: 8 jobs checked | 0.1 |
 | ClickUp | ashby | ok | 0 | api: 48 jobs checked | 0.1 |
-| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 10.8 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 11.0 |
-| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 9.7 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 11.4 |
+| Illumina | workday | ok | 0 | api: 0 jobs checked | 4.4 |
+| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 20.6 |
 | Cortica | greenhouse | ok | 0 | api: 51 jobs checked | 0.1 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 8.0 |
-| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 9.1 |
-| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 10.7 |
-| Experian | smartrecruiters | ok | 3 | api: 62 jobs checked | 0.4 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco' | 10.6 |
-| SDCCU | browser | ok | 0 | browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 11.5 |
-| Navy Federal | browser | ok | 13 | browser: http 200, 109 links, 7 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.6 |
-| Axos | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 11.0 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 7.7 |
+| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 8.0 |
+| LPL Financial | workday | ok | 16 | api: 56 jobs checked | 1.2 |
+| Experian | smartrecruiters | ok | 3 | api: 62 jobs checked | 0.5 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco' | 11.9 |
+| SDCCU | browser | ok | 0 | browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 15.9 |
+| Navy Federal | browser | ok | 13 | browser: http 200, 109 links, 7 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.5 |
+| Axos | workday | ok | 27 | api: 511 jobs checked | 5.4 |
 | Trust+Will | greenhouse | ok | 0 | api: 4 jobs checked | 0.1 |
 | Clear Street | greenhouse | ok | 1 | api: 34 jobs checked | 0.1 |
-| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.8 |
-| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.5 |
-| Reef | browser | ok | 0 | browser: http 200, 3 links, 16 json responses, title 'Career Center / Recruitment' | 8.6 |
-| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 8.2 |
-| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.4 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 12 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.7 |
+| Schwab | browser | ok | 3 | browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.3 |
+| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.6 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 16 json responses, title 'Career Center / Recruitment' | 8.4 |
+| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.7 |
+| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.7 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 32.5 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
@@ -68,9 +68,6 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - Summer 2027: MBA Strategic Finance Intern, Consumer Group · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
 - Summer 2027: Strategic MBA Finance Intern, Consumer Group · San Diego, California Save ·  · https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
 - Summer 2027: MBA Product Marketing Intern, Payments · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
-- Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF) · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376
-- Summer 2027: Cybersecurity Compliance Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-- Summer 2027: Sales Intern, Core SMB/EMM · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 
 ## Qualcomm
 - Finance & Accounting Internship - Summer 2027 · San Diego, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446721159170
@@ -118,6 +115,7 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - AI Engineering - Software Engineer Internships - Summer 2027 (Masters) · Santa Clara, CALIFORNIA, United States · 2026-10-13 · https://jobs.smartrecruiters.com/ServiceNow/744000155345689
 
 ## Teradata
+- College & Interns ·  ·  · 
 - Product Manager Intern - Agentic Developer Platform ·  · 2026-11-20T21:44:34.68Z · 
 - Software Engineering Intern — AI Observability ·  · 2026-11-20T21:44:22.173Z · 
 - AI Engineering Intern ·  · 2026-11-20T21:44:10.123Z · 
@@ -125,7 +123,6 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - Software Engineer Intern – Database Systems ·  · 2026-11-20T21:43:49.55Z · 
 - Software Engineer Intern — Agentic Database ·  · 2026-11-20T21:43:42.007Z · 
 - Agentic AI Intern ·  · 2026-11-20T21:43:25.263Z · 
-- College & Interns ·  ·  · 
 - Tera Agents Software Engineering Intern ·  · 2026-11-20T21:43:13.277Z · 
 - Software Engineering Intern - Data Platforms ·  · 2026-11-20T21:43:07.26Z · 
 - Software Engineering Intern - Fabric Agentic Integration ·  · 2026-11-20T21:42:31.447Z · 
@@ -144,17 +141,17 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - Tera Agents Software Engineering Intern - 220851 · Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last ·  · https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11
 - Software Engineering Intern - Data Platforms - 220850 · Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last ·  · https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12
 - Software Engineering Intern - Fabric Agentic Integration - 220848 · Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last ·  · https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13
-- AI Studio Product Manager Intern - 220858 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
+- AI Studio Product Manager Intern - 220858 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
 
 ## General Atomics
 - Intern - Spacecraft Manufacturing and Assembly Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238304
 - Intern - Construction Management ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238026
 - Intern - Electrical Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238152
-- Intern - Spacecraft Test Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238040
 - Intern - Research & Development ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238167
-- Intern - Mechanical Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
-- Intern - Guidance, Navigation & Controls ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054
+- Intern - Spacecraft Test Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238040
 - Intern - Finance/Business Management ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
+- Intern - Software Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
+- Intern - Mechanical Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
 
 ## Viasat
 - Industrial Engineer Intern · Duluth · 2026-11-06T21:22:00+0000 · https://careers.viasat.com/jobs/6691?lang=en-us
@@ -180,6 +177,12 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - Intern 2027 - Wealth Advisory Group · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
 - Internship 2027 - Digital Marketing · Fort Mill/Charlotte · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
 - Intern 2027 - Product Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
+- Intern 2027 - Cybersecurity Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919
+- Intern 2027 - Data Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
+- Intern 2027 - Project Management and Business Analyst · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922
+- Intern 2027- Platform Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1
+- Intern 2027- Software Engineer · 2 Locations · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921
+- New Grad Summer 2027 - Financial Service Professional (Tempe) · Tempe · Posted 30+ Days Ago · https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611
 
 ## Experian
 - Software Engineering Intern · Cyberjaya, Selangor, Malaysia · 2026-11-17 · https://jobs.smartrecruiters.com/Experian/744000161988609
@@ -218,6 +221,21 @@ Run: 2026-11-21 08:10 PT (approx) · 30 ok · 2 failed · 158 postings
 - Business Analyst Intern · HQ - San Diego, CA · Posted 30 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593
 - Program Management Intern · HQ - San Diego, CA · Posted 30 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587
 - Commercial Banking Intern · HQ - San Diego, CA · Posted 30 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594
+- Risk & Compliance Intern · Omaha, NE · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631
+- Commercial Banking Intern · San Francisco, CA · Posted 30 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/San-Francisco-CA/Commercial-Banking-Intern_JR5588
+- Data Analyst Intern · Omaha, NE · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642
+- UX Design Intern · HQ - San Diego, CA · Posted 30+ Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/UX-Design-Intern_JR5667
+- Software Development Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647
+- Commercial Lending Intern · 2 Locations · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695
+- Commercial Lending Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697
+- AI Engineer Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658
+- Risk & Compliance Intern · HQ - San Diego, CA · Posted 30+ Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636
+- Digital Marketing Intern · San Diego, CA · Posted 30 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670
+- Financial Analyst Intern · HQ - San Diego, CA · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645
+- Commercial Banking Intern · Centennial, CO · Posted 25 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Commercial-Banking-Intern_JR5605
+- Commercial Lending Intern · New York, NY · Posted 26 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/New-York-NY/Commercial-Lending-Intern_JR5699
+- Client Service & Operations Intern · Centennial, CO · Posted 23 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709
+- Commercial Banking Intern - Digital Product · HQ - San Diego, CA · Posted 23 Days Ago · https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646
 
 ## Clear Street
 - Co-Op Program (Computer Science) · Umeå, Sweden · 2026-11-13 · https://job-boards.greenhouse.io/clearstreet/jobs/8256262
