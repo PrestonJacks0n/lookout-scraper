@@ -1,5 +1,5 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-20 08:44 Pacific (2026-11-20T16:44:04+00:00)
-30 boards read, 2 failed, 133 internship postings.
+LOOKOUT SCRAPER FEED · generated 2026-11-20 16:01 Pacific (2026-11-21T00:01:33+00:00)
+30 boards read, 2 failed, 156 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
 STATUS | Kaiser Permanente | ok | browser | 
@@ -37,6 +37,7 @@ STATUS | AleSmith | ok | browser |
 
 POSTING | Kaiser Permanente | Internships |  |  | https://www.kaiserpermanentejobs.org/internships
 POSTING | Kaiser Permanente | Consulting Master's Intern | Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008
+POSTING | Kaiser Permanente | Pharmacy Intern | Sacramento, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours |  | https://www.kaiserpermanentejobs.org/job/sacramento/pharmacy-intern/641/103576516784
 POSTING | Kaiser Permanente | Consulting Bachelor's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/consulting-bachelor-s-intern/641/103232041456
 POSTING | Kaiser Permanente | Consulting Master's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/consulting-master-s-intern/641/103232041440
 POSTING | Kaiser Permanente | Cybersecurity Master's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/cybersecurity-master-s-intern/641/103276809584
@@ -47,31 +48,29 @@ POSTING | Kaiser Permanente | Intern Pharmacist PT24 | Los Angeles, CA, Onsite, 
 POSTING | Kaiser Permanente | Inpatient Pharmacy Intern - Capitol Hill/Seattle | Seattle, WA, Onsite, Regular, Part-time, Variable shift, 8 hours |  | https://www.kaiserpermanentejobs.org/job/seattle/inpatient-pharmacy-intern-capitol-hill-seattle/641/103441713264
 POSTING | Kaiser Permanente | Speech Clinical Fellows Year Intern, Pediatrics | San Rafael, Marin, CA, Onsite, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/san-rafael/speech-clinical-fellows-year-intern-pediatrics/641/102818032512
 POSTING | Intuit | Internships |  |  | https://www.intuit.com/careers/programs/internships/
-POSTING | Intuit | Summer 2027 Product Manager Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
-POSTING | Intuit | Summer 2027: MBA Corporate Strategy & Development Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
-POSTING | Intuit | Summer 2027: Product Design Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
-POSTING | Intuit | Summer 2027: AI Science Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
-POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, GBSG | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
-POSTING | Intuit | Summer 2027: Technical Compliance Manager Intern | San Diego, California Save |  | https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
-POSTING | Intuit | Summer 2027: PhD AI Research Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
-POSTING | Intuit | Summer 2027: MBA Finance Strategy Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
-POSTING | Intuit | Summer 2027: MBA Pricing & Monetization Strategy Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
-POSTING | Intuit | Summer 2027: MS Fraud & Risk Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
-POSTING | Intuit | Summer 2027: Technical Program Manager (TPM) Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
-POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, Consumer Group | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
-POSTING | Intuit | Summer 2027: Strategic MBA Finance Intern, Consumer Group | San Diego, California Save |  | https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
-POSTING | Intuit | Summer 2027: MBA Product Marketing Intern, Payments | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
-POSTING | Intuit | Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF) | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376
+POSTING | Intuit | Summer 2027 Product Manager Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
+POSTING | Intuit | Summer 2027: MBA Corporate Strategy & Development Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
+POSTING | Intuit | Summer 2027: Product Design Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
+POSTING | Intuit | Summer 2027: AI Science Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
 POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-POSTING | Intuit | Summer 2027: Sales Intern, Core SMB/EMM | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
+POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, GBSG | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
+POSTING | Intuit | Summer 2027: Technical Compliance Manager Intern | San Diego, California |  | https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
+POSTING | Intuit | Summer 2027: PhD AI Research Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
+POSTING | Intuit | Summer 2027: MBA Finance Strategy Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
+POSTING | Intuit | Summer 2027: MBA Pricing & Monetization Strategy Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
+POSTING | Intuit | Summer 2027: MS Fraud & Risk Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
+POSTING | Intuit | Summer 2027: Technical Program Manager (TPM) Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
+POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, Consumer Group | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
+POSTING | Intuit | Summer 2027: Strategic MBA Finance Intern, Consumer Group | San Diego, California |  | https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
+POSTING | Intuit | Summer 2027: MBA Product Marketing Intern, Payments | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
 POSTING | Qualcomm | Finance & Accounting Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721159170
-POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
 POSTING | Qualcomm | Wireless Systems Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720740637
-POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
+POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
 POSTING | Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740525
-POSTING | Qualcomm | Software Engineering Internship - Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740529
 POSTING | Qualcomm | Automotive Engineering Internship – Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740553
+POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
+POSTING | ServiceNow | Security Software Engineer Intern | Kirkland, Washington, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162827365
+POSTING | ServiceNow | Corporate Business Development Intern - MBA | San Francisco, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162808049
 POSTING | ServiceNow | Corporate Strategy Manager Intern - MBA | Santa Clara, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162629690
 POSTING | ServiceNow | Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936128
 POSTING | ServiceNow | Forward Deployed Solution Engineer Intern (Masters Summer 2027) | Santa Clara, CALIFORNIA, United States | 2026-11-16 | https://jobs.smartrecruiters.com/ServiceNow/744000161936020
@@ -95,8 +94,32 @@ POSTING | ServiceNow | Experience Team – UX Research Internships – Summer 20
 POSTING | ServiceNow | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) | Santa Clara, CALIFORNIA, United States | 2026-10-13 | https://jobs.smartrecruiters.com/ServiceNow/744000155345889
 POSTING | ServiceNow | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) | Santa Clara, CALIFORNIA, United States | 2026-10-13 | https://jobs.smartrecruiters.com/ServiceNow/744000155345689
 POSTING | Teradata | College & Interns |  |  | 
+POSTING | Teradata | Product Manager Intern - Agentic Developer Platform |  | 2026-11-20T21:44:34.68Z | 
+POSTING | Teradata | Software Engineering Intern — AI Observability |  | 2026-11-20T21:44:22.173Z | 
+POSTING | Teradata | AI Engineering Intern |  | 2026-11-20T21:44:10.123Z | 
+POSTING | Teradata | UX Design Intern (AI-Focused) |  | 2026-11-20T21:44:02.023Z | 
+POSTING | Teradata | Software Engineer Intern – Database Systems |  | 2026-11-20T21:43:49.55Z | 
+POSTING | Teradata | Software Engineer Intern — Agentic Database |  | 2026-11-20T21:43:42.007Z | 
+POSTING | Teradata | Agentic AI Intern |  | 2026-11-20T21:43:25.263Z | 
+POSTING | Teradata | Tera Agents Software Engineering Intern |  | 2026-11-20T21:43:13.277Z | 
+POSTING | Teradata | Software Engineering Intern - Data Platforms |  | 2026-11-20T21:43:07.26Z | 
+POSTING | Teradata | Software Engineering Intern - Fabric Agentic Integration |  | 2026-11-20T21:42:31.447Z | 
 POSTING | Teradata | AI Studio Product Manager Intern |  | 2026-11-19T21:09:08.287Z | 
-POSTING | Teradata | AI Studio Product Manager Intern - 220858 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=2
+POSTING | Teradata | Product Manager Intern - Agentic Developer Platform - 220857 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=0
+POSTING | Teradata | Software Engineering Intern — AI Observability - 220846 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=1
+POSTING | Teradata | AI Engineering Intern - 220845 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=2
+POSTING | Teradata | UX Design Intern (AI-Focused) - 220856 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply All applic |  | https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=3
+POSTING | Teradata | Ai Engineering Intern - 220842 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=4
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220855 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=5
+POSTING | Teradata | Software Engineer Intern — Agentic Database - 220844 | Full Time Remote San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=6
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220853 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=7
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220852 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=8
+POSTING | Teradata | Agentic AI Intern - 220847 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=9
+POSTING | Teradata | AI Engineering Intern - 220843 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=10
+POSTING | Teradata | Tera Agents Software Engineering Intern - 220851 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11
+POSTING | Teradata | Software Engineering Intern - Data Platforms - 220850 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12
+POSTING | Teradata | Software Engineering Intern - Fabric Agentic Integration - 220848 | Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Intern |  | https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13
+POSTING | Teradata | AI Studio Product Manager Intern - 220858 | Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Progra |  | https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
 POSTING | General Atomics | Intern - Spacecraft Manufacturing and Assembly Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238304
 POSTING | General Atomics | Intern - Construction Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238026
 POSTING | General Atomics | Intern - Electrical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238152
@@ -106,9 +129,9 @@ POSTING | General Atomics | Intern - Guidance, Navigation & Controls |  |  | htt
 POSTING | General Atomics | Intern - Finance/Business Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
 POSTING | General Atomics | Intern - Software Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
 POSTING | General Atomics | Intern - Mechanical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
-POSTING | Viasat | Program Management Intern | Duluth | 2026-11-19T15:45:00+0000 | https://careers.viasat.com/jobs/8491?lang=en-us
 POSTING | Viasat | Industrial Engineer Intern | Duluth | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
 POSTING | Viasat | Industrial Engineer Intern | Tempe | 2026-11-06T21:22:00+0000 | https://careers.viasat.com/jobs/6691?lang=en-us
+POSTING | Viasat | Program Management Intern | Duluth | 2026-11-19T15:45:00+0000 | https://careers.viasat.com/jobs/8491?lang=en-us
 POSTING | Viasat | Early career internships |  |  | https://careers.viasat.com/internships
 POSTING | Viasat | Read More about Industrial Engineer Intern 6691 |  |  | https://careers.viasat.com/jobs/6691?lang=en-us
 POSTING | Viasat | Read More about Industrial Engineer Intern 6692 |  |  | https://careers.viasat.com/jobs/6692?lang=en-us
@@ -138,8 +161,8 @@ POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - S
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Legal) | Vienna, VA, United States | 2026-09-09 | 
-POSTING | Navy Federal | Intern - Year Round (Data Analytics) | Pensacola, FL, United States | 2026-11-19 | 
 POSTING | Navy Federal | Summer Associate Internship (Consumer Lending Experience Management) | Vienna, VA, United States | 2026-09-09 | 
+POSTING | Navy Federal | Intern - Year Round (Systems Support) | Pensacola, FL, United States | 2026-11-20 | 
 POSTING | Navy Federal | Interns |  |  | 
 POSTING | Axos | Accounting Intern | HQ - San Diego, CA | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607
 POSTING | Axos | Finance Intern | HQ - San Diego, CA | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614
@@ -154,7 +177,7 @@ POSTING | Axos | Business Analyst Intern | HQ - San Diego, CA | Posted 29 Days A
 POSTING | Axos | Program Management Intern | HQ - San Diego, CA | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587
 POSTING | Axos | Commercial Banking Intern | HQ - San Diego, CA | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594
 POSTING | Schwab | Interns |  |  | https://www.schwabjobs.com/internship-academy
-POSTING | Schwab | 2027 SOX Compliance Intern | Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-11-24 Save  |  | https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
+POSTING | Schwab | 2027 SOX Compliance Intern | Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-11-24 |  | https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
 POSTING | Schwab | Students | We’re all-in when it comes to developing talent – from internships and academies |  | https://www.schwabjobs.com/internship-academy
 
 (12 postings located only outside the US are left out of this file; they are in postings.json.)
