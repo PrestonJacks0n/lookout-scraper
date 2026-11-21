@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-21T07:06:38+00:00",
- "generated_at_pacific_approx": "2026-11-20 23:06",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44878520431",
+ "generated_at_utc": "2026-11-21T16:10:28+00:00",
+ "generated_at_pacific_approx": "2026-11-21 08:10",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44922904339",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
-  "ok": 25,
-  "failed": 7,
-  "postings": 131
+  "ok": 30,
+  "failed": 2,
+  "postings": 158
  },
  "companies": [
   {
@@ -91,7 +91,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.3
+   "seconds": 10.3
   },
   {
    "name": "Intuit",
@@ -216,7 +216,7 @@
      "posted": ""
     }
    ],
-   "seconds": 24.0
+   "seconds": 24.3
   },
   {
    "name": "Qualcomm",
@@ -233,9 +233,15 @@
      "posted": ""
     },
     {
-     "title": "Modular Engineering Internship – Summer 2027",
-     "location": "Los Altos, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446721246663",
+     "title": "Automotive Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740553",
+     "posted": ""
+    },
+    {
+     "title": "Embedded Engineering Internship - Summer 2027",
+     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720737089",
      "posted": ""
     },
     {
@@ -245,35 +251,66 @@
      "posted": ""
     },
     {
-     "title": "Automotive Engineering Internship – Summer 2027",
+     "title": "Software Engineering Internship - Summer 2027",
+     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Tempe, Arizona, Uni",
+     "url": "https://careers.qualcomm.com/careers/job/446720740529",
+     "posted": ""
+    },
+    {
+     "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
      "location": "San Diego, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740553",
-     "posted": ""
-    },
-    {
-     "title": "Multimedia Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740640",
-     "posted": ""
-    },
-    {
-     "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740912",
+     "url": "https://careers.qualcomm.com/careers/job/446720740636",
      "posted": ""
     }
    ],
-   "seconds": 9.5
+   "seconds": 9.2
   },
   {
    "name": "ResMed",
    "method": "browser (api fallback)",
    "source": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 13.1
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Regulatory Affairs Intern",
+     "location": "Brooklin, Sao Paulo, BR",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Regulatory-Affairs-Intern_JR_054245",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Engineering",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1",
+     "posted": "Posted 17 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Digital Transformation",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269",
+     "posted": "Posted 17 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Project Lead",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2",
+     "posted": "Posted 17 Days Ago"
+    },
+    {
+     "title": "Technical Service & Support Intern LATAM",
+     "location": "Brooklin, Sao Paulo, BR",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "People Shared Service Intern (November Intake - Preferably 6-Month Duration)",
+     "location": "Kuala Lumpur, Malaysia",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Kuala-Lumpur-Malaysia/People-Shared-Service-Intern_JR_053502",
+     "posted": "Posted 23 Days Ago"
+    }
+   ],
+   "seconds": 11.9
   },
   {
    "name": "Shield AI",
@@ -283,7 +320,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "ServiceNow",
@@ -456,7 +493,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.7
+   "seconds": 1.2
   },
   {
    "name": "Teradata",
@@ -464,14 +501,8 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 176 links, 7 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
-    {
-     "title": "College & Interns",
-     "location": "",
-     "url": "",
-     "posted": ""
-    },
     {
      "title": "Product Manager Intern - Agentic Developer Platform",
      "location": "",
@@ -513,6 +544,12 @@
      "location": "",
      "url": "",
      "posted": "2026-11-20T21:43:25.263Z"
+    },
+    {
+     "title": "College & Interns",
+     "location": "",
+     "url": "",
+     "posted": ""
     },
     {
      "title": "Tera Agents Software Engineering Intern",
@@ -629,7 +666,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.6
+   "seconds": 8.0
   },
   {
    "name": "General Atomics",
@@ -670,6 +707,12 @@
      "posted": ""
     },
     {
+     "title": "Intern - Mechanical Engineer",
+     "location": "",
+     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051",
+     "posted": ""
+    },
+    {
      "title": "Intern - Guidance, Navigation & Controls",
      "location": "",
      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054",
@@ -680,21 +723,9 @@
      "location": "",
      "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181",
      "posted": ""
-    },
-    {
-     "title": "Intern - Software Engineer",
-     "location": "",
-     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938",
-     "posted": ""
-    },
-    {
-     "title": "Intern - Mechanical Engineer",
-     "location": "",
-     "url": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051",
-     "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 8.3
   },
   {
    "name": "Viasat",
@@ -753,7 +784,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.6
+   "seconds": 9.3
   },
   {
    "name": "Drata",
@@ -763,7 +794,7 @@
    "error": "",
    "detail": "api: 24 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "name": "Cordial",
@@ -789,21 +820,21 @@
    "name": "Scripps Health",
    "method": "browser",
    "source": "https://careers.scripps.org/job-search/?keyword=intern",
-   "status": "failed",
-   "error": "browser: blocked or error page (http 403, 1 links, 0 json responses, title '403 Forbidden')",
-   "detail": "",
+   "status": "ok",
+   "error": "",
+   "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 5.9
+   "seconds": 10.8
   },
   {
    "name": "Illumina",
    "method": "browser (api fallback)",
    "source": "https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
+   "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 9.9
+   "seconds": 11.0
   },
   {
    "name": "Turquoise Health",
@@ -811,9 +842,9 @@
    "source": "https://turquoise.health/careers",
    "status": "ok",
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
-   "detail": "browser: http 200, 171 links, 18 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
+   "detail": "browser: http 200, 171 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 10.1
+   "seconds": 9.7
   },
   {
    "name": "Cortica",
@@ -833,7 +864,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.1
+   "seconds": 8.0
   },
   {
    "name": "Dexcom",
@@ -850,17 +881,78 @@
      "posted": ""
     }
    ],
-   "seconds": 8.2
+   "seconds": 9.1
   },
   {
    "name": "LPL Financial",
    "method": "browser (api fallback)",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 11.4
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
+     "posted": "Posted 5 Days Ago"
+    },
+    {
+     "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
+     "posted": "Posted 5 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Business Development",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
+     "posted": "Posted 9 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Government Relations",
+     "location": "Washington, DC",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Paralegal",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Transition Support Partner",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Strategy and Growth Analyst",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Wealth Advisory Group",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Internship 2027 - Digital Marketing",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Product Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
+     "posted": "Posted 30+ Days Ago"
+    }
+   ],
+   "seconds": 10.7
   },
   {
    "name": "Experian",
@@ -889,7 +981,7 @@
      "posted": "2026-10-19"
     }
    ],
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "name": "Petco",
@@ -912,7 +1004,7 @@
      "posted": ""
     }
    ],
-   "seconds": 13.2
+   "seconds": 10.6
   },
   {
    "name": "SDCCU",
@@ -922,7 +1014,7 @@
    "error": "",
    "detail": "browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 11.2
+   "seconds": 11.5
   },
   {
    "name": "Navy Federal",
@@ -1011,17 +1103,90 @@
      "posted": ""
     }
    ],
-   "seconds": 8.9
+   "seconds": 9.6
   },
   {
    "name": "Axos",
    "method": "browser (api fallback)",
    "source": "https://axos.wd5.myworkdayjobs.com/Axos",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 10.0
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Accounting Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Finance Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "4 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Edison-NJ/Product-Intern_JR5663",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Product-Intern_JR5664",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Accounting Intern",
+     "location": "Omaha, NE",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Accounting-Intern_JR5618",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Enablement Intern",
+     "location": "Centennial, CO",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Enablement-Intern_JR5669",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "2 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Los-Angeles-CA/Product-Intern_JR5661",
+     "posted": "Posted 26 Days Ago"
+    },
+    {
+     "title": "Automation Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Audit Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Audit-Analyst-Intern_JR5569",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Business Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Program Management Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587",
+     "posted": "Posted 30 Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594",
+     "posted": "Posted 30 Days Ago"
+    }
+   ],
+   "seconds": 11.0
   },
   {
    "name": "Trust+Will",
@@ -1077,7 +1242,7 @@
      "posted": ""
     }
    ],
-   "seconds": 23.1
+   "seconds": 9.8
   },
   {
    "name": "In-N-Out",
@@ -1087,7 +1252,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 7.1
+   "seconds": 6.5
   },
   {
    "name": "Reef",
@@ -1097,7 +1262,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 16 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 9.1
+   "seconds": 8.6
   },
   {
    "name": "WD-40",
@@ -1107,7 +1272,7 @@
    "error": "",
    "detail": "browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.8
+   "seconds": 8.2
   },
   {
    "name": "Karl Strauss",
@@ -1117,7 +1282,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.8
+   "seconds": 8.4
   },
   {
    "name": "AleSmith",
@@ -1125,9 +1290,9 @@
    "source": "https://alesmith.com/career-opportunities/",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
+   "detail": "browser: http 200, 78 links, 12 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.3
+   "seconds": 31.7
   }
  ]
 }
