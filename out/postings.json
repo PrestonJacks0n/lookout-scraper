@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-21T21:40:41+00:00",
- "generated_at_pacific_approx": "2026-11-21 13:40",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44952597319",
+ "generated_at_utc": "2026-11-22T02:15:59+00:00",
+ "generated_at_pacific_approx": "2026-11-21 18:15",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/44975079560",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
   "ok": 30,
   "failed": 2,
-  "postings": 176
+  "postings": 154
  },
  "companies": [
   {
@@ -16,7 +16,7 @@
    "source": "https://www.kaiserpermanentejobs.org/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
+   "detail": "browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
    "postings": [
     {
      "title": "Internships",
@@ -91,7 +91,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.5
+   "seconds": 9.7
   },
   {
    "name": "Intuit",
@@ -109,96 +109,96 @@
     },
     {
      "title": "Summer 2027 Product Manager Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Corporate Strategy & Development Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080",
      "posted": ""
     },
     {
      "title": "Summer 2027: Product Design Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648",
      "posted": ""
     },
     {
      "title": "Summer 2027: AI Science Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
      "posted": ""
     },
     {
      "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, GBSG",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Compliance Manager Intern",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496",
      "posted": ""
     },
     {
      "title": "Summer 2027: PhD AI Research Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Finance Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Pricing & Monetization Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048",
      "posted": ""
     },
     {
      "title": "Summer 2027: MS Fraud & Risk Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Program Manager (TPM) Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, Consumer Group",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560",
      "posted": ""
     },
     {
      "title": "Summer 2027: Strategic MBA Finance Intern, Consumer Group",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Product Marketing Intern, Payments",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448",
      "posted": ""
     }
    ],
-   "seconds": 24.5
+   "seconds": 23.3
   },
   {
    "name": "Qualcomm",
@@ -215,37 +215,37 @@
      "posted": ""
     },
     {
-     "title": "Automotive Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740553",
+     "title": "Wireless Systems Engineering Internship - Summer 2027",
+     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740637",
      "posted": ""
     },
     {
-     "title": "Embedded Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720737089",
+     "title": "Multimedia Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740640",
      "posted": ""
     },
     {
-     "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; New York City, New ",
-     "url": "https://careers.qualcomm.com/careers/job/446720740525",
+     "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; Tempe, Arizona, United States of America; Santa Clara, Ca",
+     "url": "https://careers.qualcomm.com/careers/job/446720740649",
      "posted": ""
     },
     {
-     "title": "Software Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Tempe, Arizona, Uni",
-     "url": "https://careers.qualcomm.com/careers/job/446720740529",
+     "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740912",
      "posted": ""
     },
     {
-     "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740636",
+     "title": "Mechanical Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720741704",
      "posted": ""
     }
    ],
-   "seconds": 8.3
+   "seconds": 7.2
   },
   {
    "name": "ResMed",
@@ -292,7 +292,7 @@
      "posted": "Posted 23 Days Ago"
     }
    ],
-   "seconds": 12.3
+   "seconds": 14.0
   },
   {
    "name": "Shield AI",
@@ -302,7 +302,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.0
   },
   {
    "name": "ServiceNow",
@@ -310,7 +310,7 @@
    "source": "https://careers.servicenow.com/jobs/?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "api: 201 jobs checked",
+   "detail": "api: 200 jobs checked",
    "postings": [
     {
      "title": "Security Software Engineer Intern",
@@ -341,12 +341,6 @@
      "location": "Dublin, , Ireland",
      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162586889",
      "posted": "2026-11-19"
-    },
-    {
-     "title": "Associate Forward Deployed Solution Engineer Intern (Bachelors Summer 2027)",
-     "location": "Santa Clara, CALIFORNIA, United States",
-     "url": "https://jobs.smartrecruiters.com/ServiceNow/744000161936128",
-     "posted": "2026-11-16"
     },
     {
      "title": "Forward Deployed Solution Engineer Intern (Masters Summer 2027)",
@@ -475,7 +469,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 1.3
+   "seconds": 0.9
   },
   {
    "name": "Teradata",
@@ -483,7 +477,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 211 links, 8 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -559,85 +553,85 @@
     },
     {
      "title": "Product Manager Intern - Agentic Developer Platform - 220857",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=0",
      "posted": ""
     },
     {
      "title": "Software Engineering Intern — AI Observability - 220846",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=1",
      "posted": ""
     },
     {
      "title": "AI Engineering Intern - 220845",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=2",
      "posted": ""
     },
     {
      "title": "UX Design Intern (AI-Focused) - 220856",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply All applicants - Please provide a link to your portfolio in your resume. Applica",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply All applicants - Please provide a link to your portfolio in your resume. Applicants without",
      "url": "https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=3",
      "posted": ""
     },
     {
      "title": "Ai Engineering Intern - 220842",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=4",
      "posted": ""
     },
     {
      "title": "Software Engineer Intern – Database Systems - 220855",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=5",
      "posted": ""
     },
     {
      "title": "Software Engineer Intern — Agentic Database - 220844",
-     "location": "Full Time Remote San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Remote San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=6",
      "posted": ""
     },
     {
      "title": "Software Engineer Intern – Database Systems - 220853",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=7",
      "posted": ""
     },
     {
      "title": "Software Engineer Intern – Database Systems - 220852",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=8",
      "posted": ""
     },
     {
      "title": "Agentic AI Intern - 220847",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=9",
      "posted": ""
     },
     {
      "title": "AI Engineering Intern - 220843",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=10",
      "posted": ""
     },
     {
      "title": "Tera Agents Software Engineering Intern - 220851",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11",
      "posted": ""
     },
     {
      "title": "Software Engineering Intern - Data Platforms - 220850",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12",
      "posted": ""
     },
     {
      "title": "Software Engineering Intern - Fabric Agentic Integration - 220848",
-     "location": "Full Time Hybrid San Diego, CA, USA Posted within last 24 Hours Apply Our Internship Program Our Internship Program Our summer internship program last",
+     "location": "Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee",
      "url": "https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13",
      "posted": ""
     },
@@ -648,7 +642,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.4
+   "seconds": 7.5
   },
   {
    "name": "General Atomics",
@@ -656,7 +650,7 @@
    "source": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=25539&siteid=5310#keyWordSearch=intern&locationSearch=",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies'",
+   "detail": "browser: http 200, 52 links, 3 json responses, title 'Search Jobs at General Atomics and Affiliated Companies'",
    "postings": [
     {
      "title": "Intern - Spacecraft Manufacturing and Assembly Engineer",
@@ -707,7 +701,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.0
+   "seconds": 8.5
   },
   {
    "name": "Viasat",
@@ -766,7 +760,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.9
+   "seconds": 8.3
   },
   {
    "name": "Drata",
@@ -796,7 +790,7 @@
    "error": "",
    "detail": "api: 48 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Scripps Health",
@@ -806,17 +800,17 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 11.4
+   "seconds": 10.4
   },
   {
    "name": "Illumina",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting",
    "status": "ok",
-   "error": "",
-   "detail": "api: 0 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
+   "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 4.4
+   "seconds": 16.4
   },
   {
    "name": "Turquoise Health",
@@ -846,7 +840,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.7
+   "seconds": 6.3
   },
   {
    "name": "Dexcom",
@@ -863,15 +857,15 @@
      "posted": ""
     }
    ],
-   "seconds": 8.0
+   "seconds": 7.4
   },
   {
    "name": "LPL Financial",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
    "status": "ok",
-   "error": "",
-   "detail": "api: 56 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 15 json responses, title 'Search for Jobs'",
    "postings": [
     {
      "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
@@ -932,45 +926,9 @@
      "location": "2 Locations",
      "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
      "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Cybersecurity Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Data Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027 - Project Management and Business Analyst",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Platform Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Intern 2027- Software Engineer",
-     "location": "2 Locations",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "New Grad Summer 2027 - Financial Service Professional (Tempe)",
-     "location": "Tempe",
-     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611",
-     "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 1.2
+   "seconds": 10.7
   },
   {
    "name": "Experian",
@@ -1007,7 +965,7 @@
    "source": "https://careers.petco.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco'",
+   "detail": "browser: http 200, 49 links, 31 json responses, title 'Search our Job Opportunities at Petco'",
    "postings": [
     {
      "title": "Intern, Accounting – Inventory Accounting",
@@ -1022,7 +980,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.9
+   "seconds": 11.7
   },
   {
    "name": "SDCCU",
@@ -1032,7 +990,7 @@
    "error": "",
    "detail": "browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 15.9
+   "seconds": 11.3
   },
   {
    "name": "Navy Federal",
@@ -1121,15 +1079,15 @@
      "posted": ""
     }
    ],
-   "seconds": 9.5
+   "seconds": 9.4
   },
   {
    "name": "Axos",
-   "method": "workday",
+   "method": "browser (api fallback)",
    "source": "https://axos.wd5.myworkdayjobs.com/Axos",
    "status": "ok",
-   "error": "",
-   "detail": "api: 511 jobs checked",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
+   "detail": "browser: http 200, 28 links, 15 json responses, title 'Search for Jobs'",
    "postings": [
     {
      "title": "Accounting Intern",
@@ -1202,99 +1160,9 @@
      "location": "HQ - San Diego, CA",
      "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594",
      "posted": "Posted 30 Days Ago"
-    },
-    {
-     "title": "Risk & Compliance Intern",
-     "location": "Omaha, NE",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Risk---Compliance-Intern_JR5631",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern",
-     "location": "San Francisco, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Francisco-CA/Commercial-Banking-Intern_JR5588",
-     "posted": "Posted 30 Days Ago"
-    },
-    {
-     "title": "Data Analyst Intern",
-     "location": "Omaha, NE",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Data-Intern_JR5642",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "UX Design Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/UX-Design-Intern_JR5667",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Software Development Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Software-Development-Intern_JR5647",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "2 Locations",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "AI Engineer Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Risk & Compliance Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636",
-     "posted": "Posted 30+ Days Ago"
-    },
-    {
-     "title": "Digital Marketing Intern",
-     "location": "San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670",
-     "posted": "Posted 30 Days Ago"
-    },
-    {
-     "title": "Financial Analyst Intern",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern",
-     "location": "Centennial, CO",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Commercial-Banking-Intern_JR5605",
-     "posted": "Posted 25 Days Ago"
-    },
-    {
-     "title": "Commercial Lending Intern",
-     "location": "New York, NY",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/New-York-NY/Commercial-Lending-Intern_JR5699",
-     "posted": "Posted 26 Days Ago"
-    },
-    {
-     "title": "Client Service & Operations Intern",
-     "location": "Centennial, CO",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709",
-     "posted": "Posted 23 Days Ago"
-    },
-    {
-     "title": "Commercial Banking Intern - Digital Product",
-     "location": "HQ - San Diego, CA",
-     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646",
-     "posted": "Posted 23 Days Ago"
     }
    ],
-   "seconds": 5.4
+   "seconds": 10.7
   },
   {
    "name": "Trust+Will",
@@ -1329,7 +1197,7 @@
    "source": "https://www.schwabjobs.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 62 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab'",
+   "detail": "browser: http 200, 61 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab'",
    "postings": [
     {
      "title": "Interns",
@@ -1339,7 +1207,7 @@
     },
     {
      "title": "2027 SOX Compliance Intern",
-     "location": "Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-11-24 Save for Later",
+     "location": "Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-11-24",
      "url": "https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672",
      "posted": ""
     },
@@ -1350,7 +1218,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.3
+   "seconds": 9.0
   },
   {
    "name": "In-N-Out",
@@ -1360,7 +1228,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 6.6
+   "seconds": 6.7
   },
   {
    "name": "Reef",
@@ -1370,7 +1238,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 16 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.4
+   "seconds": 9.3
   },
   {
    "name": "WD-40",
@@ -1380,7 +1248,7 @@
    "error": "",
    "detail": "browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.7
+   "seconds": 6.8
   },
   {
    "name": "Karl Strauss",
@@ -1390,7 +1258,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.7
+   "seconds": 9.7
   },
   {
    "name": "AleSmith",
@@ -1400,7 +1268,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 32.5
+   "seconds": 31.0
   }
  ]
 }
