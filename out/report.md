@@ -1,41 +1,41 @@
 # Lookout scraper report
 
-Run: 2026-11-22 09:51 PT (approx) · 30 ok · 2 failed · 155 postings
+Run: 2026-11-22 15:38 PT (approx) · 30 ok · 2 failed · 158 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 12 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 10.2 |
-| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 24.1 |
-| Qualcomm | browser (api fallback) | ok | 7 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 8.7 |
-| ResMed | browser (api fallback) | ok | 6 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 12.8 |
-| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.2 |
+| Kaiser Permanente | browser | ok | 12 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 10.4 |
+| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 25.1 |
+| Qualcomm | browser (api fallback) | ok | 7 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 10.1 |
+| ResMed | workday | ok | 6 | api: 349 jobs checked | 3.7 |
+| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.3 |
 | ServiceNow | smartrecruiters | ok | 26 | api: 200 jobs checked | 0.9 |
-| Teradata | browser | ok | 27 | browser: http 200, 178 links, 8 json responses, title 'Search Careers at Teradata' | 8.1 |
-| General Atomics | browser | ok | 8 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.0 |
-| Viasat | browser | ok | 8 | browser: http 200, 57 links, 19 json responses, title 'Viasat Careers' | 9.8 |
+| Teradata | browser | ok | 27 | browser: http 200, 177 links, 9 json responses, title 'Search Careers at Teradata' | 9.5 |
+| General Atomics | browser | ok | 8 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.1 |
+| Viasat | browser | ok | 8 | browser: http 200, 57 links, 20 json responses, title 'Viasat Careers' | 10.4 |
 | Drata | ashby | ok | 0 | api: 24 jobs checked | 0.1 |
-| Cordial | greenhouse | ok | 0 | api: 8 jobs checked | 0.1 |
+| Cordial | greenhouse | ok | 0 | api: 8 jobs checked | 0.2 |
 | ClickUp | ashby | ok | 0 | api: 48 jobs checked | 0.1 |
-| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 10.8 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 11.7 |
-| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 20.8 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 10.2 |
+| Illumina | workday | ok | 0 | api: 0 jobs checked | 3.4 |
+| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 12.3 |
 | Cortica | greenhouse | ok | 0 | api: 51 jobs checked | 0.1 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 6.7 |
-| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 9.1 |
-| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 15.6 |
-| Experian | smartrecruiters | ok | 3 | api: 62 jobs checked | 0.5 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 32 json responses, title 'Search our Job Opportunities at Petco' | 12.2 |
-| SDCCU | browser | ok | 0 | browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.7 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 8.8 |
+| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 9.4 |
+| LPL Financial | browser (api fallback) | ok | 10 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 11.8 |
+| Experian | smartrecruiters | ok | 3 | api: 62 jobs checked | 0.4 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco' | 12.2 |
+| SDCCU | browser | ok | 0 | browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.9 |
 | Navy Federal | browser | ok | 13 | browser: http 200, 109 links, 7 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.8 |
-| Axos | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 11.1 |
-| Trust+Will | greenhouse | ok | 0 | api: 4 jobs checked | 0.1 |
+| Axos | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 10.1 |
+| Trust+Will | greenhouse | ok | 0 | api: 4 jobs checked | 0.2 |
 | Clear Street | greenhouse | ok | 1 | api: 34 jobs checked | 0.1 |
-| Schwab | browser | ok | 3 | browser: http 200, 61 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 23.3 |
+| Schwab | browser | ok | 3 | browser: http 200, 61 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.8 |
 | In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.8 |
-| Reef | browser | ok | 0 | browser: http 200, 3 links, 16 json responses, title 'Career Center / Recruitment' | 7.5 |
-| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.4 |
-| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 9.1 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.2 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 16 json responses, title 'Career Center / Recruitment' | 9.4 |
+| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 8.2 |
+| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.4 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 32.0 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
@@ -68,14 +68,17 @@ Run: 2026-11-22 09:51 PT (approx) · 30 ok · 2 failed · 155 postings
 - Summer 2027: MBA Strategic Finance Intern, Consumer Group · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
 - Summer 2027: Strategic MBA Finance Intern, Consumer Group · San Diego, California Save ·  · https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
 - Summer 2027: MBA Product Marketing Intern, Payments · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
+- Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF) · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376
+- Summer 2027: Cybersecurity Compliance Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
+- Summer 2027: Sales Intern, Core SMB/EMM · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 
 ## Qualcomm
 - Finance & Accounting Internship - Summer 2027 · San Diego, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446721159170
 - Security (Product, Systems, Cyber) Engineering Internship - Summer 2027 · San Diego, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740636
+- Embedded Engineering Internship - Summer 2027 · San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720737089
+- Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; New York City, New  ·  · https://careers.qualcomm.com/careers/job/446720740525
+- Software Engineering Internship - Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Tempe, Arizona, Uni ·  · https://careers.qualcomm.com/careers/job/446720740529
 - Wireless Systems Engineering Internship - Summer 2027 · San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740637
-- Multimedia Engineering Internship – Summer 2027 · San Diego, California, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740640
-- Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; Tempe, Arizona, United States of America; Santa Clara, Ca ·  · https://careers.qualcomm.com/careers/job/446720740649
-- RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 · San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740912
 - 2026 Intern-Machine Learning/AI Engineer · Beijing, China ·  · https://careers.qualcomm.com/careers/job/446717251723
 
 ## ResMed
@@ -127,21 +130,21 @@ Run: 2026-11-22 09:51 PT (approx) · 30 ok · 2 failed · 155 postings
 - Software Engineering Intern - Data Platforms ·  · 2026-11-20T21:43:07.26Z · 
 - Software Engineering Intern - Fabric Agentic Integration ·  · 2026-11-20T21:42:31.447Z · 
 - AI Studio Product Manager Intern ·  · 2026-11-19T21:09:08.287Z · 
-- Product Manager Intern - Agentic Developer Platform - 220857 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=0
-- Software Engineering Intern — AI Observability - 220846 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=1
-- AI Engineering Intern - 220845 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=2
-- UX Design Intern (AI-Focused) - 220856 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply All applicants - Please provide a link to your portfolio in your resume. Applicants without ·  · https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=3
-- Ai Engineering Intern - 220842 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=4
-- Software Engineer Intern – Database Systems - 220855 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=5
-- Software Engineer Intern — Agentic Database - 220844 · Full Time Remote San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=6
-- Software Engineer Intern – Database Systems - 220853 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=7
-- Software Engineer Intern – Database Systems - 220852 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=8
-- Agentic AI Intern - 220847 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=9
-- AI Engineering Intern - 220843 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=10
-- Tera Agents Software Engineering Intern - 220851 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11
-- Software Engineering Intern - Data Platforms - 220850 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12
-- Software Engineering Intern - Fabric Agentic Integration - 220848 · Full Time Hybrid San Diego, CA, USA Posted 1 day ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 wee ·  · https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13
-- AI Studio Product Manager Intern - 220858 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
+- Product Manager Intern - Agentic Developer Platform - 220857 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=0
+- Software Engineering Intern — AI Observability - 220846 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=1
+- AI Engineering Intern - 220845 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=2
+- UX Design Intern (AI-Focused) - 220856 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply All applicants - Please provide a link to your portfolio in your resume. Applicants withou ·  · https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=3
+- Ai Engineering Intern - 220842 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=4
+- Software Engineer Intern – Database Systems - 220855 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=5
+- Software Engineer Intern — Agentic Database - 220844 · Full Time Remote San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=6
+- Software Engineer Intern – Database Systems - 220853 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=7
+- Software Engineer Intern – Database Systems - 220852 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=8
+- Agentic AI Intern - 220847 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=9
+- AI Engineering Intern - 220843 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=10
+- Tera Agents Software Engineering Intern - 220851 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11
+- Software Engineering Intern - Data Platforms - 220850 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12
+- Software Engineering Intern - Fabric Agentic Integration - 220848 · Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13
+- AI Studio Product Manager Intern - 220858 · Full Time Hybrid San Diego, CA, USA Posted 3 days ago Apply Our Internship Program Our Internship Program Our summer internship program lasts 10-12 we ·  · https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
 
 ## General Atomics
 - Intern - Spacecraft Manufacturing and Assembly Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238304
