@@ -1,11 +1,11 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-22 15:38 Pacific (2026-11-22T23:38:23+00:00)
-30 boards read, 2 failed, 158 internship postings.
+LOOKOUT SCRAPER FEED · generated 2026-11-22 23:37 Pacific (2026-11-23T07:37:53+00:00)
+30 boards read, 2 failed, 157 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
 STATUS | Kaiser Permanente | ok | browser | 
 STATUS | Intuit | ok | browser | 
 STATUS | Qualcomm | ok | browser (api fallback) | 
-STATUS | ResMed | ok | workday | 
+STATUS | ResMed | ok | browser (api fallback) | 
 STATUS | Shield AI | ok | lever | 
 STATUS | ServiceNow | ok | smartrecruiters | 
 STATUS | Teradata | ok | browser | 
@@ -15,7 +15,7 @@ STATUS | Drata | ok | ashby |
 STATUS | Cordial | ok | greenhouse | 
 STATUS | ClickUp | ok | ashby | 
 STATUS | Scripps Health | ok | browser | 
-STATUS | Illumina | ok | workday | 
+STATUS | Illumina | ok | browser (api fallback) | 
 STATUS | Turquoise Health | ok | browser (api fallback) | 
 STATUS | Cortica | ok | greenhouse | 
 STATUS | Aya Healthcare | failed | browser | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')
@@ -67,11 +67,11 @@ POSTING | Intuit | Summer 2027: MBA Marketing Intern, Out-Market Investment Diag
 POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
 POSTING | Intuit | Summer 2027: Sales Intern, Core SMB/EMM | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 POSTING | Qualcomm | Finance & Accounting Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721159170
-POSTING | Qualcomm | Security (Product, Systems, Cyber) Engineering Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740636
+POSTING | Qualcomm | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | San Diego, California, United States of America; Tempe, Arizona, United States o |  | https://careers.qualcomm.com/careers/job/446720740912
 POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
 POSTING | Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740525
 POSTING | Qualcomm | Software Engineering Internship - Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740529
-POSTING | Qualcomm | Wireless Systems Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720740637
+POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
 POSTING | ServiceNow | Security Software Engineer Intern | Kirkland, Washington, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162827365
 POSTING | ServiceNow | Corporate Business Development Intern - MBA | San Francisco, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162808049
 POSTING | ServiceNow | Corporate Strategy Manager Intern - MBA | Santa Clara, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162629690
@@ -95,38 +95,39 @@ POSTING | ServiceNow | Experience Team – Associate Technical Writing Internshi
 POSTING | ServiceNow | Experience Team – UX Research Internships – Summer 2027 | San Diego, CALIFORNIA, United States | 2026-10-26 | https://jobs.smartrecruiters.com/ServiceNow/744000157919529
 POSTING | ServiceNow | AI Engineering - Assoc Software Engineer Internships - Summer 2027 (Bachelors) | Santa Clara, CALIFORNIA, United States | 2026-10-13 | https://jobs.smartrecruiters.com/ServiceNow/744000155345889
 POSTING | ServiceNow | AI Engineering - Software Engineer Internships - Summer 2027 (Masters) | Santa Clara, CALIFORNIA, United States | 2026-10-13 | https://jobs.smartrecruiters.com/ServiceNow/744000155345689
-POSTING | Teradata | College & Interns |  |  | 
 POSTING | Teradata | Product Manager Intern - Agentic Developer Platform |  | 2026-11-20T21:44:34.68Z | 
 POSTING | Teradata | Software Engineering Intern — AI Observability |  | 2026-11-20T21:44:22.173Z | 
 POSTING | Teradata | AI Engineering Intern |  | 2026-11-20T21:44:10.123Z | 
 POSTING | Teradata | UX Design Intern (AI-Focused) |  | 2026-11-20T21:44:02.023Z | 
 POSTING | Teradata | Software Engineer Intern – Database Systems |  | 2026-11-20T21:43:49.55Z | 
 POSTING | Teradata | Software Engineer Intern — Agentic Database |  | 2026-11-20T21:43:42.007Z | 
+POSTING | Teradata | College & Interns |  |  | 
 POSTING | Teradata | Agentic AI Intern |  | 2026-11-20T21:43:25.263Z | 
 POSTING | Teradata | Tera Agents Software Engineering Intern |  | 2026-11-20T21:43:13.277Z | 
 POSTING | Teradata | Software Engineering Intern - Data Platforms |  | 2026-11-20T21:43:07.26Z | 
 POSTING | Teradata | Software Engineering Intern - Fabric Agentic Integration |  | 2026-11-20T21:42:31.447Z | 
 POSTING | Teradata | AI Studio Product Manager Intern |  | 2026-11-19T21:09:08.287Z | 
-POSTING | Teradata | Product Manager Intern - Agentic Developer Platform - 220857 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=0
-POSTING | Teradata | Software Engineering Intern — AI Observability - 220846 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=1
-POSTING | Teradata | AI Engineering Intern - 220845 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=2
-POSTING | Teradata | UX Design Intern (AI-Focused) - 220856 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply All applicants - Ple |  | https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=3
-POSTING | Teradata | Ai Engineering Intern - 220842 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=4
-POSTING | Teradata | Software Engineer Intern – Database Systems - 220855 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=5
-POSTING | Teradata | Software Engineer Intern — Agentic Database - 220844 | Full Time Remote San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=6
-POSTING | Teradata | Software Engineer Intern – Database Systems - 220853 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=7
-POSTING | Teradata | Software Engineer Intern – Database Systems - 220852 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=8
-POSTING | Teradata | Agentic AI Intern - 220847 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=9
-POSTING | Teradata | AI Engineering Intern - 220843 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=10
-POSTING | Teradata | Tera Agents Software Engineering Intern - 220851 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=11
-POSTING | Teradata | Software Engineering Intern - Data Platforms - 220850 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=12
-POSTING | Teradata | Software Engineering Intern - Fabric Agentic Integration - 220848 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=13
-POSTING | Teradata | AI Studio Product Manager Intern - 220858 | Full Time Hybrid San Diego, CA, USA Posted 3 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=17
+POSTING | Teradata | Product Manager Intern - Agentic Developer Platform - 220857 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220857/product-manager-intern-agentic-developer-platform?j_idx=1
+POSTING | Teradata | Software Engineering Intern — AI Observability - 220846 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220846/software-engineering-intern-ai-observability?j_idx=2
+POSTING | Teradata | AI Engineering Intern - 220845 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220845/ai-engineering-intern?j_idx=3
+POSTING | Teradata | UX Design Intern (AI-Focused) - 220856 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply All applicants - Ple |  | https://careers.teradata.com/jobs/220856/ux-design-intern-ai-focused?j_idx=4
+POSTING | Teradata | Ai Engineering Intern - 220842 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220842/ai-engineering-intern?j_idx=5
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220855 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220855/software-engineer-intern-database-systems?j_idx=6
+POSTING | Teradata | Software Engineer Intern — Agentic Database - 220844 | Full Time Remote San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220844/software-engineer-intern-agentic-database?j_idx=7
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220853 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220853/software-engineer-intern-database-systems?j_idx=8
+POSTING | Teradata | Software Engineer Intern – Database Systems - 220852 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220852/software-engineer-intern-database-systems?j_idx=9
+POSTING | Teradata | Agentic AI Intern - 220847 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220847/agentic-ai-intern?j_idx=10
+POSTING | Teradata | AI Engineering Intern - 220843 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220843/ai-engineering-intern?j_idx=11
+POSTING | Teradata | Tera Agents Software Engineering Intern - 220851 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220851/tera-agents-software-engineering-intern?j_idx=12
+POSTING | Teradata | Software Engineering Intern - Data Platforms - 220850 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220850/software-engineering-intern-data-platforms?j_idx=13
+POSTING | Teradata | Software Engineering Intern - Fabric Agentic Integration - 220848 | Full Time Hybrid San Diego, CA, USA Posted 2 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220848/software-engineering-intern-fabric-agentic-integration?j_idx=14
+POSTING | Teradata | AI Studio Product Manager Intern - 220858 | Full Time Hybrid San Diego, CA, USA Posted 3 days ago Apply Our Internship Progr |  | https://careers.teradata.com/jobs/220858/ai-studio-product-manager-intern?j_idx=18
 POSTING | General Atomics | Intern - Spacecraft Manufacturing and Assembly Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238304
 POSTING | General Atomics | Intern - Construction Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238026
 POSTING | General Atomics | Intern - Electrical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238152
-POSTING | General Atomics | Intern - Research & Development |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238167
 POSTING | General Atomics | Intern - Spacecraft Test Engineering |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238040
+POSTING | General Atomics | Intern - Research & Development |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238167
+POSTING | General Atomics | Intern - Guidance, Navigation & Controls |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238054
 POSTING | General Atomics | Intern - Finance/Business Management |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238181
 POSTING | General Atomics | Intern - Software Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5237938
 POSTING | General Atomics | Intern - Mechanical Engineer |  |  | https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238051
@@ -145,7 +146,6 @@ POSTING | LPL Financial | Intern 2027 - Business Development | 2 Locations | Pos
 POSTING | LPL Financial | Intern 2027 - Government Relations | Washington, DC | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Washington-DC/Intern-2027---Government-Relations_R-054560
 POSTING | LPL Financial | Intern 2027 - Paralegal | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Paralegal_R-054561
 POSTING | LPL Financial | Intern 2027 - Transition Support Partner | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345
-POSTING | LPL Financial | Intern 2027 - Strategy and Growth Analyst | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027---Strategy-and-Growth_R-052938
 POSTING | LPL Financial | Intern 2027 - Wealth Advisory Group | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554
 POSTING | LPL Financial | Internship 2027 - Digital Marketing | Fort Mill/Charlotte | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-2027---Digital-Marketing_R-053012
 POSTING | LPL Financial | Intern 2027 - Product Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
@@ -181,4 +181,4 @@ POSTING | Schwab | Interns |  |  | https://www.schwabjobs.com/internship-academy
 POSTING | Schwab | 2027 SOX Compliance Intern | Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-11-24 Save  |  | https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
 POSTING | Schwab | Students | We’re all-in when it comes to developing talent – from internships and academies |  | https://www.schwabjobs.com/internship-academy
 
-(13 postings located only outside the US are left out of this file; they are in postings.json.)
+(12 postings located only outside the US are left out of this file; they are in postings.json.)
