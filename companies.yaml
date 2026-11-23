@@ -86,8 +86,8 @@ companies:
     board: cortica
 
   - name: Aya Healthcare
-    type: browser
-    url: https://www.ayahealthcare.com/corporate-careers/jobs/
+    type: greenhouse
+    board: ayahealthcare
 
   - name: Dexcom
     type: eightfold

@@ -37,7 +37,8 @@ BLOCK_RE = re.compile(r"access denied|request blocked|are you a robot|captcha|ju
 MAX_POSTINGS = 150
 # postings.txt (what Lookout reads) leaves out roles located only outside the US; postings.json keeps everything.
 FOREIGN_RE = re.compile(r"canada|ontario|british columbia|quebec|sweden|france|italy|germany|bavaria|ireland|colombia|china|beijing|shanghai|india|bangalore|hyderabad|singapore|malaysia|penang|kuala lumpur|brazil|sao paulo|\bBR\b|japan|korea|taiwan|united kingdom|\bUK\b|england|london|australia|mexico|philippines|poland|spain|netherlands|israel|costa rica|bulgaria|romania|vietnam|hong kong|switzerland|denmark|belgium|austria|czech|hungary|portugal|argentina|chile|peru|egypt|dubai|saudi|thailand|indonesia|new zealand", re.I)
-US_RE = re.compile(r"united states|\bUSA?\b|california|\b(CA|CO|TX|NY|WA|AZ|IL|MA|VA|GA|NC|FL|UT|OR|NV)\b|remote", re.I)
+# "remote" alone doesn't make a role US: a location that names another country stays out even if remote.
+US_RE = re.compile(r"united states|\bUSA?\b|california|\b(CA|CO|TX|NY|WA|AZ|IL|MA|VA|GA|NC|FL|UT|OR|NV)\b", re.I)
 
 
 def us_relevant(loc: str) -> bool:
