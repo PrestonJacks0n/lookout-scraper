@@ -1,48 +1,48 @@
 # Lookout scraper report
 
-Run: 2026-11-26 02:55 PT (approx) · 30 ok · 2 failed · 131 postings
+Run: 2026-11-26 13:31 PT (approx) · 30 ok · 2 failed · 136 postings
 
 | Company | Method | Status | Postings | Detail / error | Secs |
 |---|---|---|---|---|---|
-| Kaiser Permanente | browser | ok | 14 | browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 8.6 |
-| Intuit | browser | ok | 16 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 22.9 |
-| Qualcomm | browser (api fallback) | ok | 5 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 7.4 |
-| ResMed | browser (api fallback) | ok | 4 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 12.6 |
-| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.2 |
-| ServiceNow | smartrecruiters | ok | 26 | api: 195 jobs checked | 0.8 |
-| Teradata | browser | ok | 1 | browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata' | 7.2 |
-| General Atomics | browser | ok | 9 | browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.1 |
-| Viasat | browser | ok | 12 | browser: http 200, 65 links, 23 json responses, title 'Viasat Careers' | 8.2 |
+| Kaiser Permanente | browser | ok | 14 | browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente' | 9.1 |
+| Intuit | browser | ok | 19 | browser: http 200, 112 links, 15 json responses, title 'Explore Careers at Intuit / Open Positions Available' | 23.7 |
+| Qualcomm | browser (api fallback) | ok | 6 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.qualcomm.com/api/apply/v2/jobs?domain=qualcomm.com&query=intern&start=0&num=100 | 7.4 |
+| ResMed | browser (api fallback) | ok | 4 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | 14.0 |
+| Shield AI | lever | ok | 0 | api: 0 jobs checked | 0.1 |
+| ServiceNow | smartrecruiters | ok | 26 | api: 194 jobs checked | 0.6 |
+| Teradata | browser | ok | 1 | browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata' | 7.8 |
+| General Atomics | browser | ok | 10 | browser: http 200, 52 links, 3 json responses, title 'Search Jobs at General Atomics and Affiliated Companies' | 8.7 |
+| Viasat | browser | ok | 12 | browser: http 200, 65 links, 22 json responses, title 'Viasat Careers' | 9.3 |
 | Drata | ashby | ok | 0 | api: 23 jobs checked | 0.1 |
-| Cordial | greenhouse | ok | 0 | api: 8 jobs checked | 0.1 |
-| ClickUp | ashby | ok | 0 | api: 50 jobs checked | 0.0 |
-| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 9.6 |
-| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 12.6 |
-| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 9.2 |
-| Cortica | greenhouse | ok | 0 | api: 47 jobs checked | 0.0 |
-| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 6.7 |
-| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 7.5 |
-| LPL Financial | browser (api fallback) | ok | 8 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 10.2 |
-| Experian | smartrecruiters | ok | 3 | api: 64 jobs checked | 0.4 |
-| Petco | browser | ok | 2 | browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco' | 9.3 |
-| SDCCU | browser | ok | 0 | browser: http 200, 237 links, 7 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 10.7 |
-| Navy Federal | browser | ok | 13 | browser: http 200, 109 links, 7 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 8.5 |
-| Axos | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 10.6 |
-| Trust+Will | greenhouse | ok | 0 | api: 4 jobs checked | 0.0 |
+| Cordial | greenhouse | ok | 0 | api: 8 jobs checked | 0.2 |
+| ClickUp | ashby | ok | 0 | api: 50 jobs checked | 0.1 |
+| Scripps Health | browser | ok | 0 | browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results' | 9.9 |
+| Illumina | browser (api fallback) | ok | 0 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs | 10.9 |
+| Turquoise Health | browser (api fallback) | ok | 0 | ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth | 9.6 |
+| Cortica | greenhouse | ok | 0 | api: 47 jobs checked | 0.3 |
+| Aya Healthcare | browser | failed | 0 | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...') | 7.0 |
+| Dexcom | browser (api fallback) | ok | 1 | eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100 | 8.9 |
+| LPL Financial | browser (api fallback) | ok | 8 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | 9.7 |
+| Experian | smartrecruiters | ok | 3 | api: 62 jobs checked | 0.3 |
+| Petco | browser | ok | 2 | browser: http 200, 49 links, 33 json responses, title 'Search our Job Opportunities at Petco' | 13.4 |
+| SDCCU | browser | ok | 0 | browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor' | 11.3 |
+| Navy Federal | browser | ok | 13 | browser: http 200, 109 links, 7 json responses, title 'Search Jobs - Navy Federal Credit Union Careers' | 9.7 |
+| Axos | browser (api fallback) | ok | 12 | workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | 11.0 |
+| Trust+Will | greenhouse | ok | 0 | api: 4 jobs checked | 0.1 |
 | Clear Street | greenhouse | ok | 1 | api: 32 jobs checked | 0.1 |
-| Schwab | browser | ok | 4 | browser: http 200, 64 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab' | 8.8 |
-| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.1 |
-| Reef | browser | ok | 0 | browser: http 200, 1 links, 11 json responses, title 'Career Center / Recruitment' | 8.0 |
-| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 7.4 |
-| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 8.7 |
-| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 4 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.7 |
+| Schwab | browser | ok | 4 | browser: http 200, 65 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab' | 9.9 |
+| In-N-Out | browser | failed | 0 | browser: page asks for a login (title: Login / In-N-Out) | 6.9 |
+| Reef | browser | ok | 0 | browser: http 200, 3 links, 16 json responses, title 'Career Center / Recruitment' | 8.0 |
+| WD-40 | browser | ok | 0 | browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company' | 8.1 |
+| Karl Strauss | browser | ok | 0 | browser: http 200, 12 links, 15 json responses, title 'Job Opportunities' | 9.3 |
+| AleSmith | browser | ok | 0 | browser: http 200, 78 links, 8 json responses, title 'Career Opportunities / AleSmith Brewing Company' | 31.7 |
 
 ## Kaiser Permanente
 - Internships ·  ·  · https://www.kaiserpermanentejobs.org/internships
+- Consulting Master's Intern · Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours ·  · https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008
 - Pharmacy Intern · San Jose, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours ·  · https://www.kaiserpermanentejobs.org/job/san-jose/pharmacy-intern/641/103704297264
 - Pharmacy Intern · Vacaville, CA, Onsite, Regular, Call-in/On-Call, Day shift, 1 hours ·  · https://www.kaiserpermanentejobs.org/job/vacaville/pharmacy-intern/641/103704296672
 - Pharmacy Intern · Sacramento, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours ·  · https://www.kaiserpermanentejobs.org/job/sacramento/pharmacy-intern/641/103576516784
-- Consulting Master's Intern · Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours ·  · https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008
 - Consulting Bachelor's Intern · Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours ·  · https://www.kaiserpermanentejobs.org/job/pasadena/consulting-bachelor-s-intern/641/103232041456
 - Consulting Master's Intern · Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours ·  · https://www.kaiserpermanentejobs.org/job/pasadena/consulting-master-s-intern/641/103232041440
 - Cybersecurity Master's Intern · Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours ·  · https://www.kaiserpermanentejobs.org/job/pasadena/cybersecurity-master-s-intern/641/103276809584
@@ -55,28 +55,32 @@ Run: 2026-11-26 02:55 PT (approx) · 30 ok · 2 failed · 131 postings
 
 ## Intuit
 - Internships ·  ·  · https://www.intuit.com/careers/programs/internships/
-- Summer 2027 Product Manager Intern · Multiple Locations ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
-- Summer 2027: MBA Corporate Strategy & Development Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
-- Summer 2027: Product Design Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
-- Summer 2027: AI Science Intern · Multiple Locations ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
+- Summer 2027 Product Manager Intern · Multiple Locations Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
+- Summer 2027: MBA Corporate Strategy & Development Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
+- Summer 2027: Product Design Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
+- Summer 2027: AI Science Intern · Multiple Locations Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
+- Summer 2027: Cybersecurity Compliance Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
+- Summer 2027: MBA Strategic Finance Intern, GBSG · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
+- Summer 2027: Technical Compliance Manager Intern · San Diego, California Save ·  · https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
+- Summer 2027: PhD AI Research Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
+- Summer 2027: MBA Finance Strategy Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
+- Summer 2027: MBA Pricing & Monetization Strategy Intern · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
+- Summer 2027: MS Fraud & Risk Intern · Multiple Locations Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
+- Summer 2027: Technical Program Manager (TPM) Intern · Multiple Locations Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
+- Summer 2027: MBA Strategic Finance Intern, Consumer Group · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
+- Summer 2027: Strategic MBA Finance Intern, Consumer Group · San Diego, California Save ·  · https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
+- Summer 2027: MBA Product Marketing Intern, Payments · Mountain View, California Save ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
+- Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF) · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376
 - Summer 2027: Cybersecurity Compliance Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-- Summer 2027: MBA Strategic Finance Intern, GBSG · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
-- Summer 2027: Technical Compliance Manager Intern · San Diego, California ·  · https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
-- Summer 2027: PhD AI Research Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
-- Summer 2027: MBA Finance Strategy Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
-- Summer 2027: MBA Pricing & Monetization Strategy Intern · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
-- Summer 2027: MS Fraud & Risk Intern · Multiple Locations ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
-- Summer 2027: Technical Program Manager (TPM) Intern · Multiple Locations ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
-- Summer 2027: MBA Strategic Finance Intern, Consumer Group · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
-- Summer 2027: Strategic MBA Finance Intern, Consumer Group · San Diego, California ·  · https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
-- Summer 2027: MBA Product Marketing Intern, Payments · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
+- Summer 2027: Sales Intern, Core SMB/EMM · Mountain View, California ·  · https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 
 ## Qualcomm
 - Finance & Accounting Internship - Summer 2027 · San Diego, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446721159170
-- Embedded Engineering Internship - Summer 2027 · San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720737089
-- Software Engineering Internship - Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Tempe, Arizona, Uni ·  · https://careers.qualcomm.com/careers/job/446720740529
-- Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; Tempe, Arizona, United States of America; Santa Clara, Ca ·  · https://careers.qualcomm.com/careers/job/446720740649
 - Wireless Systems Engineering Internship - Summer 2027 · San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740637
+- Multimedia Engineering Internship – Summer 2027 · San Diego, California, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740640
+- RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 · San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720740912
+- Mechanical Engineering Internship – Summer 2027 · San Diego, California, United States of America; Austin, Texas, United States of America; Santa Clara, California, United States of America ·  · https://careers.qualcomm.com/careers/job/446720741704
+- 2026 Intern-Machine Learning/AI Engineer · Beijing, China ·  · https://careers.qualcomm.com/careers/job/446717251723
 
 ## ResMed
 - Intern, Manufacturing Engineering · Singapore, Singapore · Posted 22 Days Ago · https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1
@@ -116,15 +120,16 @@ Run: 2026-11-26 02:55 PT (approx) · 30 ok · 2 failed · 131 postings
 - College & Interns ·  ·  · 
 
 ## General Atomics
-- Intern - Mechanical Test Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238050
-- Intern - Materials and Process Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238514
-- Intern - Aircraft Design Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238580
-- Intern - Optical Thin Film Process Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238307
-- Intern - Spacecraft Manufacturing and Assembly Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238304
-- Intern - Construction Management ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238026
-- Intern - Electrical Engineer ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238039
-- Intern - Spacecraft Test Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238040
-- Intern - Research & Development ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5238167
+- Legal Intern (Year-Round) ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5112468
+- Intern - Nuclear Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234630
+- Intern - Information Technology Systems ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234629
+- Intern - Mechanical Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234633
+- Intern - Chemical Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234634
+- Intern - Aerospace/ Aeronautical Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234632
+- Intern - Electrical Engineering ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234635
+- Intern - Software/ Computer Engineering, Computer Science ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234636
+- Intern - Manufacturing ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234641
+- Intern - Business ·  ·  · https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25539&siteid=5310&PageType=JobDetails&jobid=5234643
 
 ## Viasat
 - Industrial Engineer Intern · Duluth · 2026-11-06T21:22:00+0000 · https://careers.viasat.com/jobs/6691?lang=en-us
@@ -174,7 +179,7 @@ Run: 2026-11-26 02:55 PT (approx) · 30 ok · 2 failed · 131 postings
 - Summer Associate Internship (Technical Risk Analyst - Security) · Vienna, VA, United States · 2026-09-09 · 
 - Summer Associate Internship (Legal) · Vienna, VA, United States · 2026-09-09 · 
 - Summer Associate Internship (Consumer Lending Experience Management) · Vienna, VA, United States · 2026-09-09 · 
-- Summer Associate Internship (Product Security Engineer) · Vienna, VA, United States · 2026-09-09 · 
+- Summer Associate Internship (Lending Automation Technology & Solutions) · Pensacola, FL, United States · 2026-09-09 · 
 - Interns ·  ·  · 
 
 ## Axos
@@ -196,6 +201,6 @@ Run: 2026-11-26 02:55 PT (approx) · 30 ok · 2 failed · 131 postings
 
 ## Schwab
 - Interns ·  ·  · https://www.schwabjobs.com/internship-academy
-- 2027 Treasury Modeling Intern · Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01 ·  · https://www.schwabjobs.com/job/lone-tree/2027-treasury-modeling-intern/33727/103752584240
-- 2027 SOX Compliance Intern · Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01 ·  · https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
+- 2027 Treasury Modeling Intern · Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01 Save for Later ·  · https://www.schwabjobs.com/job/lone-tree/2027-treasury-modeling-intern/33727/103752584240
+- 2027 SOX Compliance Intern · Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01 Save for Later ·  · https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
 - Students · We’re all-in when it comes to developing talent – from internships and academies to our tech leader program. Learn more ·  · https://www.schwabjobs.com/internship-academy
