@@ -1,5 +1,5 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-27 05:56 Pacific (2026-11-27T13:56:14+00:00)
-30 boards read, 2 failed, 151 internship postings.
+LOOKOUT SCRAPER FEED · generated 2026-11-27 14:43 Pacific (2026-11-27T22:43:42+00:00)
+30 boards read, 2 failed, 147 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
 STATUS | Kaiser Permanente | ok | browser | 
@@ -20,7 +20,7 @@ STATUS | Turquoise Health | ok | browser (api fallback) |
 STATUS | Cortica | ok | greenhouse | 
 STATUS | Aya Healthcare | failed | browser | browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')
 STATUS | Dexcom | ok | browser (api fallback) | 
-STATUS | LPL Financial | ok | workday | 
+STATUS | LPL Financial | ok | browser (api fallback) | 
 STATUS | Experian | ok | smartrecruiters | 
 STATUS | Petco | ok | browser | 
 STATUS | SDCCU | ok | browser | 
@@ -50,26 +50,26 @@ POSTING | Kaiser Permanente | Intern Pharmacist PT24 | Los Angeles, CA, Onsite, 
 POSTING | Kaiser Permanente | Inpatient Pharmacy Intern - Capitol Hill/Seattle | Seattle, WA, Onsite, Regular, Part-time, Variable shift, 8 hours |  | https://www.kaiserpermanentejobs.org/job/seattle/inpatient-pharmacy-intern-capitol-hill-seattle/641/103441713264
 POSTING | Kaiser Permanente | Speech Clinical Fellows Year Intern, Pediatrics | San Rafael, Marin, CA, Onsite, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/san-rafael/speech-clinical-fellows-year-intern-pediatrics/641/102818032512
 POSTING | Intuit | Internships |  |  | https://www.intuit.com/careers/programs/internships/
-POSTING | Intuit | Summer 2027 Product Manager Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
-POSTING | Intuit | Summer 2027: MBA Corporate Strategy & Development Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
-POSTING | Intuit | Summer 2027: Product Design Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
-POSTING | Intuit | Summer 2027: AI Science Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
-POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
-POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, GBSG | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
-POSTING | Intuit | Summer 2027: Technical Compliance Manager Intern | San Diego, California Save |  | https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
-POSTING | Intuit | Summer 2027: PhD AI Research Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
-POSTING | Intuit | Summer 2027: MBA Finance Strategy Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
-POSTING | Intuit | Summer 2027: MBA Pricing & Monetization Strategy Intern | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
-POSTING | Intuit | Summer 2027: MS Fraud & Risk Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
-POSTING | Intuit | Summer 2027: Technical Program Manager (TPM) Intern | Multiple Locations Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
-POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, Consumer Group | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
-POSTING | Intuit | Summer 2027: Strategic MBA Finance Intern, Consumer Group | San Diego, California Save |  | https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
-POSTING | Intuit | Summer 2027: MBA Product Marketing Intern, Payments | Mountain View, California Save |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
+POSTING | Intuit | Summer 2027 Product Manager Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632
+POSTING | Intuit | Summer 2027: MBA Corporate Strategy & Development Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080
+POSTING | Intuit | Summer 2027: Product Design Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648
+POSTING | Intuit | Summer 2027: AI Science Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536
+POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
+POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, GBSG | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576
+POSTING | Intuit | Summer 2027: Technical Compliance Manager Intern | San Diego, California |  | https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496
+POSTING | Intuit | Summer 2027: PhD AI Research Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776
+POSTING | Intuit | Summer 2027: MBA Finance Strategy Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336
+POSTING | Intuit | Summer 2027: MBA Pricing & Monetization Strategy Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048
+POSTING | Intuit | Summer 2027: MS Fraud & Risk Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744
+POSTING | Intuit | Summer 2027: Technical Program Manager (TPM) Intern | Multiple Locations |  | https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664
+POSTING | Intuit | Summer 2027: MBA Strategic Finance Intern, Consumer Group | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560
+POSTING | Intuit | Summer 2027: Strategic MBA Finance Intern, Consumer Group | San Diego, California |  | https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544
+POSTING | Intuit | Summer 2027: MBA Product Marketing Intern, Payments | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448
 POSTING | Qualcomm | Finance & Accounting Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721159170
 POSTING | Qualcomm | Security (Product, Systems, Cyber) Engineering Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740636
-POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
 POSTING | Qualcomm | Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740525
 POSTING | Qualcomm | Automotive Engineering Internship – Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446720740553
+POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
 POSTING | ServiceNow | Security Software Engineer Intern | Kirkland, Washington, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162827365
 POSTING | ServiceNow | Corporate Business Development Intern - MBA | San Francisco, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162808049
 POSTING | ServiceNow | Corporate Strategy Manager Intern - MBA | Santa Clara, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162629690
@@ -125,10 +125,6 @@ POSTING | LPL Financial | Intern 2027 - Wealth Advisory Group | Fort Mill/Charlo
 POSTING | LPL Financial | Intern 2027 - Product Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918
 POSTING | LPL Financial | Intern 2027 - Cybersecurity Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919
 POSTING | LPL Financial | Intern 2027 - Data Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914
-POSTING | LPL Financial | Intern 2027 - Project Management and Business Analyst | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Business-Analyst-and-Project-Management_R-052922
-POSTING | LPL Financial | Intern 2027- Platform Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Platform-Engineer_R-052920-1
-POSTING | LPL Financial | Intern 2027- Software Engineer | 2 Locations | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Software-Engineer_R-052921
-POSTING | LPL Financial | New Grad Summer 2027 - Financial Service Professional (Tempe) | Tempe | Posted 30+ Days Ago | https://lplfinancial.wd1.myworkdayjobs.com/University/job/Tempe/New-Grad-Sumer-2027---Financial-Service-Professional--Tempe-_R-052611
 POSTING | Experian | Operations Assistant Internship | Mid Valley City, Lingkaran Syed Putra,, KUALA LUMPUR, Malaysia (remote) | 2026-11-25 | https://jobs.smartrecruiters.com/Experian/744000163630024
 POSTING | Petco | Intern, Accounting – Inventory Accounting |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-inventory-accounting/47428/101142235168
 POSTING | Petco | Intern, Accounting – Accounts Payable |  |  | https://careers.petco.com/job/san-antonio/intern-accounting-accounts-payable/47428/101142234992
@@ -141,9 +137,9 @@ POSTING | Navy Federal | Summer Associate Internship (Internal Communications Sp
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security Regulatory Compliance) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security) | Vienna, VA, United States | 2026-09-09 | 
-POSTING | Navy Federal | Intern - Year Round (Systems Support) | Pensacola, FL, United States | 2026-11-20 | 
 POSTING | Navy Federal | Summer Associate Internship (Legal) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Consumer Lending Experience Management) | Vienna, VA, United States | 2026-09-09 | 
+POSTING | Navy Federal | Summer Associate Internship (Lending Automation Technology & Solutions) | Pensacola, FL, United States | 2026-09-09 | 
 POSTING | Navy Federal | Interns |  |  | 
 POSTING | Axos | Accounting Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607
 POSTING | Axos | Finance Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614
@@ -152,7 +148,6 @@ POSTING | Axos | Product Intern | HQ - San Diego, CA | Posted 30+ Days Ago | htt
 POSTING | Axos | Accounting Intern | Omaha, NE | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Accounting-Intern_JR5618
 POSTING | Axos | Enablement Intern | Centennial, CO | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Enablement-Intern_JR5669
 POSTING | Axos | Product Intern | 2 Locations | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Los-Angeles-CA/Product-Intern_JR5661
-POSTING | Axos | Automation Analyst Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR4507
 POSTING | Axos | Audit Analyst Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Audit-Analyst-Intern_JR5569
 POSTING | Axos | Business Analyst Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593
 POSTING | Axos | Program Management Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587
@@ -165,6 +160,7 @@ POSTING | Axos | Software Development Intern | HQ - San Diego, CA | Posted 30+ D
 POSTING | Axos | Commercial Lending Intern | 2 Locations | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Menlo-Park-CA/Commercial-Lending-Intern_JR5695
 POSTING | Axos | Commercial Lending Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Lending-Intern_JR5697
 POSTING | Axos | AI Engineer Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/AI-Engineer-Intern_JR5658
+POSTING | Axos | Automation Analyst Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Automation-Analyst-Intern_JR5660
 POSTING | Axos | Risk & Compliance Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Risk---Compliance-Intern_JR5636
 POSTING | Axos | Digital Marketing Intern | San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/San-Diego-CA/Marketing-Intern_JR5670
 POSTING | Axos | Financial Analyst Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Financial-Analyst-Intern_JR5645
@@ -173,8 +169,8 @@ POSTING | Axos | Commercial Lending Intern | New York, NY | Posted 30+ Days Ago 
 POSTING | Axos | Client Service & Operations Intern | Centennial, CO | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Client-Service---Operations-Intern_JR5709
 POSTING | Axos | Commercial Banking Intern - Digital Product | HQ - San Diego, CA | Posted 29 Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern---Digital-Product_JR5646
 POSTING | Schwab | Interns |  |  | https://www.schwabjobs.com/internship-academy
-POSTING | Schwab | 2027 Treasury Modeling Intern | Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01 Save  |  | https://www.schwabjobs.com/job/lone-tree/2027-treasury-modeling-intern/33727/103752584240
-POSTING | Schwab | 2027 SOX Compliance Intern | Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01 Save  |  | https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
+POSTING | Schwab | 2027 Treasury Modeling Intern | Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01 |  | https://www.schwabjobs.com/job/lone-tree/2027-treasury-modeling-intern/33727/103752584240
+POSTING | Schwab | 2027 SOX Compliance Intern | Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01 |  | https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672
 POSTING | Schwab | Students | We’re all-in when it comes to developing talent – from internships and academies |  | https://www.schwabjobs.com/internship-academy
 
 (10 postings located only outside the US are left out of this file; they are in postings.json.)
