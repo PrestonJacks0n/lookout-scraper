@@ -327,6 +327,9 @@ async def run(companies):
         if c["type"] in API:
             try:
                 total, posts = API[c["type"]](c)
+                if total == 0 and c.get("url"):
+                    # Shield AI's Lever API returns no jobs while its hosted board lists them; read the page instead.
+                    raise RuntimeError("api returned 0 jobs")
                 r["postings"] = dedupe(posts)
                 r["detail"] = f"api: {total} jobs checked"
             except Exception as e:
