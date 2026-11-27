@@ -1,4 +1,4 @@
-LOOKOUT SCRAPER FEED · generated 2026-11-26 13:31 Pacific (2026-11-26T21:31:45+00:00)
+LOOKOUT SCRAPER FEED · generated 2026-11-26 20:16 Pacific (2026-11-27T04:16:24+00:00)
 30 boards read, 2 failed, 136 internship postings.
 STATUS lines: company | ok or failed | how it was read | error. POSTING lines: company | title | location | posted | url.
 
@@ -36,10 +36,10 @@ STATUS | Karl Strauss | ok | browser |
 STATUS | AleSmith | ok | browser | 
 
 POSTING | Kaiser Permanente | Internships |  |  | https://www.kaiserpermanentejobs.org/internships
-POSTING | Kaiser Permanente | Consulting Master's Intern | Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008
 POSTING | Kaiser Permanente | Pharmacy Intern | San Jose, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours |  | https://www.kaiserpermanentejobs.org/job/san-jose/pharmacy-intern/641/103704297264
 POSTING | Kaiser Permanente | Pharmacy Intern | Vacaville, CA, Onsite, Regular, Call-in/On-Call, Day shift, 1 hours |  | https://www.kaiserpermanentejobs.org/job/vacaville/pharmacy-intern/641/103704296672
 POSTING | Kaiser Permanente | Pharmacy Intern | Sacramento, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours |  | https://www.kaiserpermanentejobs.org/job/sacramento/pharmacy-intern/641/103576516784
+POSTING | Kaiser Permanente | Consulting Master's Intern | Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008
 POSTING | Kaiser Permanente | Consulting Bachelor's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/consulting-bachelor-s-intern/641/103232041456
 POSTING | Kaiser Permanente | Consulting Master's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/consulting-master-s-intern/641/103232041440
 POSTING | Kaiser Permanente | Cybersecurity Master's Intern | Pasadena, CA, Flexible, Regular, Full-time, Day shift, 40 hours |  | https://www.kaiserpermanentejobs.org/job/pasadena/cybersecurity-master-s-intern/641/103276809584
@@ -69,10 +69,10 @@ POSTING | Intuit | Summer 2027: MBA Marketing Intern, Out-Market Investment Diag
 POSTING | Intuit | Summer 2027: Cybersecurity Compliance Intern | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192
 POSTING | Intuit | Summer 2027: Sales Intern, Core SMB/EMM | Mountain View, California |  | https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824
 POSTING | Qualcomm | Finance & Accounting Internship - Summer 2027 | San Diego, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721159170
-POSTING | Qualcomm | Wireless Systems Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720740637
-POSTING | Qualcomm | Multimedia Engineering Internship – Summer 2027 | San Diego, California, United States of America; Santa Clara, California, United |  | https://careers.qualcomm.com/careers/job/446720740640
-POSTING | Qualcomm | RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027 | San Diego, California, United States of America; Tempe, Arizona, United States o |  | https://careers.qualcomm.com/careers/job/446720740912
 POSTING | Qualcomm | Mechanical Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720741704
+POSTING | Qualcomm | Modular Engineering Internship – Summer 2027 | Los Altos, California, United States of America |  | https://careers.qualcomm.com/careers/job/446721246663
+POSTING | Qualcomm | Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027 | San Diego, California, United States of America; Austin, Texas, United States of |  | https://careers.qualcomm.com/careers/job/446720740649
+POSTING | Qualcomm | Embedded Engineering Internship - Summer 2027 | San Diego, California, United States of America; Boxborough, Massachusetts, Unit |  | https://careers.qualcomm.com/careers/job/446720737089
 POSTING | ServiceNow | Security Software Engineer Intern | Kirkland, Washington, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162827365
 POSTING | ServiceNow | Corporate Business Development Intern - MBA | San Francisco, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162808049
 POSTING | ServiceNow | Corporate Strategy Manager Intern - MBA | Santa Clara, CALIFORNIA, United States | 2026-11-20 | https://jobs.smartrecruiters.com/ServiceNow/744000162629690
@@ -142,7 +142,7 @@ POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst) | 
 POSTING | Navy Federal | Summer Associate Internship (Technical Risk Analyst - Security) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Legal) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Summer Associate Internship (Consumer Lending Experience Management) | Vienna, VA, United States | 2026-09-09 | 
-POSTING | Navy Federal | Summer Associate Internship (Lending Automation Technology & Solutions) | Pensacola, FL, United States | 2026-09-09 | 
+POSTING | Navy Federal | Summer Associate Internship (Product Security Engineer) | Vienna, VA, United States | 2026-09-09 | 
 POSTING | Navy Federal | Interns |  |  | 
 POSTING | Axos | Accounting Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607
 POSTING | Axos | Finance Intern | HQ - San Diego, CA | Posted 30+ Days Ago | https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614

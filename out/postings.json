@@ -1,7 +1,7 @@
 {
- "generated_at_utc": "2026-11-26T21:31:45+00:00",
- "generated_at_pacific_approx": "2026-11-26 13:31",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/45898502527",
+ "generated_at_utc": "2026-11-27T04:16:24+00:00",
+ "generated_at_pacific_approx": "2026-11-26 20:16",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/45938784042",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
@@ -25,12 +25,6 @@
      "posted": ""
     },
     {
-     "title": "Consulting Master's Intern",
-     "location": "Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours",
-     "url": "https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008",
-     "posted": ""
-    },
-    {
      "title": "Pharmacy Intern",
      "location": "San Jose, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours",
      "url": "https://www.kaiserpermanentejobs.org/job/san-jose/pharmacy-intern/641/103704297264",
@@ -46,6 +40,12 @@
      "title": "Pharmacy Intern",
      "location": "Sacramento, CA, Onsite, Regular, Call-in/On-Call, Evening shift, 1 hours",
      "url": "https://www.kaiserpermanentejobs.org/job/sacramento/pharmacy-intern/641/103576516784",
+     "posted": ""
+    },
+    {
+     "title": "Consulting Master's Intern",
+     "location": "Pleasanton, CA, Remote, Temporary, Full-time, Day shift, 40 hours",
+     "url": "https://www.kaiserpermanentejobs.org/job/pleasanton/consulting-master-s-intern/641/103448377008",
      "posted": ""
     },
     {
@@ -103,7 +103,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.1
+   "seconds": 9.6
   },
   {
    "name": "Intuit",
@@ -228,7 +228,7 @@
      "posted": ""
     }
    ],
-   "seconds": 23.7
+   "seconds": 24.1
   },
   {
    "name": "Qualcomm",
@@ -245,27 +245,27 @@
      "posted": ""
     },
     {
-     "title": "Wireless Systems Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740637",
-     "posted": ""
-    },
-    {
-     "title": "Multimedia Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740640",
-     "posted": ""
-    },
-    {
-     "title": "RF/Analog Design/Mixed-Signal Engineering Internship – Summer 2027",
-     "location": "San Diego, California, United States of America; Tempe, Arizona, United States of America; Irvine, California, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740912",
-     "posted": ""
-    },
-    {
      "title": "Mechanical Engineering Internship – Summer 2027",
      "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Santa Clara, California, United States of America",
      "url": "https://careers.qualcomm.com/careers/job/446720741704",
+     "posted": ""
+    },
+    {
+     "title": "Modular Engineering Internship – Summer 2027",
+     "location": "Los Altos, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446721246663",
+     "posted": ""
+    },
+    {
+     "title": "Hardware (CPU, GPU, SoC, Digital Design, DV) Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; Tempe, Arizona, United States of America; Santa Clara, Ca",
+     "url": "https://careers.qualcomm.com/careers/job/446720740649",
+     "posted": ""
+    },
+    {
+     "title": "Embedded Engineering Internship - Summer 2027",
+     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; Santa Clara, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720737089",
      "posted": ""
     },
     {
@@ -275,7 +275,7 @@
      "posted": ""
     }
    ],
-   "seconds": 7.4
+   "seconds": 10.3
   },
   {
    "name": "ResMed",
@@ -310,7 +310,7 @@
      "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 14.0
+   "seconds": 12.0
   },
   {
    "name": "Shield AI",
@@ -320,7 +320,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.4
   },
   {
    "name": "ServiceNow",
@@ -487,7 +487,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 0.6
+   "seconds": 0.5
   },
   {
    "name": "Teradata",
@@ -495,7 +495,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -504,7 +504,7 @@
      "posted": ""
     }
    ],
-   "seconds": 7.8
+   "seconds": 8.5
   },
   {
    "name": "General Atomics",
@@ -512,7 +512,7 @@
    "source": "https://sjobs.brassring.com/TGNewUI/Search/Home/Home?partnerid=25539&siteid=5310#keyWordSearch=intern&locationSearch=",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 52 links, 3 json responses, title 'Search Jobs at General Atomics and Affiliated Companies'",
+   "detail": "browser: http 200, 52 links, 4 json responses, title 'Search Jobs at General Atomics and Affiliated Companies'",
    "postings": [
     {
      "title": "Legal Intern (Year-Round)",
@@ -575,7 +575,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.7
+   "seconds": 8.6
   },
   {
    "name": "Viasat",
@@ -583,7 +583,7 @@
    "source": "https://careers.viasat.com/jobs?keywords=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 65 links, 22 json responses, title 'Viasat Careers'",
+   "detail": "browser: http 200, 65 links, 23 json responses, title 'Viasat Careers'",
    "postings": [
     {
      "title": "Industrial Engineer Intern",
@@ -658,7 +658,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.3
+   "seconds": 10.4
   },
   {
    "name": "Drata",
@@ -678,7 +678,7 @@
    "error": "",
    "detail": "api: 8 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "name": "ClickUp",
@@ -698,7 +698,7 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 9.9
+   "seconds": 9.0
   },
   {
    "name": "Illumina",
@@ -708,7 +708,7 @@
    "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
    "detail": "browser: http 200, 8 links, 15 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 10.9
+   "seconds": 12.0
   },
   {
    "name": "Turquoise Health",
@@ -718,7 +718,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 165 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 9.6
+   "seconds": 20.5
   },
   {
    "name": "Cortica",
@@ -728,7 +728,7 @@
    "error": "",
    "detail": "api: 47 jobs checked",
    "postings": [],
-   "seconds": 0.3
+   "seconds": 0.1
   },
   {
    "name": "Aya Healthcare",
@@ -738,7 +738,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 7.0
+   "seconds": 6.8
   },
   {
    "name": "Dexcom",
@@ -746,7 +746,7 @@
    "source": "https://careers.dexcom.com/careers?query=intern&location=United%20States",
    "status": "ok",
    "error": "eightfold api failed: HTTPError: 403 Client Error: FORBIDDEN for url: https://careers.dexcom.com/api/apply/v2/jobs?domain=dexcom.com&query=intern&start=0&num=100",
-   "detail": "browser: http 200, 21 links, 11 json responses, title 'intern at United States | Dexcom'",
+   "detail": "browser: http 200, 22 links, 11 json responses, title 'intern at United States | Dexcom'",
    "postings": [
     {
      "title": "2027 US Summer Internship - Early Interest",
@@ -755,7 +755,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.9
+   "seconds": 9.6
   },
   {
    "name": "LPL Financial",
@@ -814,7 +814,7 @@
      "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 9.7
+   "seconds": 11.9
   },
   {
    "name": "Experian",
@@ -866,7 +866,7 @@
      "posted": ""
     }
    ],
-   "seconds": 13.4
+   "seconds": 11.4
   },
   {
    "name": "SDCCU",
@@ -876,7 +876,7 @@
    "error": "",
    "detail": "browser: http 200, 241 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 11.3
+   "seconds": 11.1
   },
   {
    "name": "Navy Federal",
@@ -953,8 +953,8 @@
      "posted": "2026-09-09"
     },
     {
-     "title": "Summer Associate Internship (Lending Automation Technology & Solutions)",
-     "location": "Pensacola, FL, United States",
+     "title": "Summer Associate Internship (Product Security Engineer)",
+     "location": "Vienna, VA, United States",
      "url": "",
      "posted": "2026-09-09"
     },
@@ -965,7 +965,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.7
+   "seconds": 10.1
   },
   {
    "name": "Axos",
@@ -1048,7 +1048,7 @@
      "posted": "Posted 30+ Days Ago"
     }
    ],
-   "seconds": 11.0
+   "seconds": 11.1
   },
   {
    "name": "Trust+Will",
@@ -1110,7 +1110,7 @@
      "posted": ""
     }
    ],
-   "seconds": 9.9
+   "seconds": 9.6
   },
   {
    "name": "In-N-Out",
@@ -1120,7 +1120,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 6.9
+   "seconds": 6.4
   },
   {
    "name": "Reef",
@@ -1130,7 +1130,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 16 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.0
+   "seconds": 7.2
   },
   {
    "name": "WD-40",
@@ -1140,7 +1140,7 @@
    "error": "",
    "detail": "browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 8.1
+   "seconds": 7.4
   },
   {
    "name": "Karl Strauss",
@@ -1150,7 +1150,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 9.3
+   "seconds": 9.4
   },
   {
    "name": "AleSmith",
@@ -1160,7 +1160,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.7
+   "seconds": 16.0
   }
  ]
 }
