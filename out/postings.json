@@ -1,13 +1,13 @@
 {
- "generated_at_utc": "2026-11-28T07:48:39+00:00",
- "generated_at_pacific_approx": "2026-11-27 23:48",
- "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/46122741885",
+ "generated_at_utc": "2026-11-28T16:54:34+00:00",
+ "generated_at_pacific_approx": "2026-11-28 08:54",
+ "run_url": "https://github.com/PrestonJacks0n/lookout-scraper/actions/runs/46167463289",
  "about": "Internship-like postings (intern, internship, co-op, early interest, summer 2027) read directly from each company's job board. status=ok means the board was read; zero postings then means none were listed. status=failed means the board could not be read this run.",
  "summary": {
   "companies": 32,
-  "ok": 26,
-  "failed": 6,
-  "postings": 112
+  "ok": 30,
+  "failed": 2,
+  "postings": 132
  },
  "companies": [
   {
@@ -16,7 +16,7 @@
    "source": "https://www.kaiserpermanentejobs.org/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 74 links, 3 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
+   "detail": "browser: http 200, 74 links, 2 json responses, title 'Search our Job Opportunities at Kaiser Permanente'",
    "postings": [
     {
      "title": "Internships",
@@ -127,114 +127,96 @@
     },
     {
      "title": "Summer 2027 Product Manager Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-manager-intern/27595/100620927632",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Corporate Strategy & Development Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-corporate-strategy-and-development-intern/27595/101313096080",
      "posted": ""
     },
     {
      "title": "Summer 2027: Product Design Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-product-design-intern/27595/100620927648",
      "posted": ""
     },
     {
      "title": "Summer 2027: AI Science Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ai-science-intern/27595/100620927536",
      "posted": ""
     },
     {
      "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, GBSG",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-gbsg/27595/101319962576",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Compliance Manager Intern",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-technical-compliance-manager-intern/27595/101632992496",
      "posted": ""
     },
     {
      "title": "Summer 2027: PhD AI Research Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-phd-ai-research-intern/27595/100620927776",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Finance Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-finance-strategy-intern/27595/101319972336",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Pricing & Monetization Strategy Intern",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-pricing-and-monetization-strategy-intern/27595/101313096048",
      "posted": ""
     },
     {
      "title": "Summer 2027: MS Fraud & Risk Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-ms-fraud-and-risk-intern/27595/100620927744",
      "posted": ""
     },
     {
      "title": "Summer 2027: Technical Program Manager (TPM) Intern",
-     "location": "Multiple Locations Save",
+     "location": "Multiple Locations",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-technical-program-manager-tpm-intern/27595/100620927664",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Strategic Finance Intern, Consumer Group",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-strategic-finance-intern-consumer-group/27595/101319962560",
      "posted": ""
     },
     {
      "title": "Summer 2027: Strategic MBA Finance Intern, Consumer Group",
-     "location": "San Diego, California Save",
+     "location": "San Diego, California",
      "url": "https://jobs.intuit.com/job/san-diego/summer-2027-strategic-mba-finance-intern-consumer-group/27595/101319962544",
      "posted": ""
     },
     {
      "title": "Summer 2027: MBA Product Marketing Intern, Payments",
-     "location": "Mountain View, California Save",
+     "location": "Mountain View, California",
      "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-product-marketing-intern-payments/27595/101313094448",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: MBA Marketing Intern, Out-Market Investment Diagnostic (NTTF)",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-mba-marketing-intern-out-market-investment-diagnostic-nttf/27595/101999313376",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Cybersecurity Compliance Intern",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-cybersecurity-compliance-intern/27595/101955844192",
-     "posted": ""
-    },
-    {
-     "title": "Summer 2027: Sales Intern, Core SMB/EMM",
-     "location": "Mountain View, California",
-     "url": "https://jobs.intuit.com/job/mountain-view/summer-2027-sales-intern-core-smb-emm/27595/101580723824",
      "posted": ""
     }
    ],
-   "seconds": 24.0
+   "seconds": 23.6
   },
   {
    "name": "Qualcomm",
@@ -251,15 +233,15 @@
      "posted": ""
     },
     {
-     "title": "Modular Engineering Internship – Summer 2027",
-     "location": "Los Altos, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446721246663",
+     "title": "Machine Learning & Artificial Intelligence Engineering Internship – Summer 2027",
+     "location": "San Diego, California, United States of America; Austin, Texas, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; New York City, New ",
+     "url": "https://careers.qualcomm.com/careers/job/446720740525",
      "posted": ""
     },
     {
-     "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740636",
+     "title": "Modular Engineering Internship – Summer 2027",
+     "location": "Los Altos, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446721246663",
      "posted": ""
     },
     {
@@ -269,23 +251,48 @@
      "posted": ""
     },
     {
-     "title": "Wireless Systems Engineering Internship - Summer 2027",
-     "location": "San Diego, California, United States of America; Boxborough, Massachusetts, United States of America; New Jersey, United States of America; Santa Clara, California, United States of America",
-     "url": "https://careers.qualcomm.com/careers/job/446720740637",
+     "title": "Security (Product, Systems, Cyber) Engineering Internship - Summer 2027",
+     "location": "San Diego, California, United States of America",
+     "url": "https://careers.qualcomm.com/careers/job/446720740636",
      "posted": ""
     }
    ],
-   "seconds": 8.3
+   "seconds": 21.1
   },
   {
    "name": "ResMed",
    "method": "browser (api fallback)",
    "source": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 11.4
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://resmed.wd3.myworkdayjobs.com/wday/cxs/resmed/ResMed_External_Careers/jobs",
+   "detail": "browser: http 200, 28 links, 16 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Intern, Manufacturing Engineering",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Engineering_JR_053879-1",
+     "posted": "Posted 24 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Digital Transformation",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Digital-Transformation_JR_054269",
+     "posted": "Posted 24 Days Ago"
+    },
+    {
+     "title": "Intern, Manufacturing Project Lead",
+     "location": "Singapore, Singapore",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Singapore-Singapore/Intern--Manufacturing-Project-Lead_JR_053375-2",
+     "posted": "Posted 24 Days Ago"
+    },
+    {
+     "title": "Technical Service & Support Intern LATAM",
+     "location": "Brooklin, Sao Paulo, BR",
+     "url": "https://resmed.wd3.myworkdayjobs.com/ResMed_External_Careers/job/Brooklin-Sao-Paulo-BR/Technical-Service---Support-Intern-LATAM_JR_047268-1",
+     "posted": "Posted 30+ Days Ago"
+    }
+   ],
+   "seconds": 12.2
   },
   {
    "name": "Shield AI",
@@ -295,7 +302,7 @@
    "error": "",
    "detail": "api: 0 jobs checked",
    "postings": [],
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "name": "ServiceNow",
@@ -462,7 +469,7 @@
      "posted": "2026-10-13"
     }
    ],
-   "seconds": 0.7
+   "seconds": 0.5
   },
   {
    "name": "Teradata",
@@ -470,7 +477,7 @@
    "source": "https://careers.teradata.com/jobs?search=intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 174 links, 9 json responses, title 'Search Careers at Teradata'",
+   "detail": "browser: http 200, 175 links, 9 json responses, title 'Search Careers at Teradata'",
    "postings": [
     {
      "title": "College & Interns",
@@ -479,7 +486,7 @@
      "posted": ""
     }
    ],
-   "seconds": 7.9
+   "seconds": 7.7
   },
   {
    "name": "General Atomics",
@@ -550,7 +557,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.1
+   "seconds": 7.6
   },
   {
    "name": "Viasat",
@@ -633,7 +640,7 @@
      "posted": ""
     }
    ],
-   "seconds": 8.8
+   "seconds": 8.6
   },
   {
    "name": "Drata",
@@ -673,17 +680,17 @@
    "error": "",
    "detail": "browser: http 200, 58 links, 4 json responses, title 'Scripps Health Careers – Job Search Results'",
    "postings": [],
-   "seconds": 9.8
+   "seconds": 10.3
   },
   {
    "name": "Illumina",
    "method": "browser (api fallback)",
    "source": "https://illumina.wd1.myworkdayjobs.com/illumina-universityrecruiting",
-   "status": "failed",
-   "error": "workday api failed: JSONDecodeError: Expecting value: line 1 column 1 (char 0) | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://illumina.wd1.myworkdayjobs.com/wday/cxs/illumina/illumina-universityrecruiting/jobs",
+   "detail": "browser: http 200, 8 links, 16 json responses, title 'Search for Jobs'",
    "postings": [],
-   "seconds": 6.6
+   "seconds": 12.7
   },
   {
    "name": "Turquoise Health",
@@ -693,7 +700,7 @@
    "error": "ashby api failed: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/turquoisehealth",
    "detail": "browser: http 200, 167 links, 17 json responses, title 'Careers at Turquoise Health | Join us in fixing healthcare p'",
    "postings": [],
-   "seconds": 9.0
+   "seconds": 20.6
   },
   {
    "name": "Cortica",
@@ -703,7 +710,7 @@
    "error": "",
    "detail": "api: 47 jobs checked",
    "postings": [],
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "name": "Aya Healthcare",
@@ -713,7 +720,7 @@
    "error": "browser: blocked or error page (http 403, 2 links, 0 json responses, title 'Just a moment...')",
    "detail": "",
    "postings": [],
-   "seconds": 6.7
+   "seconds": 7.5
   },
   {
    "name": "Dexcom",
@@ -730,17 +737,66 @@
      "posted": ""
     }
    ],
-   "seconds": 7.9
+   "seconds": 7.8
   },
   {
    "name": "LPL Financial",
    "method": "browser (api fallback)",
    "source": "https://lplfinancial.wd1.myworkdayjobs.com/University",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 9.3
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://lplfinancial.wd1.myworkdayjobs.com/wday/cxs/lplfinancial/University/jobs",
+   "detail": "browser: http 200, 31 links, 16 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Intern 2027 - FAR Program - Business Management & Service Transformation",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Service-Transformation---Data-Analytics_R-053219",
+     "posted": "Posted 12 Days Ago"
+    },
+    {
+     "title": "New Grad Summer 2027 - Financial Service Professional (Fort Mill)",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad-Summer-2027---Financial-Service-Professional--Fort-Mill-_R-052598",
+     "posted": "Posted 12 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Business Development",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Business-Development_R-052926",
+     "posted": "Posted 16 Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Transition Support Partner",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Intern-2027---Transition-Support-Partner_R-053345",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Wealth Advisory Group",
+     "location": "Fort Mill/Charlotte",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Internship-Summer-2027-Wealth-Advisor-Group_R-052554",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Product Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Product_R-052918",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Cybersecurity Analyst",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027--Cybersecurity_R-052919",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Intern 2027 - Data Engineer",
+     "location": "2 Locations",
+     "url": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/Summer-Intern-2027---Data_R-052914",
+     "posted": "Posted 30+ Days Ago"
+    }
+   ],
+   "seconds": 11.7
   },
   {
    "name": "Experian",
@@ -769,7 +825,7 @@
      "posted": "2026-10-19"
     }
    ],
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "name": "Petco",
@@ -792,7 +848,7 @@
      "posted": ""
     }
    ],
-   "seconds": 11.5
+   "seconds": 10.7
   },
   {
    "name": "SDCCU",
@@ -802,7 +858,7 @@
    "error": "",
    "detail": "browser: http 200, 240 links, 11 json responses, title 'Work for San Diego’s BEST Credit Union and BEST Place to Wor'",
    "postings": [],
-   "seconds": 10.5
+   "seconds": 12.5
   },
   {
    "name": "Navy Federal",
@@ -891,17 +947,84 @@
      "posted": ""
     }
    ],
-   "seconds": 10.0
+   "seconds": 10.1
   },
   {
    "name": "Axos",
    "method": "browser (api fallback)",
    "source": "https://axos.wd5.myworkdayjobs.com/Axos",
-   "status": "failed",
-   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs | browser: page rendered almost nothing (http 200, 0 links, 0 json responses, title 'Workday is currently unavailable.')",
-   "detail": "",
-   "postings": [],
-   "seconds": 9.2
+   "status": "ok",
+   "error": "workday api failed: HTTPError: 429 Client Error: Too Many Requests for url: https://axos.wd5.myworkdayjobs.com/wday/cxs/axos/Axos/jobs",
+   "detail": "browser: http 200, 28 links, 16 json responses, title 'Search for Jobs'",
+   "postings": [
+    {
+     "title": "Accounting Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Accounting-Intern_JR5607",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Finance Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Finance-Intern_JR5614",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "4 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Edison-NJ/Product-Intern_JR5663",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Product-Intern_JR5664",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Accounting Intern",
+     "location": "Omaha, NE",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Omaha-NE/Accounting-Intern_JR5618",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Enablement Intern",
+     "location": "Centennial, CO",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Centennial-CO/Enablement-Intern_JR5669",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Product Intern",
+     "location": "2 Locations",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/Los-Angeles-CA/Product-Intern_JR5661",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Audit Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Audit-Analyst-Intern_JR5569",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Business Analyst Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Business-Analyst-Intern_JR5593",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Program Management Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Program-Management-Intern_JR5587",
+     "posted": "Posted 30+ Days Ago"
+    },
+    {
+     "title": "Commercial Banking Intern",
+     "location": "HQ - San Diego, CA",
+     "url": "https://axos.wd5.myworkdayjobs.com/Axos/job/HQ---San-Diego-CA/Commercial-Banking-Intern_JR5594",
+     "posted": "Posted 30+ Days Ago"
+    }
+   ],
+   "seconds": 11.0
   },
   {
    "name": "Trust+Will",
@@ -936,7 +1059,7 @@
    "source": "https://www.schwabjobs.com/search-jobs/intern",
    "status": "ok",
    "error": "",
-   "detail": "browser: http 200, 65 links, 4 json responses, title 'Search our Job Opportunities at Charles Schwab'",
+   "detail": "browser: http 200, 64 links, 3 json responses, title 'Search our Job Opportunities at Charles Schwab'",
    "postings": [
     {
      "title": "Interns",
@@ -946,13 +1069,13 @@
     },
     {
      "title": "2027 Treasury Modeling Intern",
-     "location": "Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01 Save for Later",
+     "location": "Lone Tree, CO Requisition ID: 2026-126255 Application deadline: 2026-12-01",
      "url": "https://www.schwabjobs.com/job/lone-tree/2027-treasury-modeling-intern/33727/103752584240",
      "posted": ""
     },
     {
      "title": "2027 SOX Compliance Intern",
-     "location": "Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01 Save for Later",
+     "location": "Lone Tree, CO Requisition ID: 2026-126253 Application deadline: 2026-12-01",
      "url": "https://www.schwabjobs.com/job/lone-tree/2027-sox-compliance-intern/33727/100959818672",
      "posted": ""
     },
@@ -963,7 +1086,7 @@
      "posted": ""
     }
    ],
-   "seconds": 10.1
+   "seconds": 9.1
   },
   {
    "name": "In-N-Out",
@@ -973,7 +1096,7 @@
    "error": "browser: page asks for a login (title: Login | In-N-Out)",
    "detail": "",
    "postings": [],
-   "seconds": 7.0
+   "seconds": 6.6
   },
   {
    "name": "Reef",
@@ -983,7 +1106,7 @@
    "error": "",
    "detail": "browser: http 200, 3 links, 16 json responses, title 'Career Center | Recruitment'",
    "postings": [],
-   "seconds": 8.6
+   "seconds": 9.0
   },
   {
    "name": "WD-40",
@@ -993,7 +1116,7 @@
    "error": "",
    "detail": "browser: http 200, 111 links, 4 json responses, title 'Current Opportunities - WD-40 Company'",
    "postings": [],
-   "seconds": 7.6
+   "seconds": 7.5
   },
   {
    "name": "Karl Strauss",
@@ -1003,7 +1126,7 @@
    "error": "",
    "detail": "browser: http 200, 12 links, 15 json responses, title 'Job Opportunities'",
    "postings": [],
-   "seconds": 8.8
+   "seconds": 8.4
   },
   {
    "name": "AleSmith",
@@ -1013,7 +1136,7 @@
    "error": "",
    "detail": "browser: http 200, 78 links, 8 json responses, title 'Career Opportunities | AleSmith Brewing Company'",
    "postings": [],
-   "seconds": 31.9
+   "seconds": 16.0
   }
  ]
 }
